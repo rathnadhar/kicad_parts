@@ -521,7 +521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Silicon_Labs:Si4735D60GMR"
+		(property "Footprint" "Silicon_Labs:Si4735-D60-GU"
 			(at 6.35 -17.78 0)
 			(effects
 				(font
@@ -1240,7 +1240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm"
+		(property "Footprint" "Silicon_Labs:Si4735-D60-GU"
 			(at 6.35 -17.78 0)
 			(effects
 				(font
@@ -1407,7 +1407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm"
+		(property "Footprint" "Silicon_Labs:Si4735-D60-GU"
 			(at 6.35 -17.78 0)
 			(effects
 				(font
@@ -1465,7 +1465,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Si4735-D60-GU"
+		(property "Value" "Silicon_Labs:Si4735-D60-GU"
 			(at -5.08 17.78 0)
 			(effects
 				(font
