@@ -167,7 +167,7 @@
 		(uuid "3eea640f-d356-4f7f-967f-869a89850105")
 	)
 	(embedded_fonts no)
-	(model "/home/rathnadhar/Kaaryagaara/internal/hardware/kicad_parts/3D/LQW18ANR27J00D.stp"
+	(model "/home/rathnadhar/kaaryagaara/kicad_parts/Murata/3D/LQW18ANR27J00D.stp"
 		(offset
 			(xyz 0 0 0)
 		)

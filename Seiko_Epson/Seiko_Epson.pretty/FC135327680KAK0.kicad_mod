@@ -219,7 +219,7 @@
 		(uuid "75e63645-0c95-46ef-84b2-9ee6a2edd778")
 	)
 	(embedded_fonts no)
-	(model "/home/rathnadhar/Kaaryagaara/internal/hardware/kicad_parts/3D/FC-135_32.7680KA-K0.stp"
+	(model "/home/rathnadhar/kaaryagaara/kicad_parts/Seiko_Epson/3D/FC-135_32.7680KA-K0.stp"
 		(offset
 			(xyz 0 0 0)
 		)
