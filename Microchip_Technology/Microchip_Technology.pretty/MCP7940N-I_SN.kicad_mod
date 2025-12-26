@@ -1,0 +1,252 @@
+(footprint "MCP7940N-I_SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery-Backed I2C Real-Time Clock/Calendar with SRAM")
+	(property "Reference" "REF**"
+		(at -0.675 -3.635 0)
+		(layer "F.SilkS")
+		(uuid "da1a26fd-17b4-47fe-ac49-b36f065abb2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MCP7940N-I_SN"
+		(at 7.58 3.635 0)
+		(layer "F.Fab")
+		(uuid "ae541238-55ba-4072-bae9-ff69ff5c56e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/MCP7940N-Battery-Backed-I2C-RTCC-with-SRAM-20005010J.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48c39e3f-983a-435c-8c02-4594105f4a50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Battery-Backed I2C Real-Time Clock/Calendar with SRAM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5067ce07-cc57-46b5-b595-730685db9e3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.95 -2.525)
+		(end 1.95 -2.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b5d60c2-975c-47e2-819f-5548f3a184b8")
+	)
+	(fp_line
+		(start -1.95 2.525)
+		(end 1.95 2.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cfa607b-c44c-452c-b030-157dcd5644cc")
+	)
+	(fp_circle
+		(center -4.355 -2.505)
+		(end -4.255 -2.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e1ee3756-2220-4a99-93a7-9741db84ed38")
+	)
+	(fp_line
+		(start -3.655 -2.7)
+		(end -3.655 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57e26224-92a8-4bdf-b9f1-e7ce9397c702")
+	)
+	(fp_line
+		(start -3.655 -2.7)
+		(end 3.655 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8911ec1b-390d-4303-b3b8-7ed5d1508425")
+	)
+	(fp_line
+		(start -3.655 2.7)
+		(end 3.655 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73ea8898-696e-4e85-884e-f9477dd0f961")
+	)
+	(fp_line
+		(start 3.655 -2.7)
+		(end 3.655 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0e957e2-14ad-4e2c-96ab-6c9e3424da42")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64f5f14f-7c7c-453e-b9e1-a2ed06aee5f4")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a55475a-7eec-4f71-a994-d25e5941e67d")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ddc5950-cffe-406f-9761-bc9ddf637e59")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e4311b0-40e4-41d0-82da-57fdef2a6751")
+	)
+	(fp_circle
+		(center -4.355 -2.505)
+		(end -4.255 -2.505)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "78ca06a5-5443-403f-8d27-e7769cb5e1b9")
+	)
+	(pad "1" smd roundrect
+		(at -2.455 -1.905)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "828fd06f-3606-49c7-8e25-b3b5084f192c")
+	)
+	(pad "2" smd roundrect
+		(at -2.455 -0.635)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "546ea523-7d1d-4909-8b60-07b5c6623843")
+	)
+	(pad "3" smd roundrect
+		(at -2.455 0.635)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "b5052e0e-ef69-4f6a-9083-4c8be21abad6")
+	)
+	(pad "4" smd roundrect
+		(at -2.455 1.905)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "707ba619-8a97-422b-98eb-63efb3690a8d")
+	)
+	(pad "5" smd roundrect
+		(at 2.455 1.905)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "346b5aef-7dfc-4936-8b22-9762628d18a3")
+	)
+	(pad "6" smd roundrect
+		(at 2.455 0.635)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "811fa80f-1cf2-4ed7-a948-dfbd2579b304")
+	)
+	(pad "7" smd roundrect
+		(at 2.455 -0.635)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "9a055882-19a7-4922-891a-85762485fbf3")
+	)
+	(pad "8" smd roundrect
+		(at 2.455 -1.905)
+		(size 1.9 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1e0ba046-c4ea-4ce4-8709-7cb509d061fb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Microchip_Technology/3D/MCP7940N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
