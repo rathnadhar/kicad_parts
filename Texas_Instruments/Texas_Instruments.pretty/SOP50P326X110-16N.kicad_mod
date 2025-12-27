@@ -301,7 +301,18 @@
 		(uuid "368c47a6-b21e-4472-9716-1d8a5b3192cd")
 	)
 	(embedded_fonts no)
-	(model "/home/rathnadhar/kaaryagaara/kicad_parts/3D/SN3257QDYYRQ1.stp"
+	(model "{KICAD_PARTS_ROOT}/Texas_Instruments/3D/SN3257QDYYRQ1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/SN3257QDYYRQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
