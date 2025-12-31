@@ -1,0 +1,260 @@
+(footprint "Adafruit_4328_SMD_VERTICAL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Qwiic/STEMMA male smd connector smd vertical")
+	(property "Reference" "REF**"
+		(at -0.475 -3.535 0)
+		(layer "F.SilkS")
+		(uuid "9149fefe-ba65-4457-9a59-50e2dc68d721")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ADAFRUIT_4328_SMD_VERTICAL"
+		(at 4.605 4.435 0)
+		(layer "F.Fab")
+		(uuid "255061f0-d723-4441-afe6-60d86146d49e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b10f91a-ab07-49b7-b816-af13e3fc5081")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1.0 mm pitch/Wire-to-Board vertical connectors/Crimp style and Mating style"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ce0ef6c-ef35-42e4-b43e-2169ec31e419")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 1.45)
+		(end -3 0.47)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "827cea7b-8468-447a-ba98-18fb2386ec6c")
+	)
+	(fp_line
+		(start -2.12 1.45)
+		(end -3 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b544d944-6af1-4f6a-99a4-7cff268f4961")
+	)
+	(fp_line
+		(start -1.88 -1.45)
+		(end 1.88 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5de01699-5f47-4dea-b324-a7b20e525dfd")
+	)
+	(fp_line
+		(start 3 1.45)
+		(end 2.12 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6364cece-f752-435a-a1c5-7e2657118e72")
+	)
+	(fp_line
+		(start 3 1.45)
+		(end 3 0.47)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20e9e920-473d-460c-8bcf-ab82e812c8ec")
+	)
+	(fp_circle
+		(center -1.5 3.25)
+		(end -1.4 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9acbc082-56ed-4bb4-b8af-33695080011e")
+	)
+	(fp_line
+		(start -3.65 -1.9)
+		(end -3.65 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9f1c02d-487f-4885-8759-e1cb52ac5d2c")
+	)
+	(fp_line
+		(start -3.65 2.8)
+		(end 3.65 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40dafcd7-3e0e-4221-98b8-a30a4095a4d4")
+	)
+	(fp_line
+		(start 3.65 -1.9)
+		(end -3.65 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd7ef71a-cd4f-4ec1-8d32-4b106f105f47")
+	)
+	(fp_line
+		(start 3.65 2.8)
+		(end 3.65 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9857500-5cb6-470d-a34d-3b149b94d1d3")
+	)
+	(fp_line
+		(start -3 -1.45)
+		(end 3 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "353a58b4-934c-4b1e-9737-f9162615b42b")
+	)
+	(fp_line
+		(start -3 1.45)
+		(end -3 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43eadd63-f40b-4fd9-b912-678f1f92f4bf")
+	)
+	(fp_line
+		(start 3 -1.45)
+		(end 3 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "889f75bc-ba85-430e-ab9e-c93738cc818b")
+	)
+	(fp_line
+		(start 3 1.45)
+		(end -3 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe0ad01c-ad01-4098-9a06-d11da5684e89")
+	)
+	(fp_circle
+		(center -1.5 3.25)
+		(end -1.4 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3aeb5d09-5b86-4707-8ee9-f4f85333e447")
+	)
+	(pad "1" smd rect
+		(at -1.5 1.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bad20923-220e-4ee6-a01a-113f5114c3b8")
+	)
+	(pad "2" smd rect
+		(at -0.5 1.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d3aafa87-6195-4b55-9c6b-5705be958a82")
+	)
+	(pad "3" smd rect
+		(at 0.5 1.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5fa1f7d9-8fd1-4b6b-b39e-8318f9cdcb35")
+	)
+	(pad "4" smd rect
+		(at 1.5 1.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "75a9ec61-cc94-4e5d-b190-ce2dc3a4f853")
+	)
+	(pad "SH1" smd rect
+		(at -2.8 -0.75)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "51dfc02e-a30c-4715-9805-53620dbe80a8")
+	)
+	(pad "SH2" smd rect
+		(at 2.8 -0.75)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b0b41350-42bc-4121-9531-755ca8912ff1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Adafruit/3D/Adafruit_4328_vertical_smd.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
