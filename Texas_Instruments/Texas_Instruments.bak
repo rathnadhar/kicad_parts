@@ -135,7 +135,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 0 0)
 				(length 5.08)
 				(name "SEL"
@@ -153,7 +153,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "S1A"
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "S1B"
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -7.62 0)
 				(length 5.08)
 				(name "D1"
@@ -207,7 +207,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -10.16 0)
 				(length 5.08)
 				(name "S2A"
@@ -225,7 +225,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -12.7 0)
 				(length 5.08)
 				(name "S2B"
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -15.24 0)
 				(length 5.08)
 				(name "D2"
@@ -261,7 +261,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -17.78 0)
 				(length 5.08)
 				(name "GND"
@@ -279,7 +279,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 25.4 0 180)
 				(length 5.08)
 				(name "VDD"
@@ -297,7 +297,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input input_low
 				(at 25.4 -2.54 180)
 				(length 5.08)
 				(name "~{EN}"
@@ -315,7 +315,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 25.4 -5.08 180)
 				(length 5.08)
 				(name "S4A"
@@ -333,7 +333,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 25.4 -7.62 180)
 				(length 5.08)
 				(name "S4B"
@@ -351,7 +351,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 25.4 -10.16 180)
 				(length 5.08)
 				(name "D4"
@@ -369,7 +369,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 25.4 -12.7 180)
 				(length 5.08)
 				(name "S3A"
@@ -387,7 +387,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 25.4 -15.24 180)
 				(length 5.08)
 				(name "S3B"
@@ -405,7 +405,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 25.4 -17.78 180)
 				(length 5.08)
 				(name "D3"
@@ -426,12 +426,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TAS5825MRHBR"
+	(symbol "SN74LVC1G3157DCKR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 31.75 17.78 0)
+			(at 21.59 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,8 +439,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "TAS5825MRHBR"
-			(at 31.75 15.24 0)
+		(property "Value" "SN74LVC1G3157DCKR"
+			(at 21.59 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,18 +448,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X100-33N-D"
-			(at 31.75 -84.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tas5825m"
-			(at 31.75 -184.76 0)
+		(property "Footprint" "SOT65P210X110-6N"
+			(at 21.59 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +458,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5V to 26V, 38-W Stereo, Digital Input, Class-D Audio Amp with 96-kHz/192-kHz flexible Processing"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g3157.pdf"
+			(at 21.59 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SN74LVC1G3157DCKR, Analogue Switch Single SPDT, 3, 5V, 6-Pin, SC-70"
 			(at 0 0 0)
 			(effects
 				(font
@@ -477,8 +477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 31.75 -384.76 0)
+		(property "Height" "1.1"
+			(at 21.59 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,8 +487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-TAS5825MRHBR"
-			(at 31.75 -484.76 0)
+		(property "Mouser Part Number" "595-SN74LVC1G3157DCK"
+			(at 21.59 -494.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,8 +497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TAS5825MRHBR?qs=f9yNj16SXrKGX4MqJgnnYg%3D%3D"
-			(at 31.75 -584.76 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DCKR?qs=PVVDbbWpW3J21wbz0QWbxg%3D%3D"
+			(at 21.59 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +508,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 31.75 -684.76 0)
+			(at 21.59 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,8 +517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TAS5825MRHBR"
-			(at 31.75 -784.76 0)
+		(property "Manufacturer_Part_Number" "SN74LVC1G3157DCKR"
+			(at 21.59 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,19 +527,10 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "4.5V to 26V, 38-W Stereo, Digital Input, Class-D Audio Amp with 96-kHz/192-kHz flexible Processing"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TAS5825MRHBR_1_1"
+		(symbol "SN74LVC1G3157DCKR_1_1"
 			(rectangle
-				(start 5.08 12.7)
-				(end 30.48 -30.48)
+				(start 5.08 2.54)
+				(end 20.32 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -548,10 +539,10 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 0 0)
 				(length 5.08)
-				(name "BST_A+"
+				(name "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -566,10 +557,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "OUT_A+"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -584,10 +575,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "PVDD_1"
+				(name "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -602,46 +593,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -7.62 0)
+			(pin input line
+				(at 25.4 0 180)
 				(length 5.08)
-				(name "PVDD_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "DGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "DVDD"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -656,17 +611,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -15.24 0)
+			(pin power_in line
+				(at 25.4 -2.54 180)
 				(length 5.08)
-				(name "VR_DIG"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -674,467 +629,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -17.78 0)
+			(pin bidirectional line
+				(at 25.4 -5.08 180)
 				(length 5.08)
-				(name "ADR"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 17.78 270)
-				(length 5.08)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -35.56 90)
-				(length 5.08)
-				(name "GPIO0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 17.78 270)
-				(length 5.08)
-				(name "PGND_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 -35.56 90)
-				(length 5.08)
-				(name "GPIO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 17.78 270)
-				(length 5.08)
-				(name "PGND_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -35.56 90)
-				(length 5.08)
-				(name "GPIO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 17.78 270)
-				(length 5.08)
-				(name "OUT_A-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -35.56 90)
-				(length 5.08)
-				(name "LRCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 17.78 270)
-				(length 5.08)
-				(name "BST_A-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 -35.56 90)
-				(length 5.08)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 17.78 270)
-				(length 5.08)
-				(name "BST_B-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -35.56 90)
-				(length 5.08)
-				(name "SDIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 17.78 270)
-				(length 5.08)
-				(name "OUT_B-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 -35.56 90)
-				(length 5.08)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 17.78 270)
-				(length 5.08)
-				(name "PGND_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 25.4 -35.56 90)
-				(length 5.08)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 17.78 270)
-				(length 5.08)
-				(name "PGND_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 0 180)
-				(length 5.08)
-				(name "BST_B+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -2.54 180)
-				(length 5.08)
-				(name "OUT_B+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -5.08 180)
-				(length 5.08)
-				(name "PVDD_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -7.62 180)
-				(length 5.08)
-				(name "PVDD_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -10.16 180)
-				(length 5.08)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -12.7 180)
-				(length 5.08)
-				(name "AVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -15.24 180)
-				(length 5.08)
-				(name "GVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 35.56 -17.78 180)
-				(length 5.08)
-				(name "~{PDN}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
