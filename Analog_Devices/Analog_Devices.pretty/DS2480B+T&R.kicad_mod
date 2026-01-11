@@ -1,0 +1,267 @@
+(footprint "DS2480B+T&R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Serial to 1-Wire Line Driver")
+	(tags "Serial to 1-Wire Line Driver")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "556e346f-2223-47d9-90be-2a34a48f5094")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DS2480B+T&R"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39c602f0-6d0f-4410-896e-dce46a7a0774")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/DS2480B.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ef6955d-84d9-4341-a213-5f6a1746c329")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Serial to 1-Wire Line Driver"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cc41239-2ef8-47c4-bc74-1637a790f6e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.675 -2.605)
+		(end -1.95 -2.605)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a73c584-e731-4ab5-8a29-fdef6597794d")
+	)
+	(fp_line
+		(start -1.6 -2.45)
+		(end 1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "462c700f-1541-4184-ae87-7c2c9b77a047")
+	)
+	(fp_line
+		(start -1.6 2.45)
+		(end -1.6 -2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c80c118b-ef8a-4fdf-8028-55b925baf632")
+	)
+	(fp_line
+		(start 1.6 -2.45)
+		(end 1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b16e5ac7-4a45-4eab-ada2-ad86aec2dcee")
+	)
+	(fp_line
+		(start 1.6 2.45)
+		(end -1.6 2.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19fa379b-9f18-4cd6-9c0e-8935d124e2ba")
+	)
+	(fp_line
+		(start -4.175 -3)
+		(end 4.175 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fa89594-8d53-430e-bfe9-23d53c6ade1c")
+	)
+	(fp_line
+		(start -4.175 3)
+		(end -4.175 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0123e6f-0053-462e-b92d-4b6b76549782")
+	)
+	(fp_line
+		(start 4.175 -3)
+		(end 4.175 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79900b5b-282f-47c8-8487-3dd64b1e2e5d")
+	)
+	(fp_line
+		(start 4.175 3)
+		(end -4.175 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb9441ec-ea5d-46f4-944d-4430938efd75")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2592ac3-ba7a-4e95-af3e-229ac8f20f35")
+	)
+	(fp_line
+		(start -1.95 -1.18)
+		(end -0.68 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe1289d0-1441-476a-a5f0-49d4840b5520")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e137d04c-5790-4a1b-b57c-4e6f6bffd92d")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cf188f7-c320-4bec-85ab-3bb623db9cdf")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7e653e7-c3ce-466d-8e16-cdb1d9d99367")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bb5bf788-9a74-4e2d-9551-37c9b0603737")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.812 -1.905 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61d1932b-c8fe-4460-90aa-46a605217999")
+	)
+	(pad "2" smd rect
+		(at -2.812 -0.635 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8a9311b-d0a9-496b-a77f-942699159dca")
+	)
+	(pad "3" smd rect
+		(at -2.812 0.635 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "905cf049-d96d-4401-a93d-cb8c36aed3da")
+	)
+	(pad "4" smd rect
+		(at -2.812 1.905 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b91f04dc-5b63-474e-8dc5-e7675f239ff7")
+	)
+	(pad "5" smd rect
+		(at 2.812 1.905 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "521feb40-fb97-49f3-9535-2f0cc00c902c")
+	)
+	(pad "6" smd rect
+		(at 2.812 0.635 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcb3f651-26cd-44c4-9fd6-306f93b067f6")
+	)
+	(pad "7" smd rect
+		(at 2.812 -0.635 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f2e618e-d60a-4f99-be7b-51b73d24adeb")
+	)
+	(pad "8" smd rect
+		(at 2.812 -1.905 90)
+		(size 0.7 1.725)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06cdd0f3-4d8c-4a52-813e-3dc4216976f8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Analog_Devices/3D/DS2480B+.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
