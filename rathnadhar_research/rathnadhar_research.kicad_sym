@@ -517,7 +517,7 @@
 				)
 				(alternate "AIN" open_collector line)
 			)
-			(pin open_collector inverted
+			(pin open_collector input_low
 				(at -10.16 -29.21 0)
 				(length 2.54)
 				(name "~{RESET}"

@@ -1,0 +1,222 @@
+(footprint "DS2485Q+U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Advanced 1-Wire Master with Memory")
+	(tags "Advanced 1-Wire Master with Memory")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a9ee4f4f-8697-444b-9d30-bfef8e23d2ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DS2485Q+U"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "082b4511-b38c-41f1-b036-0a5a51c8f8fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ds2485.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00db6efa-2556-4e29-bb63-b653cac8f6ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Advanced 1-Wire Master with Memory"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9bddf5f-af0d-41dd-be5c-093c9d4c4e84")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.875 -1.675)
+		(end -1.875 -1.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6e313a58-cb23-4b10-bf50-bd9d3b3eee60")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b295df9-406f-4790-b053-d7b73186d81a")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da6a9458-5636-45cc-9b9c-14ee5b07235e")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e69759cf-a26b-46b1-ba3d-92885a95e801")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e83b314-2c25-43d3-b3d0-9cc5aef764a3")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0623a615-e207-462d-bcf8-2ad2017319df")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e97ba64f-c7ae-4804-b4f3-51447b4a409f")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f62447f6-4a50-47b8-8ba1-8d446c723e86")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe0c2d96-5fa3-4d18-8fd4-70cf6e9c17d5")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd51a32b-3009-4f77-941d-3358cb2104a0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bd9003c1-eba7-4f7f-98c5-810f2fa94ab8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.95 90)
+		(size 0.45 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c21eea2-134e-477c-b730-9ef5100b3baa")
+	)
+	(pad "2" smd rect
+		(at -1.5 0 90)
+		(size 0.45 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e2c1e10-12ac-4290-ba22-c06074f36f7f")
+	)
+	(pad "3" smd rect
+		(at -1.5 0.95 90)
+		(size 0.45 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4402da34-7f57-4643-b3cb-e6fb8b7522c2")
+	)
+	(pad "4" smd rect
+		(at 1.5 0.95 90)
+		(size 0.45 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c98197cb-b737-4a84-97b7-9903a9aeae66")
+	)
+	(pad "5" smd rect
+		(at 1.5 0 90)
+		(size 0.45 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6328e68-b365-4a87-b6c6-a3c3db7e84cd")
+	)
+	(pad "6" smd rect
+		(at 1.5 -0.95 90)
+		(size 0.45 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23d788e9-8e32-4fee-aba9-3e1ba9d59582")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.6 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84b77847-5444-473b-a696-64ec84ba15b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Analog_Devices/3D/DS2485Q+T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
