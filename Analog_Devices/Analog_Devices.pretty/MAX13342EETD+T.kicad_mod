@@ -1,0 +1,270 @@
+(footprint "MAX13342EETD+T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3-Wire Interface Full-Speed USB Transceivers\nWith/Without Internal Series Resistors")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "59ae3248-62e1-4249-8171-581eb8dd644e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MAX13342EETD+T"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "da72b373-6add-4404-b6ff-18bc963f343b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1154c79-5e0d-4685-82dd-3b6bfcfd6937")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3-Wire Interface Full-Speed USB Transceivers With/Without Internal Series Resistors"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9be2fa0b-ece1-49b7-aef5-64eea5665b37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.875 -1.8)
+		(end -1.875 -1.675)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a8bf6ab2-4e17-4ff9-930c-8a958120fe0d")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46173fd7-eeae-42fb-9c04-f41476e64653")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1df1eeec-7565-43d0-9ea7-4f19fdaf7568")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ead68c1a-43aa-4281-bac7-03279fb1f79c")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6be6b0da-a49b-4278-aaa6-374a23bfa8c8")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c389c693-01d0-425a-90de-7f8bbc965172")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c4a4638-363c-4a66-a939-44fbdc6b1986")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca007f97-da37-41ea-bc32-aadd7c71f146")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18c79a44-06a2-424e-a664-1bb479a40de9")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc463cce-d5c4-41d9-8533-1a7d76ddb070")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4e7394ca-d207-4766-99f1-a1ad1798107f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -1.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "57df4f4f-2b38-453e-9b67-6be519c2f356")
+	)
+	(pad "2" smd rect
+		(at -1.5 -0.8 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e57b4074-e3bb-418f-8933-838f2c67c3ff")
+	)
+	(pad "3" smd rect
+		(at -1.5 -0.4 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3ad11e3-1b02-47cd-a286-720e6d2341ee")
+	)
+	(pad "4" smd rect
+		(at -1.5 0 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6fd4a5f1-9fc6-4b24-bfc4-a4af82504ccb")
+	)
+	(pad "5" smd rect
+		(at -1.5 0.4 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5feb234-42d5-4eaa-8917-99c214bb2db7")
+	)
+	(pad "6" smd rect
+		(at -1.5 0.8 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e40ad9b-2325-47e5-a152-9c6c61f7fefe")
+	)
+	(pad "7" smd rect
+		(at -1.5 1.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf4e52ca-485e-417b-bd73-5625b3f58f26")
+	)
+	(pad "8" smd rect
+		(at 1.5 1.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa27d151-7c7e-4d45-9470-a03549f0b467")
+	)
+	(pad "9" smd rect
+		(at 1.5 0.8 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b80e904d-69f6-4bd6-a374-e7a97263514d")
+	)
+	(pad "10" smd rect
+		(at 1.5 0.4 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "51880ae8-81de-45e8-9e43-7e4f568d9ddc")
+	)
+	(pad "11" smd rect
+		(at 1.5 0 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d104aa62-6e9a-48f5-80b3-63c101ab8873")
+	)
+	(pad "12" smd rect
+		(at 1.5 -0.4 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70ed0bea-07ad-48a0-9367-741bbc94e0a5")
+	)
+	(pad "13" smd rect
+		(at 1.5 -0.8 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c370160-41ca-4907-b2d5-18c2fe57c209")
+	)
+	(pad "14" smd rect
+		(at 1.5 -1.2 90)
+		(size 0.2 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "920a8cf8-0a05-4cff-906b-56542ff22256")
+	)
+	(pad "15" smd rect
+		(at 0 0)
+		(size 1.7 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0cf1314-b50c-43cd-b0ec-ee42c6247a32")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Analog_Devices/3D/MAX13342EETD+.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

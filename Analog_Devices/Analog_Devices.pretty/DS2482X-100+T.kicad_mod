@@ -1,0 +1,284 @@
+(footprint "DS2482X-100+T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Single-Channel 1-Wire Master")
+	(tags "Single-Channel 1-Wire Master")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a82ca180-024e-42eb-945e-5f13cbb48a46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DS2482X-100+T"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f956282-53c6-41e6-8d9f-c346cd566809")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ds2482-100.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23a9ebe8-50cd-4542-b264-bbad62198704")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single-Channel 1-Wire Master"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "271daed1-8613-4f08-9024-6a8ecc8320c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.999 -0.5)
+		(end -0.5 -0.999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02d9e179-5382-4ecf-ae09-5994a18ed4b5")
+	)
+	(fp_line
+		(start -0.999 0.999)
+		(end -0.999 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f32f17cc-3c26-4847-9915-bd8a0f6eccfc")
+	)
+	(fp_line
+		(start -0.5 -0.999)
+		(end 0.999 -0.999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fb9c8c3-4741-4abf-87f3-8ae6dd0ad2f3")
+	)
+	(fp_line
+		(start 0.999 -0.999)
+		(end 0.999 0.999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf02ad81-fb39-4a93-ab64-8cf0a21cde18")
+	)
+	(fp_line
+		(start 0.999 0.999)
+		(end -0.999 0.999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ace56ec1-6ed7-4152-8a32-2ee9572ccc81")
+	)
+	(fp_circle
+		(center -0.999 -0.999)
+		(end -0.999 -0.899)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bc18a36c-50b1-45dd-a8da-8858149ab29a")
+	)
+	(fp_line
+		(start -2.005 -1.915)
+		(end 2.005 -1.915)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e55a75c-4a78-4c70-a83f-7de891d23f3a")
+	)
+	(fp_line
+		(start -2.005 1.915)
+		(end -2.005 -1.915)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf89d009-589f-40bd-8fbb-22369ffc550f")
+	)
+	(fp_line
+		(start 2.005 -1.915)
+		(end 2.005 1.915)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8751ea98-e28b-4d77-b867-bd1e45b36333")
+	)
+	(fp_line
+		(start 2.005 1.915)
+		(end -2.005 1.915)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4905ade3-7d4f-4a14-93b7-fce00167352a")
+	)
+	(fp_line
+		(start -0.98 -0.89)
+		(end 0.98 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f312822-3dea-4ed9-bfb1-3bceef8c60f1")
+	)
+	(fp_line
+		(start -0.98 -0.432)
+		(end -0.522 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b50b5ab-f4f4-465d-a4be-2a65b0fcb714")
+	)
+	(fp_line
+		(start -0.98 0.89)
+		(end -0.98 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0c5cd33-bcc0-446f-b558-fbab3cb0176c")
+	)
+	(fp_line
+		(start 0.98 -0.89)
+		(end 0.98 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2156df5d-802e-46a7-ad95-2eaeffa93ea5")
+	)
+	(fp_line
+		(start 0.98 0.89)
+		(end -0.98 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af68ad0d-9ce0-4bb7-8e55-e0312d7d8e3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6505c947-89cc-4850-ac8d-7c01f77f26e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.5 -0.5 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00c6a74b-e74f-4e2a-b9ee-9840d5e2f79f")
+	)
+	(pad "A2" smd circle
+		(at 0 -0.5 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d379dabb-8b1d-48bd-b73d-30ebc364cafd")
+	)
+	(pad "A3" smd circle
+		(at 0.5 -0.5 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "73eddf5f-6ac7-41b7-9807-d2add1cd7585")
+	)
+	(pad "B1" smd circle
+		(at -0.5 0 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f262e54-a704-4320-a3ee-bb4265f79b02")
+	)
+	(pad "B2" smd circle
+		(at 0 0 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7d506ec-999f-4923-86c4-97799ccbb14a")
+	)
+	(pad "B3" smd circle
+		(at 0.5 0 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d7fad25-5ed2-47f7-a250-1564c45ef318")
+	)
+	(pad "C1" smd circle
+		(at -0.5 0.5 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "51bd6999-b34d-49e3-94c4-20eef2ff7bc1")
+	)
+	(pad "C2" smd circle
+		(at 0 0.5 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "784d75a2-885a-4958-894d-4985812ae840")
+	)
+	(pad "C3" smd circle
+		(at 0.5 0.5 90)
+		(size 0.298 0.298)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "786c82c4-420d-4225-895b-808e61664382")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Analog_Devices/3D/DS2482X-100+T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
