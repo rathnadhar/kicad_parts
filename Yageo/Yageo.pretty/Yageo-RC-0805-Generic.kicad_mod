@@ -1,0 +1,181 @@
+(footprint "Yageo-RC-0805-Generic"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "THICK FILM CHIP RESISTORS")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5bf880b1-e1a6-4b4f-8919-e9aee28774e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Yageo-RC-0805-Generic"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "680f1d2d-321d-410a-aedb-dc2987bfc5c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/3/508/1/PYu-AE_51_RoHS_L_1.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96cb556f-f7d1-44b6-a248-55fb9fcdd7b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "THICK FILM CHIP RESISTORS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "443a5b24-3dfa-412e-9d56-d9735233ec3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff09d0c0-9b8c-4106-8dfd-67c820b30a95")
+	)
+	(fp_line
+		(start -1.675 -0.95)
+		(end 1.675 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04ec8c47-83d2-4318-b22b-d584da4f3ab9")
+	)
+	(fp_line
+		(start -1.675 0.95)
+		(end -1.675 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb75c542-6a88-490c-951f-bfd2edabca0a")
+	)
+	(fp_line
+		(start 1.675 -0.95)
+		(end 1.675 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "477f3f76-34c5-43b1-bd2e-bc89a31a6dc6")
+	)
+	(fp_line
+		(start 1.675 0.95)
+		(end -1.675 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76a83fbd-bc21-476f-b1cb-12b81e9a6bc3")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf3f9f19-2535-4ede-b364-ca1a9a18aa4f")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cd9de9c-d808-46b5-8d48-956c931209f9")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49ce62d0-f1f2-4b52-b8f6-dc7784a82cfe")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab59d5e3-486f-4e04-96b5-d7ab0c6e3236")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "975f7375-f739-409f-92ff-6eefcd4604cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 0.95 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "971185b9-65a0-4e99-ba28-d5e5551dacd2")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 0.95 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe659e70-3f9d-4cf2-825a-1856a1dd5db9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Yageo/3D/RC0805FR-0730KL.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
