@@ -1,0 +1,211 @@
+(footprint "Kyocera_Avx_TLJR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805, SMD, Tantalum Solid Electrolytic Chip Capacitors - High CV Consumer Series")
+	(tags "Capacitor Polarised, 0805, SMD, Tantalum Solid Electrolytic Chip Capacitors - High CV Consumer Series")
+	(property "Reference" "C**"
+		(at -3.23 -4.36 0)
+		(layer "F.SilkS")
+		(uuid "9a971a26-04c4-48e2-9d65-4bbc8c5b162e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Kyocera_Avx_TLJR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c65a07ee-d4cd-4b74-a78a-2818516c668b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6509cc7-dc0d-4a5d-afc0-0f43073a92ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0805, SMD, Tantalum Solid Electrolytic Chip Capacitors - High CV Consumer Series"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8af18932-2f2a-4383-b727-66bc53de5ec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.07 -0.67)
+		(end -2.07 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b502a533-eb21-4c98-9962-777f6234c8ff")
+	)
+	(fp_line
+		(start -1.025 0.675)
+		(end 1.025 0.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1216acc4-54a3-406d-a881-65a897409ac2")
+	)
+	(fp_line
+		(start 1.025 -0.675)
+		(end -2.07 -0.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c8dc46d-e648-49c8-97ab-4f72bfdf3210")
+	)
+	(fp_line
+		(start -2.45 -1.25)
+		(end 2.45 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a442298-a5e8-47a8-bc37-59e3fc9e1ff4")
+	)
+	(fp_line
+		(start -2.45 1.25)
+		(end -2.45 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8952b1cd-f78c-4020-910e-e06b9f7764e3")
+	)
+	(fp_line
+		(start 2.45 -1.25)
+		(end 2.45 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "911519ab-3763-4a92-952e-0526cf77dbe2")
+	)
+	(fp_line
+		(start 2.45 1.25)
+		(end -2.45 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2a62a36-2ce3-4d15-b355-cf3023c89195")
+	)
+	(fp_line
+		(start -1.025 -0.675)
+		(end 1.025 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff2d588b-e6d1-42c5-b212-3aea621496c2")
+	)
+	(fp_line
+		(start -1.025 -0.1)
+		(end -0.45 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f961946e-34ba-4dc2-97f8-8f8cedd555c1")
+	)
+	(fp_line
+		(start -1.025 0.675)
+		(end -1.025 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b5787f1-80b9-4325-985a-f299a3d0d585")
+	)
+	(fp_line
+		(start 1.025 -0.675)
+		(end 1.025 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0599c5a4-acf0-4596-9645-7890b0dbc30b")
+	)
+	(fp_line
+		(start 1.025 0.675)
+		(end -1.025 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e8adf3a-b3ca-4e2a-bc74-7086b5520b27")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.11 -2.49 0)
+		(layer "F.Fab")
+		(uuid "ade97cfe-c852-47bc-b0ba-f58d76b56da0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0 90)
+		(size 1.15 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0eb54fe2-5b27-4b9f-82c3-e52bed941d86")
+	)
+	(pad "2" smd rect
+		(at 1 0 90)
+		(size 1.15 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e915e983-ef05-4ee8-a0bc-638abac9b538")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/TLJR_0805_Tantalum_capacitor.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
