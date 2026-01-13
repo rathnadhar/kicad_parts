@@ -1,0 +1,221 @@
+(footprint "S4B-PH-K-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "01x04, PTH, RIGHT ANGLE, 2.0 mm pitch/Wire-to-Board connectors/Crimp style and Mating style")
+	(tags "Connector 01x04, PTH, RIGHT ANGLE, 2.0 mm pitch/Wire-to-Board connectors/Crimp style and Mating style")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "bb0897be-1139-49ab-b6bf-77f4b12ece7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "S4B-PH-K-S"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "150a9c98-5dfc-4c59-9727-331d60be293b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0edd4f4f-65f7-4707-bfa4-b05b7193f3d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "01x04, PTH, RIGHT ANGLE, 2.0 mm pitch/Wire-to-Board connectors/Crimp style and Mating style"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20fad4b0-078e-43bf-95e0-eda00aa2a4ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.95 -6.25)
+		(end -7.95 1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e67b0fe2-6ab8-44d8-8a85-a4684431d90b")
+	)
+	(fp_line
+		(start 1.95 -6.25)
+		(end -7.95 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a66cdbe6-322e-492c-a5ed-171dcc686e52")
+	)
+	(fp_line
+		(start 1.95 0)
+		(end 1.95 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85788e6b-6807-410e-9a6b-c830a4311ea9")
+	)
+	(fp_line
+		(start -8.2 -6.5)
+		(end 2.2 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef3bc1c6-611d-4716-92ba-bc4127637cde")
+	)
+	(fp_line
+		(start -8.2 1.6)
+		(end -8.2 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7337c95-9370-46fd-a82f-0cf2ded5b5e1")
+	)
+	(fp_line
+		(start 2.2 -6.5)
+		(end 2.2 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8939b84c-a56f-4624-b1fa-66c87a7811b3")
+	)
+	(fp_line
+		(start 2.2 1.6)
+		(end -8.2 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da5d409e-204d-4895-97fc-1c8e891f0dc5")
+	)
+	(fp_line
+		(start -7.95 -6.25)
+		(end 1.95 -6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2566b4f3-b2b1-4182-900b-9efe2db52111")
+	)
+	(fp_line
+		(start -7.95 1.35)
+		(end -7.95 -6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45e20994-1a8f-4c0c-b394-063f328d19f6")
+	)
+	(fp_line
+		(start 1.95 -6.25)
+		(end 1.95 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5218deb-11bb-4a5a-ad0f-36e4339153f7")
+	)
+	(fp_line
+		(start 1.95 1.35)
+		(end -7.95 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5120baf3-4bdb-4b46-9aa5-26dbc4385ef9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "153d0006-f3d6-41ec-84d2-14f35b034b7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.35 1.35)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fd1faf5-5642-4fb9-9363-ee46118fe6ad")
+	)
+	(pad "2" thru_hole circle
+		(at -2 0)
+		(size 1.35 1.35)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3aac11a-4581-4b80-b56f-35ab19fbae1f")
+	)
+	(pad "3" thru_hole circle
+		(at -4 0)
+		(size 1.35 1.35)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57597b85-c61a-4cda-b503-0de0c8b9ec97")
+	)
+	(pad "4" thru_hole circle
+		(at -6 0)
+		(size 1.35 1.35)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8653f33f-040c-4db6-9397-16923e6008f3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Jst/3D/S4B-PH-K-S.STEP"
+		(offset
+			(xyz -1.016 -1.4732 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)
