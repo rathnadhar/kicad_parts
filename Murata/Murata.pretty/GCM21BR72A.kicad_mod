@@ -1,0 +1,192 @@
+(footprint "GCM21BR72A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Multilayer Ceramic Capacitors 0805 SMD")
+	(tags "Capacitor Chip Multilayer Ceramic Capacitors 0805 SMD")
+	(property "Reference" "C**"
+		(at -0.08 0.07 0)
+		(layer "F.SilkS")
+		(uuid "fc76c3f7-b449-4aec-971e-b459ccee8b16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "GCM21BR72A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "55dd9324-32bd-40c4-a072-5a3a499cf031")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM21BR72A104KA37-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c2de959-7b78-4dd5-8904-79639feac68b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Chip Multilayer Ceramic Capacitors 0805 SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed2b89f2-6e33-4bc6-b804-f880322c0fef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.44526 -0.82804)
+		(end -0.01905 -0.82804)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bb0e1a1-54e4-4814-8639-7455fadd0f46")
+	)
+	(fp_line
+		(start -1.44526 0.77)
+		(end -1.44526 -0.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c658810d-49b1-405c-a3b4-649b51b30934")
+	)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2688d0f-c69b-4a07-9fd0-5003054d2fe7")
+	)
+	(fp_line
+		(start -1.59 -0.97)
+		(end 1.59 -0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c726a26c-c147-48f0-a7b0-a4d9fc43a5f5")
+	)
+	(fp_line
+		(start -1.59 0.97)
+		(end -1.59 -0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e6bc5ae1-55aa-4f2f-b17a-4d919580f24a")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "93b0f314-9e3a-4ba5-9e60-f37169574d97")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c0fb4cd5-8fd2-4e02-b50f-1035332c4fa0")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9131a216-1fc6-4d66-9ccf-9685305476d0")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "471a6f4c-5eb8-4a1d-a48f-58bae3900f79")
+	)
+	(fp_line
+		(start 1.59 -0.97)
+		(end 1.59 0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5dd0c6e6-fcce-4c8e-bd6c-bce5d919bc15")
+	)
+	(fp_line
+		(start 1.59 0.97)
+		(end -1.59 0.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f94c82bb-b976-4066-8fcb-b4b509fefd63")
+	)
+	(pad "1" smd rect
+		(at -0.87 0)
+		(size 1.04 1.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "278c09e8-c616-4ca1-9e0f-806c794f6897")
+	)
+	(pad "2" smd rect
+		(at 0.87 0)
+		(size 1.04 1.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4b5c33f5-4fb3-459e-a2ed-21f0c4ba21ae")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Murata/3D/GCM21BR72A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
