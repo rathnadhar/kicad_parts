@@ -295,7 +295,7 @@
 	(embedded_fonts no)
 	(model "${KICAD_PARTS_ROOT}/Jst/3D/S2B-PH-K-S.STEP"
 		(offset
-			(xyz -1.016 -0.254 0)
+			(xyz -1.016 -0.0508 0)
 		)
 		(scale
 			(xyz 1 1 1)
