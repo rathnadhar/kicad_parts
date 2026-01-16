@@ -446,4 +446,15 @@
 		(uuid "d47578f1-4031-4596-9c7d-280a406fbf60")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Jst/3D/S7B-PH-K-S.step"
+		(offset
+			(xyz 0.00499999 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )
