@@ -417,7 +417,7 @@
 	(embedded_fonts no)
 	(model "${KICAD_PARTS_ROOT}/Molex/3D/46765-0001.stp"
 		(offset
-			(xyz -5 -4 0)
+			(xyz -5.000000008 -4.584200001 0)
 		)
 		(scale
 			(xyz 1 1 1)
