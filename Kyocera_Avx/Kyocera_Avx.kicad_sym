@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "TLJA_0805_Titanium_Polarised_Capacitor_Series"
+	(symbol "Kyocera_Avx_TLJA_0805_Titanium_Polarised_Capacitor_Series"
 		(pin_numbers
 			(hide yes)
 		)
@@ -22,7 +22,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLJA_0805_Titanium_Polarised_Capacitor_Series"
+		(property "Value" "Kyocera_Avx_TLJA_0805_Titanium_Polarised_Capacitor_Series"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLJA_0805_Titanium_Polarised_Capacitor_Series_0_1"
+		(symbol "Kyocera_Avx_TLJA_0805_Titanium_Polarised_Capacitor_Series_0_1"
 			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
@@ -133,7 +133,7 @@
 				)
 			)
 		)
-		(symbol "TLJA_0805_Titanium_Polarised_Capacitor_Series_1_1"
+		(symbol "Kyocera_Avx_TLJA_0805_Titanium_Polarised_Capacitor_Series_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.8542)
@@ -173,7 +173,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TLJA_1206_Titanium_Polarised_Capacitor_Series"
+	(symbol "Kyocera_Avx_TLJA_1206_Titanium_Polarised_Capacitor_Series"
 		(pin_numbers
 			(hide yes)
 		)
@@ -193,7 +193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLJA_1206_Titanium_Polarised_Capacitor_Series"
+		(property "Value" "Kyocera_Avx_TLJA_1206_Titanium_Polarised_Capacitor_Series"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -256,7 +256,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLJA_1206_Titanium_Polarised_Capacitor_Series_0_1"
+		(symbol "Kyocera_Avx_TLJA_1206_Titanium_Polarised_Capacitor_Series_0_1"
 			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
@@ -304,7 +304,7 @@
 				)
 			)
 		)
-		(symbol "TLJA_1206_Titanium_Polarised_Capacitor_Series_1_1"
+		(symbol "Kyocera_Avx_TLJA_1206_Titanium_Polarised_Capacitor_Series_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.8542)
@@ -344,7 +344,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TLJB_1210_Titanium_Polarised_Capacitor_Series"
+	(symbol "Kyocera_Avx_TLJB_1210_Titanium_Polarised_Capacitor_Series"
 		(pin_numbers
 			(hide yes)
 		)
@@ -364,7 +364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLJB_1210_Titanium_Polarised_Capacitor_Series"
+		(property "Value" "Kyocera_Avx_TLJB_1210_Titanium_Polarised_Capacitor_Series"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -427,7 +427,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLJB_1210_Titanium_Polarised_Capacitor_Series_0_1"
+		(symbol "Kyocera_Avx_TLJB_1210_Titanium_Polarised_Capacitor_Series_0_1"
 			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
@@ -475,7 +475,7 @@
 				)
 			)
 		)
-		(symbol "TLJB_1210_Titanium_Polarised_Capacitor_Series_1_1"
+		(symbol "Kyocera_Avx_TLJB_1210_Titanium_Polarised_Capacitor_Series_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.8542)
@@ -515,7 +515,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TLJF_2312_Titanium_Polarised_Capacitor_Series"
+	(symbol "Kyocera_Avx_TLJF_2312_Titanium_Polarised_Capacitor_Series"
 		(pin_numbers
 			(hide yes)
 		)
@@ -535,7 +535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLJF_2312_Titanium_Polarised_Capacitor_Series"
+		(property "Value" "Kyocera_Avx_TLJF_2312_Titanium_Polarised_Capacitor_Series"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -598,7 +598,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLJF_2312_Titanium_Polarised_Capacitor_Series_0_1"
+		(symbol "Kyocera_Avx_TLJF_2312_Titanium_Polarised_Capacitor_Series_0_1"
 			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
@@ -646,7 +646,7 @@
 				)
 			)
 		)
-		(symbol "TLJF_2312_Titanium_Polarised_Capacitor_Series_1_1"
+		(symbol "Kyocera_Avx_TLJF_2312_Titanium_Polarised_Capacitor_Series_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.8542)
@@ -686,7 +686,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TLJG_1206_Titanium_Polarised_Capacitor_Series"
+	(symbol "Kyocera_Avx_TLJG_1206_Titanium_Polarised_Capacitor_Series"
 		(pin_numbers
 			(hide yes)
 		)
@@ -706,7 +706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLJG_1206_Titanium_Polarised_Capacitor_Series"
+		(property "Value" "Kyocera_Avx_TLJG_1206_Titanium_Polarised_Capacitor_Series"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -769,7 +769,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLJG_1206_Titanium_Polarised_Capacitor_Series_0_1"
+		(symbol "Kyocera_Avx_TLJG_1206_Titanium_Polarised_Capacitor_Series_0_1"
 			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
@@ -817,7 +817,1375 @@
 				)
 			)
 		)
-		(symbol "TLJG_1206_Titanium_Polarised_Capacitor_Series_1_1"
+		(symbol "Kyocera_Avx_TLJG_1206_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJH_1210_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJH_1210_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJH"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1210,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "1210,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJH_1210_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJH_1210_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJK_1206_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJK_1206_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJK_1206_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJK_1206_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJN_0805_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJN_0805_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJN_0805_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJN_0805_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJP_0805_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJP_0805_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJP_0805_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJP_0805_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJR_0805_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJR_0805_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJR_0805_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJR_0805_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJS_1206_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJS_1206_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJS_1206_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJS_1206_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJT_1210_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJT_1210_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1210,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "1210,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJT_1210_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJT_1210_Titanium_Polarised_Capacitor_Series_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.8542)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Kyocera_Avx_TLJW_2312_Titanium_Polarised_Capacitor_Series"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Kyocera_Avx_TLJW_2312_Titanium_Polarised_Capacitor_Series"
+			(at 0.254 -2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kyocera_Avx:Kyocera_Avx_TLJW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLJ.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2312,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "2312,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJW_2312_Titanium_Polarised_Capacitor_Series_0_1"
+			(rectangle
+				(start -1.524 0.6858)
+				(end 1.524 0.3048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.524) (xy -0.762 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Kyocera_Avx_TLJW_2312_Titanium_Polarised_Capacitor_Series_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.8542)

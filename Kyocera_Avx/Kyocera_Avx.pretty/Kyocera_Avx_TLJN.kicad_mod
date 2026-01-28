@@ -1,14 +1,14 @@
-(footprint "Kyocera_Avx_TLJR"
+(footprint "Kyocera_Avx_TLJN"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
-	(tags "Capacitor Polarised, 0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
+	(tags "Capacitor Polarised,0805,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
 	(property "Reference" "C**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "31465e5f-eb01-4a76-a863-46884ddef3b5")
+		(uuid "71bd4d3c-a3a6-425d-80c2-cdfff65bf31b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Kyocera_Avx_TLJR"
+	(property "Value" "Kyocera_Avx_TLJN"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "807083f9-9668-4c62-b9b3-591a3341ca82")
+		(uuid "4da1823b-a418-450b-b876-a8d320e486b6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7476f10c-5722-4c49-afd5-01fa9599d30b")
+		(uuid "69fe7c69-0164-4821-a877-501c4f775adc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1255145-c6e0-4963-943e-91c33ab690df")
+		(uuid "1206ebcf-aab7-4caa-85c3-bc8e26d105a5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,14 +54,14 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.78 0.85)
-		(end -1.78 -0.685)
+		(start -1.77 0.69)
+		(end -1.77 -0.67)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ba32639-b54a-45dc-b6df-790a6c837d9d")
+		(uuid "113c0fa5-64e0-4fdf-b661-551a4b54692d")
 	)
 	(fp_line
 		(start -1.025 0.675)
@@ -71,17 +71,17 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "489971ad-03f6-41f6-870e-5f8d72fdd017")
+		(uuid "09eb7a8f-cf07-41fb-9932-a270886030ee")
 	)
 	(fp_line
 		(start 1.025 -0.675)
-		(end -1.78 -0.685)
+		(end -1.77 -0.675)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "278eeb25-9495-4688-b343-ada77243fec2")
+		(uuid "9439aaa7-1ad5-494f-9ef9-a6a7b3988586")
 	)
 	(fp_line
 		(start -1.9 -1)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e41d85ac-193a-4274-bfa1-8f4bc507d555")
+		(uuid "9c976771-2ad6-4b9e-ad93-ccfe39fb4fe9")
 	)
 	(fp_line
 		(start -1.9 1)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1d950e9f-ca64-4155-92cc-73dc2d12671e")
+		(uuid "cae9cd58-9baa-48ac-a0f7-8268ae07c118")
 	)
 	(fp_line
 		(start 1.9 -1)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "11a8a99f-c932-4e3b-a5f1-be221dd92e5e")
+		(uuid "e68e9773-256b-418c-9418-4b42e472fde9")
 	)
 	(fp_line
 		(start 1.9 1)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c74d720b-eb07-4b87-b6c8-dbf28bb951d1")
+		(uuid "448a6bcf-2d76-4170-9cba-aaa1bfed0e8b")
 	)
 	(fp_line
 		(start -1.025 -0.675)
@@ -131,17 +131,17 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3198cb83-af78-48ac-8155-8256243ac5f0")
+		(uuid "a2af1683-edf6-4c34-ae57-094e7face07f")
 	)
 	(fp_line
-		(start -1.025 -0.15)
-		(end -0.5 -0.675)
+		(start -1.025 -0.125)
+		(end -0.475 -0.675)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "62e3ce5e-773b-4511-bc0b-839647fe8b0b")
+		(uuid "506d8f27-be0b-4864-bbdb-ad8d841fdbbc")
 	)
 	(fp_line
 		(start -1.025 0.675)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c6a8e2fa-1205-493e-ada5-04e989870467")
+		(uuid "ef9b1137-c637-45e4-bed9-335d644c7018")
 	)
 	(fp_line
 		(start 1.025 -0.675)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "99400f5e-6510-443b-b16f-08de1bbb99fc")
+		(uuid "40e1ec84-dd2a-4220-ad89-2a9956614678")
 	)
 	(fp_line
 		(start 1.025 0.675)
@@ -171,12 +171,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f88b2c96-fec0-4f62-b584-dcf853681b74")
+		(uuid "577e79f7-9f9e-409b-af9c-5b55e70a34cf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "3a2d1f4a-623e-4aba-9cee-2d4c71598148")
+		(uuid "2bf5945e-6bca-440e-984d-87cad431245c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -186,18 +186,18 @@
 	)
 	(pad "1" smd rect
 		(at -0.9 0 90)
-		(size 1.05 1.5)
+		(size 1.1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ff03eddd-1879-4568-9f0f-a7347345332e")
+		(uuid "b64825a4-764d-407f-b2b0-46c6cf93f517")
 	)
 	(pad "2" smd rect
 		(at 0.9 0 90)
-		(size 1.05 1.5)
+		(size 1.1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "99313c90-ce12-401a-a178-62e86c569aa8")
+		(uuid "b2da8ce1-0a74-44cc-a053-b3b2d68f3213")
 	)
 	(embedded_fonts no)
-	(model "TLJR476M004R3000.stp"
+	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/TLJR_0805_Tantalum_capacitor.stp"
 		(offset
 			(xyz 0 0 0)
 		)
