@@ -1,0 +1,201 @@
+(footprint "Murata_GRM219"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2012,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment\n")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d82137e9-d030-4ee0-86f2-92138dda2dc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Murata_GRM219"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05eb24a8-7dc8-49dc-9b79-656b3a605c7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM2195C2A683GE01-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e64ef45-a27b-49f1-b753-27e70711092c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2012,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eea2f1c8-db64-40c8-9017-0d9bba54a713")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.47 -0.82)
+		(end -0.02 -0.82)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b45e7d60-08e2-441a-8e6c-d68b70008ead")
+	)
+	(fp_line
+		(start -1.47 0.75)
+		(end -1.47 -0.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "027fc5e6-8ba3-44cd-b99d-49625ee0bcd6")
+	)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffa22719-1767-4880-ba17-c7b6c148b3a4")
+	)
+	(fp_line
+		(start -1.575 -0.95)
+		(end 1.575 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3c3b5cb-7a1f-4402-be39-8a2148d71e94")
+	)
+	(fp_line
+		(start -1.575 0.95)
+		(end -1.575 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db4214e1-1640-4de1-83a7-6a7a43c480cf")
+	)
+	(fp_line
+		(start 1.575 -0.95)
+		(end 1.575 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea9baae5-eb69-4bfd-bfe8-f490d08b8566")
+	)
+	(fp_line
+		(start 1.575 0.95)
+		(end -1.575 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8342028c-abed-4448-98f9-6aa3dd4b3b84")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bdffd0e-4e7b-4c6d-8b82-df8aaab77956")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d31e285-653c-44bd-925e-3b360d9fb771")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8464bc3e-1486-4ebe-bcf3-f38d16615e51")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0a7568b-d84b-475b-8e7d-1540d06b7d9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5ecd9a90-54dd-49f1-8d4f-7a71373fbac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.87 0)
+		(size 1.01 1.49)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dff421a8-d6ec-470c-85b4-bbe4791d9853")
+	)
+	(pad "2" smd rect
+		(at 0.87 0)
+		(size 1.01 1.49)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef8c2507-5928-4a40-a026-9f75cc186ab0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Murata/3D/Murata_GRM219_2012_Chip_Multilayer_Ceramic_Capacitors.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
