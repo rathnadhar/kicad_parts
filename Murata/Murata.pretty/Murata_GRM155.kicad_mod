@@ -1,0 +1,191 @@
+(footprint "Murata_GRM155"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GRM15_0.10 L=1.0mm W=0.5mm T=0.5mm")
+	(tags "Capacitor, 1005,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "99129298-e05c-495f-acc3-56e08ff1257f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Murata_GRM155"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1026446a-ea90-4a7f-a1a0-d7632972fe04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/SMD-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250708071927 "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "097699df-b849-41a1-8a19-f9bac5fc78c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1005,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2823676b-7271-4996-bf53-7ba64cbea225")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.43)
+		(end 0 -0.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a40c3e8a-6074-47c0-8254-1b8677aecba1")
+	)
+	(fp_line
+		(start -0.95 0.42)
+		(end -0.95 -0.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f38be7f4-7c9c-4cab-9643-00436470636b")
+	)
+	(fp_line
+		(start -1.06 -0.56)
+		(end 1.06 -0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e5754cc-fc32-405d-840e-bf42de8c9c33")
+	)
+	(fp_line
+		(start -1.06 0.56)
+		(end -1.06 -0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15eef41a-a9c4-4a71-8870-2b5b27144259")
+	)
+	(fp_line
+		(start 1.06 -0.56)
+		(end 1.06 0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27b7a388-39f2-4d8c-9f57-1bc2fe2a6b4f")
+	)
+	(fp_line
+		(start 1.06 0.56)
+		(end -1.06 0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcffd4e1-005d-475c-88e3-165bbb8523a9")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a31ed185-f059-4a7d-9dac-0a0e91faffb1")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7139132-d88a-4958-b949-74e4d137d9d9")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea2e37d3-d045-4cdc-800a-22f0c64dd383")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "856027c9-7133-402a-a63d-6274d111abaf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d636e4a6-8e03-4bc2-bc73-6ed11f081616")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.51 0)
+		(size 0.7 0.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5feac746-36e8-4aea-8649-c18f3fd0fbd6")
+	)
+	(pad "2" smd rect
+		(at 0.51 0)
+		(size 0.7 0.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2d9a746-f7af-4e8f-adfe-ecf24fe4e51b")
+	)
+	(embedded_fonts no)
+	(model "GRM155D70G106ME18D.stp"
+		(offset
+			(xyz 0 0 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
