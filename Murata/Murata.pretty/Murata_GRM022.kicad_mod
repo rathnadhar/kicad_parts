@@ -1,0 +1,213 @@
+(footprint "Murata_GRM022"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0402,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment")
+	(tags "Capacitor,0402,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "15b48e8f-a4d6-4e24-96ab-ccbdc7dcc1ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Murata_GRM022"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "23d5bc52-c21f-4c84-8da5-09367a8bb0c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/SMD-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "993d128f-1ac2-4a52-9b33-a9ba02601271")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0402,SMD,Chip Multilayer Ceramic Capacitors for Consumer Electronics & Industrial Equipment"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03ac8b30-e60d-498c-9dc4-c1208d34a322")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 0)
+		(end -0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b379542-e155-4fe8-b289-49b27d84a6db")
+	)
+	(fp_line
+		(start -0.7 0)
+		(end -0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fe98cc4-73ee-49ca-989a-9afc67ede776")
+	)
+	(fp_arc
+		(start -0.8 0)
+		(mid -0.75 -0.05)
+		(end -0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "338a9442-9da9-438c-9d01-4e6ca35b3ebd")
+	)
+	(fp_arc
+		(start -0.7 0)
+		(mid -0.75 0.05)
+		(end -0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edac8fb0-4d69-4003-bdcb-3e8905383fff")
+	)
+	(fp_line
+		(start -1.28 -1.115)
+		(end 1.28 -1.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1bccffa-bd9c-42e1-883f-2b4f5af5a60c")
+	)
+	(fp_line
+		(start -1.28 1.115)
+		(end -1.28 -1.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e75b702d-fa95-46d0-a608-259e3c7883b1")
+	)
+	(fp_line
+		(start 1.28 -1.115)
+		(end 1.28 1.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b45d4222-e3d8-423a-9880-fb403e6ea409")
+	)
+	(fp_line
+		(start 1.28 1.115)
+		(end -1.28 1.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed43a9e3-69b1-421d-9839-eb5dc6653da5")
+	)
+	(fp_line
+		(start -0.2 -0.1)
+		(end -0.2 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8ad3224-be09-46b4-bc37-f8dba0bcd410")
+	)
+	(fp_line
+		(start -0.2 0.1)
+		(end 0.2 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e727c49-7934-4703-9278-77b265a1bd52")
+	)
+	(fp_line
+		(start 0.2 -0.1)
+		(end -0.2 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5d9128c-b236-4901-9149-916f3e60e137")
+	)
+	(fp_line
+		(start 0.2 0.1)
+		(end 0.2 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "faf4d16e-31b0-4748-9c06-bfef8656ec16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6857761e-2684-4f8e-87f2-c64db0303f64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.19 0)
+		(size 0.18 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "048e4965-6fe2-48c3-a4ec-9d10b1719967")
+	)
+	(pad "2" smd rect
+		(at 0.19 0)
+		(size 0.18 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ecf217e3-217d-44b1-91e9-2a174087d182")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Murata/3D/Murata_GRM022_0402_Chip_Multilayer_Ceramic_Capacitors.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
