@@ -1,0 +1,255 @@
+(footprint "Vishay_239DE_7343"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "7343,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors")
+	(tags "Capacitor 7343,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2e63b5b6-6f8f-4321-9378-b054bf1c95cb")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "C**" 0
+			(polygon
+				(pts
+					(xy -1.071002 0.541241) (xy -1.17321 0.532323) (xy -1.222759 0.520143) (xy -1.270066 0.501304)
+					(xy -1.313912 0.475579) (xy -1.353507 0.442678) (xy -1.387554 0.403938) (xy -1.414846 0.360944)
+					(xy -1.435043 0.314273) (xy -1.447726 0.26494) (xy -1.456567 0.162811) (xy -1.456567 -0.414604)
+					(xy -1.447726 -0.516811) (xy -1.43504 -0.566132) (xy -1.414846 -0.612737) (xy -1.387554 -0.655731)
+					(xy -1.353507 -0.694471) (xy -1.313903 -0.727417) (xy -1.270066 -0.753097) (xy -1.22276 -0.771955)
+					(xy -1.17321 -0.784193) (xy -1.071002 -0.793111) (xy -0.976007 -0.78683) (xy -0.929582 -0.777744)
+					(xy -0.884502 -0.762868) (xy -0.841651 -0.74224) (xy -0.801836 -0.715797) (xy -0.766679 -0.683757)
+					(xy -0.73786 -0.64647) (xy -0.715245 -0.605026) (xy -0.698776 -0.560315) (xy -0.68877 -0.513649)
+					(xy -0.685438 -0.466173) (xy -0.685438 -0.459038) (xy -0.832933 -0.459038) (xy -0.832933 -0.464389)
+					(xy -0.837546 -0.506328) (xy -0.851622 -0.547907) (xy -0.874336 -0.585321) (xy -0.904897 -0.615373)
+					(xy -0.941679 -0.637781) (xy -0.983064 -0.651821) (xy -1.071002 -0.661592) (xy -1.135909 -0.656241)
+					(xy -1.167688 -0.648251) (xy -1.197172 -0.634915) (xy -1.248663 -0.594979) (xy -1.269402 -0.569572)
+					(xy -1.28511 -0.541704) (xy -1.303799 -0.480364) (xy -1.309072 -0.414604) (xy -1.309072 0.162811)
+					(xy -1.303799 0.228571) (xy -1.28511 0.289833) (xy -1.269406 0.317715) (xy -1.248663 0.343185)
+					(xy -1.197172 0.383122) (xy -1.167693 0.396417) (xy -1.135909 0.404448) (xy -1.071002 0.409798)
+					(xy -0.983064 0.400027) (xy -0.941679 0.385987) (xy -0.904897 0.36358) (xy -0.874332 0.333465)
+					(xy -0.851622 0.296037) (xy -0.837544 0.254468) (xy -0.832933 0.212596) (xy -0.832933 0.207245)
+					(xy -0.685438 0.207245) (xy -0.685438 0.214302) (xy -0.688771 0.261846) (xy -0.698776 0.308522)
+					(xy -0.715242 0.353245) (xy -0.73786 0.394754) (xy -0.766674 0.431977) (xy -0.801836 0.464004)
+					(xy -0.841651 0.490447) (xy -0.884502 0.511075) (xy -0.929582 0.525951) (xy -0.976007 0.535037)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.065101) (xy -0.072739 0.065101) (xy -0.062037 -0.261836) (xy -0.333917 -0.091233)
+					(xy -0.408518 -0.204994) (xy -0.113606 -0.363113) (xy -0.408518 -0.521231) (xy -0.333917 -0.634915)
+					(xy -0.062037 -0.464389) (xy -0.072739 -0.793111) (xy 0.072971 -0.793111) (xy 0.062347 -0.464389)
+					(xy 0.33415 -0.634915) (xy 0.40875 -0.521231) (xy 0.113839 -0.363113) (xy 0.40875 -0.204994) (xy 0.33415 -0.091233)
+					(xy 0.062347 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.065101) (xy 0.993068 0.065101) (xy 1.003769 -0.261836) (xy 0.731889 -0.091233) (xy 0.657289 -0.204994)
+					(xy 0.9522 -0.363113) (xy 0.657289 -0.521231) (xy 0.731889 -0.634915) (xy 1.003769 -0.464389) (xy 0.993068 -0.793111)
+					(xy 1.138779 -0.793111) (xy 1.128155 -0.464389) (xy 1.399957 -0.634915) (xy 1.474558 -0.521231)
+					(xy 1.179646 -0.363113) (xy 1.474558 -0.204994) (xy 1.399957 -0.091233) (xy 1.128155 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "Vishay_239DE_7343"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2fd7170f-4990-4557-a041-fd7108148371")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/40002/293d.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b203d03f-7c80-4e21-ab9d-f68c5a7065cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "7343,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd1d504b-1236-417d-938d-5ff2e04fcbc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.73 -2.16)
+		(end -4.73 2.14)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99f52d12-d6a9-468c-ae8c-cd857ebaa205")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9548bc3e-9c4e-488c-b5ee-9ac57a0f66d0")
+	)
+	(fp_line
+		(start 3.65 -2.16)
+		(end -4.73 -2.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0c74591-a886-445c-a2a9-255163c3d9ce")
+	)
+	(fp_line
+		(start -5.1 -2.8)
+		(end 5.1 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa73b75e-5753-455d-9d4d-db68ec012fbf")
+	)
+	(fp_line
+		(start -5.1 2.8)
+		(end -5.1 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4dd13d7d-112c-4c97-ba6e-d00e8fafc231")
+	)
+	(fp_line
+		(start 5.1 -2.8)
+		(end 5.1 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c615cb3d-ad6a-4861-b8fa-b644b9a624c6")
+	)
+	(fp_line
+		(start 5.1 2.8)
+		(end -5.1 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "153a2b12-4205-432c-9d05-147debca3ee5")
+	)
+	(fp_line
+		(start -3.65 -2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "440c3691-1ad1-4434-b3fc-ff1fc165fc15")
+	)
+	(fp_line
+		(start -3.65 -0.875)
+		(end -2.375 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f4c4d19-346a-42d8-8186-d520aa8156d8")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end -3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c3c2589-06ca-4d1e-a659-ead6580485d0")
+	)
+	(fp_line
+		(start 3.65 -2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0eeeb0c1-a15b-44e8-90eb-6b461aac8803")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f90589f0-c967-4d0e-a20b-b78dcd9dd1f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3f72a0fe-c499-44f4-94b4-a545a48bb452")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 0 90)
+		(size 2.55 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ed0657d-fc7b-43bc-94aa-624b09b63fdf")
+	)
+	(pad "2" smd rect
+		(at 2.7 0 90)
+		(size 2.55 3.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a71df923-b973-483e-8a5d-667217e5568f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Vishay/3D/Vishay_293DE_7343_Chip_Multilayer_Ceramic_Capacitors.stp"
+		(offset
+			(xyz -3.683 -3.175 0.635)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
