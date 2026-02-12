@@ -1,0 +1,211 @@
+(footprint "Kyocera_Avx_TAJA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3216,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors")
+	(tags "Capacitor, 3216,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "67be9e6f-a87c-485f-b3fd-5b27deb76824")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPPM3216X180M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "71699db5-c062-4f2a-8544-d3125bc8255e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93f38360-99e5-46f1-84b0-7890d33f9614")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3216,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efeeda1a-b022-475a-a61b-df1c82377e5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.63 0.8)
+		(end -2.63 -0.77)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49b15bf2-5a3f-4de1-9dd0-4a4821cf7ada")
+	)
+	(fp_line
+		(start -1.6 0.775)
+		(end 1.6 0.775)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0734c8d7-ec69-4a36-a183-df09e09601ba")
+	)
+	(fp_line
+		(start 1.47 -0.77)
+		(end -2.63 -0.77)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "708cdf69-9120-4d2d-9917-7b866d31e39f")
+	)
+	(fp_line
+		(start -3 -1.35)
+		(end 3 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d7c1ed8-7c1d-4528-8ecf-2d682ddb37be")
+	)
+	(fp_line
+		(start -3 1.35)
+		(end -3 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7dbeab91-9d1e-4585-b2f2-046b1be5d5fa")
+	)
+	(fp_line
+		(start 3 -1.35)
+		(end 3 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0e54c3b-fecf-4c5c-8965-303e96b395c1")
+	)
+	(fp_line
+		(start 3 1.35)
+		(end -3 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3099d755-5c4b-4e12-8adb-75dee4e4ae22")
+	)
+	(fp_line
+		(start -1.6 -0.775)
+		(end 1.6 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02939b4f-7e97-4b9c-ac85-225a93f28a51")
+	)
+	(fp_line
+		(start -1.6 -0.05)
+		(end -0.875 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d420dd2a-1c0f-4902-b8a7-3bfdf0f23e3a")
+	)
+	(fp_line
+		(start -1.6 0.775)
+		(end -1.6 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81368ab0-2fa5-4323-9292-81f2bd1a7069")
+	)
+	(fp_line
+		(start 1.6 -0.775)
+		(end 1.6 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92d365b0-d9a5-4898-9b28-9036fe2941d4")
+	)
+	(fp_line
+		(start 1.6 0.775)
+		(end -1.6 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2365290c-362e-46cb-aa86-185abed29d42")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eda4abd9-530b-48d6-9380-02d4dafdb3ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0 90)
+		(size 1.45 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d9628c5-31b9-414c-b9ab-8e2c598f9ade")
+	)
+	(pad "2" smd rect
+		(at 1.45 0 90)
+		(size 1.45 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca89104d-483a-4d13-ac13-e14576518ab5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/Kyocera_Avx_TAJA_3216_Tantalum_capacitor.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
