@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "2312, Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series")
-	(tags "Capacitor Polarised,2312, Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series")
+	(descr "6032, Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series")
+	(tags "Capacitor Polarised,6032, Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series")
 	(property "Reference" "C**"
 		(at 0 0 0)
 		(layer "F.SilkS")
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "2312, Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
+	(property "Description" "6032, Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -197,7 +197,7 @@
 		(uuid "63d11375-7fbc-4f8e-a355-ff42136747d8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/TLJF_2312_Tantalum_capacitor.stp"
+	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/Kyocera_Avx_TLJF_2312_Tantalum_capacitor.stp"
 		(offset
 			(xyz 0 0 0)
 		)

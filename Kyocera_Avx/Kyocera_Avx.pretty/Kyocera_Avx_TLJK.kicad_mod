@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
-	(tags "Capacitor Polarised, 1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
+	(descr "3216,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
+	(tags "Capacitor Polarised, 3216,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
 	(property "Reference" "C**"
 		(at 0 0 0)
 		(layer "F.SilkS")
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "1206,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series "
+	(property "Description" "3216,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series "
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -197,7 +197,7 @@
 		(uuid "48a6d5b5-f5f8-43b5-a612-13b2e6514a82")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/TLJK_1206_Tantalum_capacitor.stp"
+	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/Kyocera_Avx_TLJK_1206_Tantalum_capacitor.stp"
 		(offset
 			(xyz 0 0 0)
 		)
