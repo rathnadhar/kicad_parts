@@ -6,7 +6,7 @@
 	(descr "2012,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
 	(tags "Capacitor Polarised, 2012,SMD,Tantalum Polarized Solid Electrolytic Chip Capacitors High CV Consumer Series\n")
 	(property "Reference" "C**"
-		(at 0 0 0)
+		(at 3.51 -0.02 0)
 		(layer "F.SilkS")
 		(uuid "31465e5f-eb01-4a76-a863-46884ddef3b5")
 		(effects
