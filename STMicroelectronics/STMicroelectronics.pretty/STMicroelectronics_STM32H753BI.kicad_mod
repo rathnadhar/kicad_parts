@@ -1,4 +1,4 @@
-(footprint "STM32H753BI"
+(footprint "STMicroelectronics_STM32H753BI"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -68,7 +68,7 @@
 			)
 		)
 	)
-	(property "Value" "STM32H753BI"
+	(property "Value" "STMicroelectronics_STM32H753BI"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)

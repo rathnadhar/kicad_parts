@@ -1,0 +1,325 @@
+(footprint "KMS221GLFS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "No Peg, Silver, Micro Miniature Side Actuated Tactile Switch for SMT 4.2 x 3.55 mm, with 1.42 mm Height Actuator")
+	(tags "KMS221GLFS, No Peg, Silver, Micro Miniature Side Actuated Tactile Switch for SMT 4.2 x 3.55 mm, with 1.42 mm Height Actuator")
+	(property "Reference" "REF**"
+		(at 0 -0.378 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8464f32f-e1db-451e-ba15-3832d8c97312")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.573412 -0.983568) (xy -1.535506 -0.972851) (xy -1.500689 -0.956274) (xy -1.468979 -0.934192)
+					(xy -1.440544 -0.906632) (xy -1.41665 -0.875045) (xy -1.398534 -0.840869) (xy -1.38545 -0.804423)
+					(xy -1.376857 -0.766009) (xy -1.370568 -0.687668) (xy -1.373171 -0.63874) (xy -1.381071 -0.589055)
+					(xy -1.395754 -0.541251) (xy -1.418806 -0.497403) (xy -1.449995 -0.459083) (xy -1.489514 -0.427488)
+					(xy -1.534444 -0.40398) (xy -1.581777 -0.389692) (xy -1.348159 0.037) (xy -1.476875 0.037) (xy -1.707745 -0.385479)
+					(xy -1.85881 -0.385479) (xy -1.85881 0.037) (xy -1.974947 0.037) (xy -1.974947 -0.487633) (xy -1.85881 -0.487633)
+					(xy -1.651753 -0.487633) (xy -1.602843 -0.493922) (xy -1.579914 -0.502135) (xy -1.558757 -0.514195)
+					(xy -1.539872 -0.529722) (xy -1.52377 -0.54845) (xy -1.500689 -0.591864) (xy -1.489453 -0.63943)
+					(xy -1.486645 -0.687668) (xy -1.489453 -0.737371) (xy -1.500689 -0.784938) (xy -1.52377 -0.828291)
+					(xy -1.539872 -0.847019) (xy -1.558757 -0.862546) (xy -1.579918 -0.874653) (xy -1.602843 -0.882879)
+					(xy -1.651753 -0.889168) (xy -1.85881 -0.889168) (xy -1.85881 -0.487633) (xy -1.974947 -0.487633)
+					(xy -1.974947 -0.991262) (xy -1.651753 -0.991262)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.124494 0.037) (xy -1.124494 -0.991262) (xy -0.542524 -0.991262) (xy -0.542524 -0.889168)
+					(xy -1.008417 -0.889168) (xy -1.008417 -0.549182) (xy -0.632039 -0.549182) (xy -0.632039 -0.445684)
+					(xy -1.008417 -0.445684) (xy -1.008417 -0.066497) (xy -0.542524 -0.066497) (xy -0.542524 0.037)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.234961 0.037) (xy -0.234961 -0.991262) (xy 0.296694 -0.991262) (xy 0.296694 -0.889168) (xy -0.118824 -0.889168)
+					(xy -0.118824 -0.549182) (xy 0.207179 -0.549182) (xy 0.207179 -0.445684) (xy -0.118824 -0.445684)
+					(xy -0.118824 0.037)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.896676 -0.326738) (xy 0.781943 -0.326738) (xy 0.790369 -0.58417) (xy 0.576291 -0.449837)
+					(xy 0.51755 -0.539413) (xy 0.749764 -0.663915) (xy 0.51755 -0.788418) (xy 0.576291 -0.877933) (xy 0.790369 -0.743661)
+					(xy 0.781943 -1.002497) (xy 0.896676 -1.002497) (xy 0.888311 -0.743661) (xy 1.102329 -0.877933)
+					(xy 1.161069 -0.788418) (xy 0.928855 -0.663915) (xy 1.161069 -0.539413) (xy 1.102329 -0.449837)
+					(xy 0.888311 -0.58417)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.735895 -0.326738) (xy 1.621161 -0.326738) (xy 1.629588 -0.58417) (xy 1.415509 -0.449837)
+					(xy 1.356769 -0.539413) (xy 1.588982 -0.663915) (xy 1.356769 -0.788418) (xy 1.415509 -0.877933)
+					(xy 1.629588 -0.743661) (xy 1.621161 -1.002497) (xy 1.735895 -1.002497) (xy 1.727529 -0.743661)
+					(xy 1.941547 -0.877933) (xy 2.000287 -0.788418) (xy 1.768074 -0.663915) (xy 2.000287 -0.539413)
+					(xy 1.941547 -0.449837) (xy 1.727529 -0.58417)
+				)
+			)
+		)
+	)
+	(property "Value" "KMS221GLFS"
+		(at 0 -0.378 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa8e59a5-a1b8-4e14-9811-025a86e2259b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7afe3066-47a7-451d-8d51-d291a3203fbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "No peg, silver, Micro Miniature Side Actuated Tactile Switch for SMT 4.2 x 3.55 mm, with 1.42 mm Height Actuator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e18470a-d4fc-4e19-92fa-75e35fab8a77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4257 1.250041)
+		(end -2.4257 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7b8afef-68d8-4a72-9164-7b3176fd973b")
+	)
+	(fp_line
+		(start -2.4257 1.905)
+		(end 2.4257 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9e0985a-6266-411d-b9eb-ab6439294ef3")
+	)
+	(fp_line
+		(start -0.61214 -1.905)
+		(end -1.366686 -1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f26bade5-53ad-44ed-a254-9dbd2cfa8168")
+	)
+	(fp_line
+		(start 1.366686 -1.905)
+		(end 0.61214 -1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ef2ff76-b346-40e5-ad51-1f63ba1507b6")
+	)
+	(fp_line
+		(start 2.4257 1.905)
+		(end 2.4257 1.250041)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c396183-7992-458a-b8cd-472a42083755")
+	)
+	(fp_arc
+		(start -3.005038 0.798912)
+		(mid -3.4417 0.422)
+		(end -3.005038 0.045088)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca381b6f-d564-44d0-9026-3a92433a9944")
+	)
+	(fp_circle
+		(center -3.0607 0.422)
+		(end -2.6797 0.422)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "5522dc17-af1f-4d90-b581-022eb24b4643")
+	)
+	(fp_line
+		(start -2.748499 -2.3364)
+		(end -2.748499 2.032)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93ec5fdf-3f63-4b80-bf7e-b4a218ff158c")
+	)
+	(fp_line
+		(start -2.748499 2.032)
+		(end 2.748499 2.032)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3a86d0e-dbf4-4d19-b00f-1f39be9cebe1")
+	)
+	(fp_line
+		(start 2.748499 -2.3364)
+		(end -2.748499 -2.3364)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14f28dd1-08f8-40ba-a413-b6fa2f043449")
+	)
+	(fp_line
+		(start 2.748499 2.032)
+		(end 2.748499 -2.3364)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "107edce8-8765-4d62-95b8-4433ce0430ac")
+	)
+	(fp_line
+		(start -2.2987 -1.778)
+		(end -2.2987 1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f69b0c1e-e07b-4144-910e-f2b370768696")
+	)
+	(fp_line
+		(start -2.2987 1.778)
+		(end 2.2987 1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fd0fa1e-c47f-452e-abf9-670050b66136")
+	)
+	(fp_line
+		(start 2.2987 -1.778)
+		(end -2.2987 -1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6467b9a5-1409-4c54-b1b1-571d93defc32")
+	)
+	(fp_line
+		(start 2.2987 1.778)
+		(end 2.2987 -1.778)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edb7af5b-cdac-4d04-9979-971159bf327a")
+	)
+	(fp_circle
+		(center -2.05 2.327)
+		(end -1.669 2.327)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "951f0bf0-44f7-429e-9dc4-b2cdbc319dda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.378 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "20877770-2ad2-4938-a84f-f9b777bcadf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.049998 0.422001)
+		(size 0.889 0.9906)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e447f48-9f1f-4c58-b7b7-7dd1ab294961")
+	)
+	(pad "2" smd rect
+		(at -2.049998 -1.178001)
+		(size 0.889 0.9906)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bfe4c685-229e-4da8-8054-3ec6cd3f18dc")
+	)
+	(pad "3" smd rect
+		(at 0 -1.803001 90)
+		(size 1.7018 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad1175c0-dabb-46f0-924d-edcf29df6170")
+	)
+	(pad "4" smd rect
+		(at 2.049998 -1.178001)
+		(size 0.889 0.9906)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f2d269a-96eb-412c-9f92-d2af26499578")
+	)
+	(pad "5" smd rect
+		(at 2.049998 0.422001)
+		(size 0.889 0.9906)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "729c7f25-d2a2-47a0-b879-a9b544334ff7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Littlefuse/3D/Littlefuse_KMS221GLFS.stp"
+		(offset
+			(xyz 0 0.381 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
