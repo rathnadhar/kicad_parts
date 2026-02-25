@@ -1,0 +1,237 @@
+(footprint "Yageo_RC1206_3216"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,3216, general purpose chip resistors")
+	(tags "Resistor,SMD,3216, general purpose chip resistors")
+	(property "Reference" "R**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a39c460d-e880-4430-9592-9fbf504cba88")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "R**" 0
+			(polygon
+				(pts
+					(xy -0.932426 -0.769072) (xy -0.884286 -0.755461) (xy -0.840067 -0.734408) (xy -0.799796 -0.706363)
+					(xy -0.763683 -0.671362) (xy -0.733339 -0.631248) (xy -0.710331 -0.587844) (xy -0.693714 -0.541558)
+					(xy -0.682802 -0.492771) (xy -0.674814 -0.393279) (xy -0.67812 -0.331139) (xy -0.688152 -0.26804)
+					(xy -0.7068 -0.20733) (xy -0.736077 -0.151642) (xy -0.775687 -0.102976) (xy -0.825876 -0.06285)
+					(xy -0.882937 -0.032994) (xy -0.94305 -0.014849) (xy -0.646355 0.52705) (xy -0.809824 0.52705)
+					(xy -1.103029 -0.009498) (xy -1.294881 -0.009498) (xy -1.294881 0.52705) (xy -1.442376 0.52705)
+					(xy -1.442376 -0.139234) (xy -1.294881 -0.139234) (xy -1.031919 -0.139234) (xy -0.969803 -0.147222)
+					(xy -0.940684 -0.157652) (xy -0.913814 -0.172967) (xy -0.889831 -0.192687) (xy -0.86938 -0.216471)
+					(xy -0.840067 -0.271607) (xy -0.825799 -0.332016) (xy -0.822231 -0.393279) (xy -0.825799 -0.456402)
+					(xy -0.840067 -0.516811) (xy -0.86938 -0.57187) (xy -0.889831 -0.595654) (xy -0.913814 -0.615373)
+					(xy -0.940689 -0.630749) (xy -0.969803 -0.641197) (xy -1.031919 -0.649184) (xy -1.294881 -0.649184)
+					(xy -1.294881 -0.139234) (xy -1.442376 -0.139234) (xy -1.442376 -0.778843) (xy -1.031919 -0.778843)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.065101) (xy -0.072739 0.065101) (xy -0.062037 -0.261836) (xy -0.333917 -0.091233)
+					(xy -0.408518 -0.204994) (xy -0.113606 -0.363113) (xy -0.408518 -0.521231) (xy -0.333917 -0.634915)
+					(xy -0.062037 -0.464389) (xy -0.072739 -0.793111) (xy 0.072971 -0.793111) (xy 0.062347 -0.464389)
+					(xy 0.33415 -0.634915) (xy 0.40875 -0.521231) (xy 0.113839 -0.363113) (xy 0.40875 -0.204994) (xy 0.33415 -0.091233)
+					(xy 0.062347 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.065101) (xy 0.993068 0.065101) (xy 1.003769 -0.261836) (xy 0.731889 -0.091233) (xy 0.657289 -0.204994)
+					(xy 0.9522 -0.363113) (xy 0.657289 -0.521231) (xy 0.731889 -0.634915) (xy 1.003769 -0.464389) (xy 0.993068 -0.793111)
+					(xy 1.138779 -0.793111) (xy 1.128155 -0.464389) (xy 1.399957 -0.634915) (xy 1.474558 -0.521231)
+					(xy 1.179646 -0.363113) (xy 1.474558 -0.204994) (xy 1.399957 -0.091233) (xy 1.128155 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "Yageo_RC1206_3216"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b089cb3c-b0c0-4b67-b2ea-fdd8c77185e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9d88a8b-ba32-4eee-a915-38c0b8a58c57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,3216, general purpose chip resistors"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "555cc95a-baa3-408b-be94-9c5c6986f401")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1)
+		(end 0.01 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b89970c9-ea91-4a7a-a680-7cbbd7f9646f")
+	)
+	(fp_line
+		(start -2.1 0.88)
+		(end -2.1 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d713bbeb-7a88-4368-a37e-5a8f86bbb0aa")
+	)
+	(fp_line
+		(start 0 -0.7)
+		(end 0 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20b9d5b8-f6c3-47c8-89b8-5b172bfd83a4")
+	)
+	(fp_line
+		(start -2.225 -1.15)
+		(end 2.225 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9cb0c17-3feb-4c13-8700-53ccf2f7fe79")
+	)
+	(fp_line
+		(start -2.225 1.15)
+		(end -2.225 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10e5f2b8-978f-4af6-88b9-22aa3408f70a")
+	)
+	(fp_line
+		(start 2.225 -1.15)
+		(end 2.225 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "548719c8-7579-423e-9d26-ec27f4696b31")
+	)
+	(fp_line
+		(start 2.225 1.15)
+		(end -2.225 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e80fe415-fb40-4baa-8528-1a0c8d7288bd")
+	)
+	(fp_line
+		(start -1.55 -0.8)
+		(end 1.55 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b86a347-a150-403e-aedf-47c4743fe2cf")
+	)
+	(fp_line
+		(start -1.55 0.8)
+		(end -1.55 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08902da7-f5d9-4b9f-aa07-b7e6fe7b076d")
+	)
+	(fp_line
+		(start 1.55 -0.8)
+		(end 1.55 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98cf036c-fec1-4cad-b707-921fe5e84cb2")
+	)
+	(fp_line
+		(start 1.55 0.8)
+		(end -1.55 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9c8c98c-d9eb-4680-8b06-df4258a8d6d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e3bfcd23-8480-45c7-af5c-40d17db3a4c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.05 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a61caee2-b685-475d-99d6-289a8f820ec7")
+	)
+	(pad "2" smd rect
+		(at 1.45 0)
+		(size 1.05 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcc4b197-286b-4694-bd80-abbc99bee5ee")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Yageo/3D/Yageo_RC1206_3216.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
