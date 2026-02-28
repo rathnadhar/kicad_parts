@@ -1,0 +1,252 @@
+(footprint "ECS-TXO-2016"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "The sub miniature ECS-TXO-2016 is a miniatue SMD CMOS\nTCXO. The 2.0 x 1.6 x 0.8 mm ceramic package")
+	(tags "TXO, The sub miniature ECS-TXO-2016 is a miniatue SMD CMOS\nTCXO. The 2.0 x 1.6 x 0.8 mm ceramic package")
+	(property "Reference" "Y**"
+		(at 0 0.2 0)
+		(layer "F.SilkS")
+		(uuid "20e5e0dc-3772-43c4-a54a-e0d839cbb5d9")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "Y**" 0
+			(polygon
+				(pts
+					(xy -1.138546 0.72705) (xy -1.138546 0.204692) (xy -1.477892 -0.578843) (xy -1.316206 -0.578843)
+					(xy -1.065652 0.027032) (xy -0.815175 -0.578843) (xy -0.653489 -0.578843) (xy -0.992835 0.204692)
+					(xy -0.992835 0.72705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.265101) (xy -0.072739 0.265101) (xy -0.062037 -0.061836) (xy -0.333917 0.108766)
+					(xy -0.408518 -0.004994) (xy -0.113606 -0.163113) (xy -0.408518 -0.321231) (xy -0.333917 -0.434915)
+					(xy -0.062037 -0.264389) (xy -0.072739 -0.593111) (xy 0.072971 -0.593111) (xy 0.062347 -0.264389)
+					(xy 0.33415 -0.434915) (xy 0.40875 -0.321231) (xy 0.113839 -0.163113) (xy 0.40875 -0.004994) (xy 0.33415 0.108766)
+					(xy 0.062347 -0.061836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.265101) (xy 0.993068 0.265101) (xy 1.003769 -0.061836) (xy 0.731889 0.108766) (xy 0.657289 -0.004994)
+					(xy 0.9522 -0.163113) (xy 0.657289 -0.321231) (xy 0.731889 -0.434915) (xy 1.003769 -0.264389) (xy 0.993068 -0.593111)
+					(xy 1.138779 -0.593111) (xy 1.128155 -0.264389) (xy 1.399957 -0.434915) (xy 1.474558 -0.321231)
+					(xy 1.179646 -0.163113) (xy 1.474558 -0.004994) (xy 1.399957 0.108766) (xy 1.128155 -0.061836)
+				)
+			)
+		)
+	)
+	(property "Value" "ECS-TXO-2016"
+		(at 0 0.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "834d607d-927c-4d77-a5f9-64d321757804")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-2016.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0189a929-6ec8-415e-bf68-6200e5847402")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "The sub miniature ECS-TXO-2016 is a miniatue SMD CMOS TCXO. The 2.0 x 1.6 x 0.8 mm ceramic package"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c85fa95b-4871-44d7-b999-bd06969774a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.75 1.2)
+		(end -0.75 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a493086-47fb-4f23-a5dd-d548d492629b")
+	)
+	(fp_line
+		(start -0.65 1.2)
+		(end -0.65 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06956a4c-d229-41bd-b427-0a117a434692")
+	)
+	(fp_arc
+		(start -0.75 1.2)
+		(mid -0.7 1.15)
+		(end -0.65 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65b61db2-563a-4db8-83ac-59dc78bd527b")
+	)
+	(fp_arc
+		(start -0.65 1.2)
+		(mid -0.7 1.25)
+		(end -0.75 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1236df84-eb67-4e0d-a2ad-0c2af988f53c")
+	)
+	(fp_line
+		(start -2.05 -1.85)
+		(end 2.05 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca0c9260-cc32-4e42-9e0b-5b6267155d16")
+	)
+	(fp_line
+		(start -2.05 2.25)
+		(end -2.05 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04f02fef-c084-4198-bf93-d76856282184")
+	)
+	(fp_line
+		(start 2.05 -1.85)
+		(end 2.05 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e93e86b-0845-48ee-bcfa-b96456661f66")
+	)
+	(fp_line
+		(start 2.05 2.25)
+		(end -2.05 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75fe4e8e-2af0-4d4c-a9bc-6327bee52771")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "579c7569-4472-421d-812d-07988f695006")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f6ce085-e6b3-4937-9f58-0e116a87e268")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38d589c2-145e-4855-b15a-32ede7ff6ab7")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef447c48-4f8a-4f88-9cd8-5e978170a811")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.2 0)
+		(layer "F.Fab")
+		(uuid "615f0761-7667-4f30-bf05-4bb7895b8fd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8ebd418-ea71-4c03-96cd-6b7261d53045")
+	)
+	(pad "2" smd rect
+		(at 0.65 0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd287592-d4f7-41fe-a592-9cf78e2902bc")
+	)
+	(pad "3" smd rect
+		(at 0.65 -0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60b7bcd5-6235-4f0b-a667-68a7ab26427d")
+	)
+	(pad "4" smd rect
+		(at -0.65 -0.5 90)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1032bae1-8da4-47ac-bf60-86b83415ad5b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/ECS_Inc/3D/ECS-TXO-2016.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

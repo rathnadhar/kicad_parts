@@ -1,0 +1,252 @@
+(footprint "ECS-327TXO-2012"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CMOS SMD TCXO,32.768KHz, 2.0 x 1.2 x 1.1 mm ceramic package")
+	(tags "CMOS SMD TCXO,32.768KHz, 2.0 x 1.2 x 1.1 mm ceramic package")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a4e1207b-856d-4a82-9a5d-7bb38c1f2e77")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "Y**" 0
+			(polygon
+				(pts
+					(xy -1.138546 0.52705) (xy -1.138546 0.004692) (xy -1.477892 -0.778843) (xy -1.316206 -0.778843)
+					(xy -1.065652 -0.172967) (xy -0.815175 -0.778843) (xy -0.653489 -0.778843) (xy -0.992835 0.004692)
+					(xy -0.992835 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.065101) (xy -0.072739 0.065101) (xy -0.062037 -0.261836) (xy -0.333917 -0.091233)
+					(xy -0.408518 -0.204994) (xy -0.113606 -0.363113) (xy -0.408518 -0.521231) (xy -0.333917 -0.634915)
+					(xy -0.062037 -0.464389) (xy -0.072739 -0.793111) (xy 0.072971 -0.793111) (xy 0.062347 -0.464389)
+					(xy 0.33415 -0.634915) (xy 0.40875 -0.521231) (xy 0.113839 -0.363113) (xy 0.40875 -0.204994) (xy 0.33415 -0.091233)
+					(xy 0.062347 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.065101) (xy 0.993068 0.065101) (xy 1.003769 -0.261836) (xy 0.731889 -0.091233) (xy 0.657289 -0.204994)
+					(xy 0.9522 -0.363113) (xy 0.657289 -0.521231) (xy 0.731889 -0.634915) (xy 1.003769 -0.464389) (xy 0.993068 -0.793111)
+					(xy 1.138779 -0.793111) (xy 1.128155 -0.464389) (xy 1.399957 -0.634915) (xy 1.474558 -0.521231)
+					(xy 1.179646 -0.363113) (xy 1.474558 -0.204994) (xy 1.399957 -0.091233) (xy 1.128155 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "ECS-327TXO-2012"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "64228e54-d1eb-4ebd-89b4-c029d5068c2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/3/294/1/ECS_327TXO_2012.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7faea94-325f-4fa4-ac61-aaee84e482c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CMOS SMD TCXO,32.768KHz, 2.0 x 1.2 x 1.1 mm ceramic package"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f1c2b55-09c8-4b99-b7d4-815420463218")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.725 1.3)
+		(end -0.725 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "319205e8-3795-4c19-9d5e-01e7d2a1a247")
+	)
+	(fp_line
+		(start -0.725 1.4)
+		(end -0.725 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2a89f71-0b7e-4de3-b201-6e4691dd14c6")
+	)
+	(fp_arc
+		(start -0.725 1.3)
+		(mid -0.675 1.35)
+		(end -0.725 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea8c9151-7eaa-4f8d-8641-0e958ed2f433")
+	)
+	(fp_arc
+		(start -0.725 1.4)
+		(mid -0.775 1.35)
+		(end -0.725 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5191deb0-a53b-4346-8d0d-da00ff89ca84")
+	)
+	(fp_line
+		(start -2.15 -1.85)
+		(end 2.15 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5867a0c-9b9f-41e7-bd5a-4d1d85f31391")
+	)
+	(fp_line
+		(start -2.15 1.85)
+		(end -2.15 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8902f592-72bc-4226-9076-dc43a18ada36")
+	)
+	(fp_line
+		(start 2.15 -1.85)
+		(end 2.15 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "168347a4-62c2-48f5-bf05-34c81cb30c94")
+	)
+	(fp_line
+		(start 2.15 1.85)
+		(end -2.15 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0f27f23-9434-4dde-bce0-8a9e6148e5f9")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5974c71-5431-4fb8-99e0-3a4960d1c59c")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a15a6c30-1edd-4b57-a03c-5132ac8c1453")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf0c1efe-83fc-4cc6-b75d-f7ba7eaab1d6")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a48ae349-32f6-4e27-b5a1-13708725c9be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b41ded93-e3f3-4618-9e7d-bae1c1645a8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 0.5 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69c10435-0e14-4e1a-9018-66333087e801")
+	)
+	(pad "2" smd rect
+		(at 0.725 0.5 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f7ceec3-68a3-4bfd-8930-7f3d965abdc5")
+	)
+	(pad "3" smd rect
+		(at 0.725 -0.5 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20f47464-bf9b-4e13-ae43-ce3cc7440f07")
+	)
+	(pad "4" smd rect
+		(at -0.725 -0.5 90)
+		(size 0.7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba14cff6-8c05-4652-b162-dd479990df4f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/ECS_Inc/3D/ECS-327TXO.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
