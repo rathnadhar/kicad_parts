@@ -1,0 +1,402 @@
+(footprint "Yageo_JXD60001NL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Modular Connectors / Ethernet Connector,SMD,100BaseTX 1x1 Tab Up Grn/Grn LEDs Ethernt")
+	(tags "Connector,Modular Connectors / Ethernet Connectors 100BaseTX 1x1 Tab Up Grn/Grn LEDs Ethernt")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "37fd2bee-9298-4eef-8baa-31226ac6077f")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "J**" 0
+			(polygon
+				(pts
+					(xy -1.110086 0.541241) (xy -1.204306 0.534106) (xy -1.249763 0.524386) (xy -1.294028 0.509291)
+					(xy -1.335735 0.488451) (xy -1.373979 0.461367) (xy -1.407555 0.428828) (xy -1.435241 0.39204)
+					(xy -1.457001 0.351475) (xy -1.472619 0.307669) (xy -1.481909 0.261759) (xy -1.485026 0.214302)
+					(xy -1.485026 0.207245) (xy -1.337532 0.207245) (xy -1.337532 0.212596) (xy -1.333345 0.254432)
+					(xy -1.320704 0.295184) (xy -1.299766 0.33213) (xy -1.270919 0.362727) (xy -1.235689 0.385771)
+					(xy -1.195388 0.400027) (xy -1.110086 0.409798) (xy -1.04704 0.403595) (xy -1.016847 0.394894)
+					(xy -0.988415 0.381338) (xy -0.962459 0.363386) (xy -0.93956 0.341402) (xy -0.920445 0.316013)
+					(xy -0.905827 0.288049) (xy -0.887991 0.226787) (xy -0.882641 0.162811) (xy -0.882641 -0.649184)
+					(xy -1.166928 -0.649184) (xy -1.166928 -0.778843) (xy -0.735223 -0.778843) (xy -0.735223 0.162811)
+					(xy -0.744141 0.264087) (xy -0.75634 0.31276) (xy -0.775238 0.35916) (xy -0.800906 0.40213) (xy -0.833863 0.440895)
+					(xy -0.872379 0.474044) (xy -0.914667 0.500373) (xy -0.960504 0.519865) (xy -1.00974 0.532323)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.065101) (xy -0.072739 0.065101) (xy -0.062037 -0.261836) (xy -0.333917 -0.091233)
+					(xy -0.408518 -0.204994) (xy -0.113606 -0.363113) (xy -0.408518 -0.521231) (xy -0.333917 -0.634915)
+					(xy -0.062037 -0.464389) (xy -0.072739 -0.793111) (xy 0.072971 -0.793111) (xy 0.062347 -0.464389)
+					(xy 0.33415 -0.634915) (xy 0.40875 -0.521231) (xy 0.113839 -0.363113) (xy 0.40875 -0.204994) (xy 0.33415 -0.091233)
+					(xy 0.062347 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.065101) (xy 0.993068 0.065101) (xy 1.003769 -0.261836) (xy 0.731889 -0.091233) (xy 0.657289 -0.204994)
+					(xy 0.9522 -0.363113) (xy 0.657289 -0.521231) (xy 0.731889 -0.634915) (xy 1.003769 -0.464389) (xy 0.993068 -0.793111)
+					(xy 1.138779 -0.793111) (xy 1.128155 -0.464389) (xy 1.399957 -0.634915) (xy 1.474558 -0.521231)
+					(xy 1.179646 -0.363113) (xy 1.474558 -0.204994) (xy 1.399957 -0.091233) (xy 1.128155 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "Yageo_JXD60001NL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ffbd3f94-b653-45fe-9443-c689176dc837")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_JXD6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f72f7b3f-62cf-4ce2-8ff3-081136dbb81c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Modular Connectors / Ethernet Connector,SMD,100BaseTX 1x1 Tab Up Grn/Grn LEDs Ethernt"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ee8aac0-f170-4d06-b047-5b23f9e6bd36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.4 -11.25)
+		(end -7.62 -11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff8cda1e-f0a3-4ed0-b0cf-7d2ec5120f91")
+	)
+	(fp_line
+		(start -8.4 -11.06)
+		(end -8.4 -11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab8253c2-5122-4f12-b9a6-d4032c7567f1")
+	)
+	(fp_line
+		(start -8.4 1.64)
+		(end -8.4 -11.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce673b03-ad9a-40e5-828e-9b062641e374")
+	)
+	(fp_line
+		(start -8.4 9.26)
+		(end -8.4 11.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b33a41b7-3c13-4057-84b9-328a6bd5a732")
+	)
+	(fp_line
+		(start -8.4 11.8)
+		(end 8.4 11.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c70b973d-cdd7-4fe2-bf7c-d972e62a2fc9")
+	)
+	(fp_line
+		(start 5.6 -11.7)
+		(end 5.6 -11.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f53344d-527c-4beb-b32e-1151d1011083")
+	)
+	(fp_line
+		(start 5.8 -11.7)
+		(end 5.8 -11.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01d4438c-a186-4add-802e-1951e736b75d")
+	)
+	(fp_line
+		(start 7.62 -11.25)
+		(end 8.4 -11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e8b611f-a78a-4f75-af89-437940d937b5")
+	)
+	(fp_line
+		(start 8.4 -11.25)
+		(end 8.4 1.64)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b58f3fd0-b118-48f4-bea7-bef33bac0a38")
+	)
+	(fp_line
+		(start 8.4 11.8)
+		(end 8.4 9.26)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41a4dbe1-3efe-4d3b-af14-beaba0184163")
+	)
+	(fp_arc
+		(start 5.6 -11.7)
+		(mid 5.7 -11.8)
+		(end 5.8 -11.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1cd5eb1-35d9-436c-a326-a8fb325738e9")
+	)
+	(fp_arc
+		(start 5.8 -11.7)
+		(mid 5.7 -11.6)
+		(end 5.6 -11.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63191bb9-3a1b-419d-95cc-3a8952abb748")
+	)
+	(fp_line
+		(start -9.4 -12.8)
+		(end 9.4 -12.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a52f687-655d-49ee-9ba2-6ff048ef770a")
+	)
+	(fp_line
+		(start -9.4 12.8)
+		(end -9.4 -12.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2279ad0-5cab-4edd-99a5-c76feae54f5a")
+	)
+	(fp_line
+		(start 9.4 -12.8)
+		(end 9.4 12.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9929526-0360-4df3-b4c8-d1c1c7d76d76")
+	)
+	(fp_line
+		(start 9.4 12.8)
+		(end -9.4 12.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0bffb9d-1953-410d-8b01-cf1368fe0d13")
+	)
+	(fp_line
+		(start -8.4 -11.25)
+		(end 8.4 -11.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0603d27-f51b-4b87-a4db-605465b293ff")
+	)
+	(fp_line
+		(start -8.4 11.8)
+		(end -8.4 -11.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b975581-2ee6-4e3c-9af5-504d327d3724")
+	)
+	(fp_line
+		(start 8.4 -11.25)
+		(end 8.4 11.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce0807b3-1c11-49db-b17f-bfdbeea78895")
+	)
+	(fp_line
+		(start 8.4 11.8)
+		(end -8.4 11.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b8e281c-46f5-4cd8-bf20-0baac9d1bf6c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "037b4af3-46b9-49e8-852c-cf084058d9fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.715 1.05)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5f7ebdb0-9880-499f-9dd6-0c0bff4314c8")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.715 1.05)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "362b05f7-7461-413e-b17b-29a50ee19252")
+	)
+	(pad "1" smd rect
+		(at 5.715 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05cd05ee-c107-439f-af2a-fdf0a29d4198")
+	)
+	(pad "2" smd rect
+		(at 4.445 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb7e6e25-18bd-4153-82dd-0f780be627fb")
+	)
+	(pad "3" smd rect
+		(at 3.175 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6d31684a-f99d-4187-a5d0-fa832313f6e6")
+	)
+	(pad "4" smd rect
+		(at 1.905 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a4ad88b-8f30-4e06-859a-7c67e6e89382")
+	)
+	(pad "5" smd rect
+		(at 0.635 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5bc0f8e-1a5a-4ed0-ae95-6c59bd2351a1")
+	)
+	(pad "6" smd rect
+		(at -0.635 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2390d3aa-c04c-429a-acc7-b145cdb6a2da")
+	)
+	(pad "7" smd rect
+		(at -1.905 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2722c0d-afcd-4707-9202-9dd185b0889c")
+	)
+	(pad "8" smd rect
+		(at -3.175 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0b2216d-84a9-42d6-a5bc-14ae9ef4c562")
+	)
+	(pad "9" smd rect
+		(at -4.445 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "849fc011-6bbe-465f-b08d-9338d249d75b")
+	)
+	(pad "10" smd rect
+		(at -5.715 -9.5)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "688ef484-80e4-476e-b41f-c483a6f270de")
+	)
+	(pad "11" smd rect
+		(at -6.77 5.55)
+		(size 3.26 4.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f149ab8d-8fcf-4bcb-a2af-565943da91ea")
+	)
+	(pad "12" smd rect
+		(at 6.77 5.55)
+		(size 3.26 4.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0af54c9-747e-42df-8031-2be55feaffea")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Yageo/3D/Yageo_JXD6-0001NL.stp"
+		(offset
+			(xyz -0.2032 -11.43 -3.175)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

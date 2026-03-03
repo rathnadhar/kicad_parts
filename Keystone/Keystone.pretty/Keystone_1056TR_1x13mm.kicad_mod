@@ -302,15 +302,15 @@
 		(uuid "21209c71-38ed-41ae-b4c4-4a217d5943ae")
 	)
 	(embedded_fonts no)
-	(model "1056TR.stp"
+	(model "${KICAD_PARTS_ROOT}/Keystone/3D/Keystone_1056TR_1x13mm.stp"
 		(offset
-			(xyz 0 0.04999999999 -0.1299999933)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -180 -180 0)
+			(xyz 0 0 0)
 		)
 	)
 )
