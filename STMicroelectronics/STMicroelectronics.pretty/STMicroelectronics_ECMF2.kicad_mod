@@ -1,0 +1,271 @@
+(footprint "STMicroelectronics_ECMF2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Common mode filter with ESD protection for high speed serial interface")
+	(tags "Filter,Common mode filter with ESD protection for high speed serial interface")
+	(property "Reference" "FL**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1e0dd8a7-d636-432d-a7b6-b2d62c01578a")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "FL**" 0
+			(polygon
+				(pts
+					(xy -1.897111 0.52705) (xy -1.897111 -0.778843) (xy -1.221908 -0.778843) (xy -1.221908 -0.649184)
+					(xy -1.749616 -0.649184) (xy -1.749616 -0.217402) (xy -1.335592 -0.217402) (xy -1.335592 -0.085959)
+					(xy -1.749616 -0.085959) (xy -1.749616 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.831304 0.52705) (xy -0.831304 -0.778843) (xy -0.683809 -0.778843) (xy -0.683809 0.395607)
+					(xy -0.145477 0.395607) (xy -0.145477 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.605876 0.065101) (xy 0.460165 0.065101) (xy 0.470866 -0.261836) (xy 0.198986 -0.091233) (xy 0.124386 -0.204994)
+					(xy 0.419297 -0.363113) (xy 0.124386 -0.521231) (xy 0.198986 -0.634915) (xy 0.470866 -0.464389)
+					(xy 0.460165 -0.793111) (xy 0.605876 -0.793111) (xy 0.595252 -0.464389) (xy 0.867054 -0.634915)
+					(xy 0.941655 -0.521231) (xy 0.646743 -0.363113) (xy 0.941655 -0.204994) (xy 0.867054 -0.091233)
+					(xy 0.595252 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.671683 0.065101) (xy 1.525972 0.065101) (xy 1.536674 -0.261836) (xy 1.264794 -0.091233) (xy 1.190193 -0.204994)
+					(xy 1.485105 -0.363113) (xy 1.190193 -0.521231) (xy 1.264794 -0.634915) (xy 1.536674 -0.464389)
+					(xy 1.525972 -0.793111) (xy 1.671683 -0.793111) (xy 1.661059 -0.464389) (xy 1.932862 -0.634915)
+					(xy 2.007462 -0.521231) (xy 1.712551 -0.363113) (xy 2.007462 -0.204994) (xy 1.932862 -0.091233)
+					(xy 1.661059 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "STMicroelectronics_ECMF2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3a740c43-dc60-4818-bf5e-07966297a774")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/ecmf2-40a100n6.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "894773ce-df4d-4863-ab80-abaa2c170acd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Common mode filter with ESD protection for high speed serial interface"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f83d70db-df51-49e7-a0f9-e1898d2dfd10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 1.3)
+		(end -0.4 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "190a086c-1193-4a49-a4d0-acec9433e41a")
+	)
+	(fp_line
+		(start -0.4 1.4)
+		(end -0.4 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "902bd4a5-b396-4855-8296-4bf47e835c55")
+	)
+	(fp_arc
+		(start -0.4 1.3)
+		(mid -0.35 1.35)
+		(end -0.4 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e4b0d04-0681-4e5f-b720-2ca1513b663f")
+	)
+	(fp_arc
+		(start -0.4 1.4)
+		(mid -0.45 1.35)
+		(end -0.4 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7fa20bb-ad12-4f45-8a2a-e8e899e9e0de")
+	)
+	(fp_line
+		(start -1.7 -1.875)
+		(end 1.7 -1.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51c8b4f3-f225-49d6-8c2e-8b6659c9ad79")
+	)
+	(fp_line
+		(start -1.7 1.875)
+		(end -1.7 -1.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7eb0aaa9-ad7a-461b-8d09-476794fd802d")
+	)
+	(fp_line
+		(start 1.7 -1.875)
+		(end 1.7 1.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5d46ff9-ce65-4811-a0b8-cf40f8af6f07")
+	)
+	(fp_line
+		(start 1.7 1.875)
+		(end -1.7 1.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6db95c26-aec1-494d-9fc0-1aa5ac282016")
+	)
+	(fp_line
+		(start -0.7 -0.675)
+		(end 0.7 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4bcf6d7-96e7-4b0d-8a33-67f3746b20c8")
+	)
+	(fp_line
+		(start -0.7 0.675)
+		(end -0.7 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8b8ba13-cd70-4722-9c9f-b77c43f56fb1")
+	)
+	(fp_line
+		(start 0.7 -0.675)
+		(end 0.7 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c2af5e9-6e3d-4787-b944-fb228801b051")
+	)
+	(fp_line
+		(start 0.7 0.675)
+		(end -0.7 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b1e9cb3-dbd8-4232-9a28-85d4b0969729")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "00a3f950-f00e-4cf6-a0af-f866bb55d3dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 0.525)
+		(size 0.2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53298676-50b4-4f9b-ba86-5ae5ea855da0")
+	)
+	(pad "2" smd rect
+		(at 0 0.525)
+		(size 0.2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3cdf423-4938-452c-8ba2-95b79f463bcc")
+	)
+	(pad "3" smd rect
+		(at 0.4 0.525)
+		(size 0.2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce3ad296-577c-4d88-8587-1132388b93e5")
+	)
+	(pad "4" smd rect
+		(at 0.4 -0.525)
+		(size 0.2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c480980-4043-404c-a209-9d18617d0e59")
+	)
+	(pad "5" smd rect
+		(at 0 -0.525)
+		(size 0.2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "380d2195-4843-4f1d-af63-5bc21e3a4e07")
+	)
+	(pad "6" smd rect
+		(at -0.4 -0.525)
+		(size 0.2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb1f61c4-ed96-4399-83b6-6884597ce722")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/STMicroelectronics/3D/STMicroelectronics_ECMF2.stp"
+		(offset
+			(xyz 0 0 0.3048)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
