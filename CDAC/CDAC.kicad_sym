@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U1"
-			(at 34.7287 5.08 0)
+			(at 37.2687 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "THEJAS32"
-			(at 34.7287 2.54 0)
+			(at 37.2687 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-128_14x14mm_P0.4mm"
-			(at 0 0 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vegaprocessors.in/files/THEJAS32_Datasheet.pdf"
-			(at 0 0 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "THEJAS32"
-			(at 0 0 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,8 +62,8 @@
 		)
 		(symbol "THEJAS32_0_1"
 			(rectangle
-				(start 0 0)
-				(end 35.56 -111.76)
+				(start 2.54 5.08)
+				(end 38.1 -106.68)
 				(stroke
 					(width 0)
 					(type default)
@@ -75,7 +75,7 @@
 		)
 		(symbol "THEJAS32_1_0"
 			(pin input line
-				(at -2.54 -12.7 0)
+				(at 0 -7.62 0)
 				(length 2.54)
 				(name "SPI0_MISO"
 					(effects
@@ -93,7 +93,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -13.97 0)
+				(at 0 -10.16 0)
 				(length 2.54)
 				(name "SPI0_MOSI"
 					(effects
@@ -111,7 +111,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -15.24 0)
+				(at 0 -12.7 0)
 				(length 2.54)
 				(name "SPI0_SCLK"
 					(effects
@@ -128,8 +128,8 @@
 					)
 				)
 			)
-			(pin output inverted
-				(at -2.54 -16.51 0)
+			(pin output output_low
+				(at 0 -15.24 0)
 				(length 2.54)
 				(name "SPI0_~{CS}"
 					(effects
@@ -147,7 +147,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -20.32 0)
+				(at 0 -19.05 0)
 				(length 2.54)
 				(name "SPI1_MISO"
 					(effects
@@ -165,7 +165,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -21.59 0)
+				(at 0 -21.59 0)
 				(length 2.54)
 				(name "SPI1_MOSI"
 					(effects
@@ -183,7 +183,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -22.86 0)
+				(at 0 -24.13 0)
 				(length 2.54)
 				(name "SPI1_SCLK"
 					(effects
@@ -200,8 +200,8 @@
 					)
 				)
 			)
-			(pin output inverted
-				(at -2.54 -24.13 0)
+			(pin output output_low
+				(at 0 -26.67 0)
 				(length 2.54)
 				(name "SPI1_~{CS}"
 					(effects
@@ -219,7 +219,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -27.94 0)
+				(at 0 -30.48 0)
 				(length 2.54)
 				(name "SPI2_MISO"
 					(effects
@@ -237,7 +237,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -29.21 0)
+				(at 0 -33.02 0)
 				(length 2.54)
 				(name "SPI2_MOSI"
 					(effects
@@ -255,7 +255,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -30.48 0)
+				(at 0 -35.56 0)
 				(length 2.54)
 				(name "SPI2_SCLK"
 					(effects
@@ -272,8 +272,8 @@
 					)
 				)
 			)
-			(pin output inverted
-				(at -2.54 -31.75 0)
+			(pin output output_low
+				(at 0 -38.1 0)
 				(length 2.54)
 				(name "SPI2_~{CS}"
 					(effects
@@ -291,7 +291,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -35.56 0)
+				(at 0 -41.91 0)
 				(length 2.54)
 				(name "SPI3_MISO"
 					(effects
@@ -309,7 +309,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -38.1 0)
+				(at 0 -44.45 0)
 				(length 2.54)
 				(name "SPI3_MOSI"
 					(effects
@@ -327,7 +327,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -40.64 0)
+				(at 0 -46.99 0)
 				(length 2.54)
 				(name "SPI3_SCLK"
 					(effects
@@ -344,8 +344,8 @@
 					)
 				)
 			)
-			(pin output inverted
-				(at -2.54 -43.18 0)
+			(pin output output_low
+				(at 0 -49.53 0)
 				(length 2.54)
 				(name "SPI3_~{CS}"
 					(effects
@@ -363,7 +363,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -45.72 0)
+				(at 0 -53.34 0)
 				(length 2.54)
 				(name "SDA0"
 					(effects
@@ -381,7 +381,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -48.26 0)
+				(at 0 -55.88 0)
 				(length 2.54)
 				(name "SCL0"
 					(effects
@@ -399,7 +399,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -55.88 0)
+				(at 0 -58.42 0)
 				(length 2.54)
 				(name "SDA1"
 					(effects
@@ -417,7 +417,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -58.42 0)
+				(at 0 -60.96 0)
 				(length 2.54)
 				(name "SCL1"
 					(effects
@@ -435,7 +435,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -62.23 0)
+				(at 0 -63.5 0)
 				(length 2.54)
 				(name "SDA2"
 					(effects
@@ -453,7 +453,7 @@
 				)
 			)
 			(pin output clock
-				(at -2.54 -64.77 0)
+				(at 0 -66.04 0)
 				(length 2.54)
 				(name "SCL2"
 					(effects
@@ -471,7 +471,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -69.85 0)
+				(at 0 -68.58 0)
 				(length 2.54)
 				(name "UART_RX0"
 					(effects
@@ -489,7 +489,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -72.39 0)
+				(at 0 -71.12 0)
 				(length 2.54)
 				(name "UART_TX0"
 					(effects
@@ -507,7 +507,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -76.2 0)
+				(at 0 -73.66 0)
 				(length 2.54)
 				(name "UART_RX1"
 					(effects
@@ -525,7 +525,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -78.74 0)
+				(at 0 -76.2 0)
 				(length 2.54)
 				(name "UART_TX1"
 					(effects
@@ -543,7 +543,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -82.55 0)
+				(at 0 -78.74 0)
 				(length 2.54)
 				(name "UART_RX2"
 					(effects
@@ -561,7 +561,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -85.09 0)
+				(at 0 -81.28 0)
 				(length 2.54)
 				(name "UART_TX2"
 					(effects
@@ -579,7 +579,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -88.9 0)
+				(at 0 -83.82 0)
 				(length 2.54)
 				(name "RFIU_1"
 					(effects
@@ -597,7 +597,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -91.44 0)
+				(at 0 -86.36 0)
 				(length 2.54)
 				(name "RFIU_2"
 					(effects
@@ -615,7 +615,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -2.54 -93.98 0)
+				(at 0 -88.9 0)
 				(length 2.54)
 				(name "RFIU_3"
 					(effects
@@ -633,7 +633,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -96.52 0)
+				(at 0 -91.44 0)
 				(length 2.54)
 				(name "RFIU_4"
 					(effects
@@ -651,7 +651,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -99.06 0)
+				(at 0 -93.98 0)
 				(length 2.54)
 				(name "RFIU_5"
 					(effects
@@ -669,7 +669,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -101.6 0)
+				(at 0 -96.52 0)
 				(length 2.54)
 				(name "RFIU_6"
 					(effects
@@ -687,7 +687,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -104.14 0)
+				(at 0 -99.06 0)
 				(length 2.54)
 				(name "RFIU_7"
 					(effects
@@ -705,7 +705,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -106.68 0)
+				(at 0 -101.6 0)
 				(length 2.54)
 				(name "RFIU_8"
 					(effects
@@ -723,16 +723,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -10.16 180)
+				(at 40.64 -2.54 180)
 				(length 2.54)
-				(name "GPIO18"
+				(name "GPIO0"
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "2"
+				(number "74"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -741,16 +741,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -12.7 180)
+				(at 40.64 -5.08 180)
 				(length 2.54)
-				(name "GPIO17"
+				(name "GPIO1"
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "5"
+				(number "73"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -759,7 +759,259 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -15.24 180)
+				(at 40.64 -7.62 180)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -10.16 180)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -12.7 180)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -15.24 180)
+				(length 2.54)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -17.78 180)
+				(length 2.54)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -20.32 180)
+				(length 2.54)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -22.86 180)
+				(length 2.54)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -25.4 180)
+				(length 2.54)
+				(name "GPIO9"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -27.94 180)
+				(length 2.54)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -30.48 180)
+				(length 2.54)
+				(name "GPIO11"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -33.02 180)
+				(length 2.54)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -35.56 180)
+				(length 2.54)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -38.1 180)
+				(length 2.54)
+				(name "GPIO14"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -40.64 180)
+				(length 2.54)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -43.18 180)
 				(length 2.54)
 				(name "GPIO16"
 					(effects
@@ -777,16 +1029,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -17.78 180)
+				(at 40.64 -45.72 180)
 				(length 2.54)
-				(name "GPIO"
+				(name "GPIO17"
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "51"
+				(number "5"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -795,16 +1047,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -20.32 180)
+				(at 40.64 -48.26 180)
 				(length 2.54)
-				(name "GPIO"
+				(name "GPIO18"
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "52"
+				(number "2"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -813,16 +1065,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -22.86 180)
+				(at 40.64 -53.34 180)
 				(length 2.54)
-				(name "GPIO"
+				(name "GPIO20"
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "53"
+				(number "128"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -831,423 +1083,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -25.4 180)
+				(at 40.64 -55.88 180)
 				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -27.94 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -30.48 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -33.02 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -35.56 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -38.1 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "63"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -40.64 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -43.18 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "65"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -45.72 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "66"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -48.26 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "71"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -50.8 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "72"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -53.34 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "73"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -55.88 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "74"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -58.42 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "109"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -60.96 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -63.5 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "111"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -66.04 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "116"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -68.58 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "117"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -71.12 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "118"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -73.66 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -76.2 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "120"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -78.74 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "121"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -81.28 180)
-				(length 2.54)
-				(name "GPIO"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "122"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 38.1 -83.82 180)
-				(length 2.54)
-				(name "GPIO"
+				(name "GPIO21"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -1263,16 +1101,178 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -86.36 180)
+				(at 40.64 -58.42 180)
 				(length 2.54)
-				(name "GPIO"
+				(name "GPIO22"
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "128"
+				(number "122"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -60.96 180)
+				(length 2.54)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -63.5 180)
+				(length 2.54)
+				(name "GPIO24"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -66.04 180)
+				(length 2.54)
+				(name "GPIO25"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -68.58 180)
+				(length 2.54)
+				(name "GPIO26"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -71.12 180)
+				(length 2.54)
+				(name "GPIO27"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -73.66 180)
+				(length 2.54)
+				(name "GPIO28"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -76.2 180)
+				(length 2.54)
+				(name "GPIO29"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -78.74 180)
+				(length 2.54)
+				(name "GPIO30"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 40.64 -81.28 180)
+				(length 2.54)
+				(name "GPIO31"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "109"
 					(effects
 						(font
 							(size 0.508 0.508)
@@ -1281,7 +1281,7 @@
 				)
 			)
 			(pin output line
-				(at 38.1 -88.9 180)
+				(at 40.64 -83.82 180)
 				(length 2.54)
 				(name "PROC_HB"
 					(effects
@@ -1299,7 +1299,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -91.44 180)
+				(at 40.64 -86.36 180)
 				(length 2.54)
 				(name "PWM_0"
 					(effects
@@ -1317,7 +1317,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -93.98 180)
+				(at 40.64 -88.9 180)
 				(length 2.54)
 				(name "PWM_1"
 					(effects
@@ -1335,7 +1335,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -96.52 180)
+				(at 40.64 -91.44 180)
 				(length 2.54)
 				(name "PWM_2"
 					(effects
@@ -1353,7 +1353,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -99.06 180)
+				(at 40.64 -93.98 180)
 				(length 2.54)
 				(name "PWM_3"
 					(effects
@@ -1371,7 +1371,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -101.6 180)
+				(at 40.64 -96.52 180)
 				(length 2.54)
 				(name "PWM_4"
 					(effects
@@ -1389,7 +1389,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -104.14 180)
+				(at 40.64 -99.06 180)
 				(length 2.54)
 				(name "PWM_5"
 					(effects
@@ -1407,7 +1407,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -106.68 180)
+				(at 40.64 -101.6 180)
 				(length 2.54)
 				(name "PWM_6"
 					(effects
@@ -1425,7 +1425,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -109.22 180)
+				(at 40.64 -104.14 180)
 				(length 2.54)
 				(name "PWM_7"
 					(effects
@@ -1444,26 +1444,8 @@
 			)
 		)
 		(symbol "THEJAS32_1_1"
-			(pin input input_low
-				(at -2.54 -5.08 0)
-				(length 2.54)
-				(name "~{RESET}"
-					(effects
-						(font
-							(size 0.5 0.5)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 0.5 0.5)
-						)
-					)
-				)
-			)
 			(pin input clock
-				(at -2.54 -7.62 0)
+				(at 0 1.27 0)
 				(length 2.54)
 				(name "CLOCK"
 					(effects
@@ -1480,8 +1462,26 @@
 					)
 				)
 			)
+			(pin input input_low
+				(at 0 -1.27 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -2.54 -10.16 0)
+				(at 0 -3.81 0)
 				(length 2.54)
 				(name "BOOT_SEL"
 					(effects
@@ -1499,25 +1499,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 2.54 270)
-				(length 2.54)
-				(name "VDD_3v3"
-					(effects
-						(font
-							(size 0.5 0.5)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.5 0.5)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -114.3 90)
+				(at 5.08 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1535,7 +1517,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 2.54 270)
+				(at 6.35 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1544,7 +1526,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "14"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1553,7 +1535,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -114.3 90)
+				(at 6.35 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1571,7 +1553,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 2.54 270)
+				(at 7.62 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1580,7 +1562,7 @@
 						)
 					)
 				)
-				(number "37"
+				(number "25"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1589,7 +1571,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -114.3 90)
+				(at 7.62 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1607,7 +1589,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 2.54 270)
+				(at 8.89 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1616,7 +1598,7 @@
 						)
 					)
 				)
-				(number "46"
+				(number "37"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1625,7 +1607,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 -114.3 90)
+				(at 8.89 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1643,7 +1625,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 2.54 270)
+				(at 10.16 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1652,7 +1634,7 @@
 						)
 					)
 				)
-				(number "59"
+				(number "46"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1661,7 +1643,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -114.3 90)
+				(at 10.16 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1679,7 +1661,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 2.54 270)
+				(at 11.43 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1688,7 +1670,7 @@
 						)
 					)
 				)
-				(number "69"
+				(number "59"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1697,7 +1679,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -114.3 90)
+				(at 11.43 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1715,7 +1697,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 2.54 270)
+				(at 12.7 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1724,7 +1706,7 @@
 						)
 					)
 				)
-				(number "83"
+				(number "69"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1733,7 +1715,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -114.3 90)
+				(at 12.7 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1751,7 +1733,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 2.54 270)
+				(at 13.97 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1760,7 +1742,7 @@
 						)
 					)
 				)
-				(number "93"
+				(number "83"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1769,7 +1751,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -114.3 90)
+				(at 13.97 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1787,7 +1769,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 2.54 270)
+				(at 15.24 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1796,7 +1778,7 @@
 						)
 					)
 				)
-				(number "104"
+				(number "93"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1805,7 +1787,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -114.3 90)
+				(at 15.24 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1823,7 +1805,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 2.54 270)
+				(at 16.51 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1832,7 +1814,7 @@
 						)
 					)
 				)
-				(number "115"
+				(number "104"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1841,7 +1823,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 -114.3 90)
+				(at 16.51 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1859,7 +1841,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 2.54 270)
+				(at 17.78 7.62 270)
 				(length 2.54)
 				(name "VDD_3v3"
 					(effects
@@ -1868,7 +1850,7 @@
 						)
 					)
 				)
-				(number "124"
+				(number "115"
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -1877,7 +1859,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -114.3 90)
+				(at 17.78 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1895,7 +1877,25 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 -114.3 90)
+				(at 19.05 7.62 270)
+				(length 2.54)
+				(name "VDD_3v3"
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -109.22 90)
 				(length 2.54)
 				(name "VSS_3v3"
 					(effects
@@ -1913,7 +1913,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -114.3 90)
+				(at 20.32 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -1931,7 +1931,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 2.54 270)
+				(at 21.59 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -1949,7 +1949,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -114.3 90)
+				(at 21.59 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -1967,7 +1967,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 2.54 270)
+				(at 22.86 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -1985,7 +1985,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -114.3 90)
+				(at 22.86 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2003,7 +2003,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 2.54 270)
+				(at 24.13 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2021,7 +2021,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 -114.3 90)
+				(at 24.13 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2039,7 +2039,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 2.54 270)
+				(at 25.4 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2057,7 +2057,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -114.3 90)
+				(at 25.4 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2075,7 +2075,7 @@
 				)
 			)
 			(pin power_in line
-				(at 24.13 2.54 270)
+				(at 26.67 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2093,7 +2093,7 @@
 				)
 			)
 			(pin power_in line
-				(at 24.13 -114.3 90)
+				(at 26.67 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2111,7 +2111,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 2.54 270)
+				(at 27.94 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2129,7 +2129,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -114.3 90)
+				(at 27.94 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2147,7 +2147,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 2.54 270)
+				(at 29.21 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2165,7 +2165,7 @@
 				)
 			)
 			(pin power_in line
-				(at 26.67 -114.3 90)
+				(at 29.21 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2183,7 +2183,7 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 2.54 270)
+				(at 30.48 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2201,7 +2201,7 @@
 				)
 			)
 			(pin power_in line
-				(at 27.94 -114.3 90)
+				(at 30.48 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2219,7 +2219,7 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 2.54 270)
+				(at 31.75 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2237,7 +2237,7 @@
 				)
 			)
 			(pin power_in line
-				(at 29.21 -114.3 90)
+				(at 31.75 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2255,7 +2255,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 2.54 270)
+				(at 33.02 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2273,7 +2273,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -114.3 90)
+				(at 33.02 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2291,7 +2291,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 2.54 270)
+				(at 34.29 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2309,7 +2309,7 @@
 				)
 			)
 			(pin power_in line
-				(at 31.75 -114.3 90)
+				(at 34.29 -109.22 90)
 				(length 2.54)
 				(name "VSS_1v2"
 					(effects
@@ -2327,7 +2327,7 @@
 				)
 			)
 			(pin power_in line
-				(at 33.02 2.54 270)
+				(at 35.56 7.62 270)
 				(length 2.54)
 				(name "VDD_1v2"
 					(effects
@@ -2345,7 +2345,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 38.1 -7.62 180)
+				(at 40.64 -50.8 180)
 				(length 2.54)
 				(name "GPIO19"
 					(effects
