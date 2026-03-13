@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Renesas_AT25SF-SS"
+	(symbol "Renesas_AT25QF-M"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "Renesas_AT25SF-SS"
+		(property "Value" "Renesas_AT25QF-M"
 			(at 26.67 11.43 0)
 			(effects
 				(font
@@ -26,7 +26,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Renesas:Renesas_AT25SF-S"
+		(property "Footprint" "Renesas:Renesas_AT25QF-M"
 			(at 11.43 -17.78 0)
 			(effects
 				(font
@@ -36,7 +36,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AT25SF161B-SSHB-T"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet"
 			(at 11.43 -17.78 0)
 			(effects
 				(font
@@ -46,7 +46,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support"
+		(property "Description" "SMD,DFN,16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI enabled by default (QE = 1)}"
 			(at 11.43 -17.78 0)
 			(effects
 				(font
@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support"
+		(property "ki_keywords" "SMD,DFN,16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI enabled by default (QE = 1)}"
 			(at 0 0 0)
 			(effects
 				(font
@@ -73,7 +73,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Renesas_AT25SF-SS_0_1"
+		(symbol "Renesas_AT25QF-M_0_1"
 			(rectangle
 				(start 2.54 8.89)
 				(end 17.78 -11.43)
@@ -86,7 +86,515 @@
 				)
 			)
 		)
-		(symbol "Renesas_AT25SF-SS_1_1"
+		(symbol "Renesas_AT25QF-M_1_1"
+			(pin input input_low
+				(at 0 0 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 11.43 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -13.97 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 2.54 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -5.08 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25QF-MW"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 26.67 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Renesas_AT25QF-MW"
+			(at 26.67 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25QF-MW"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD,DFN,16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI enabled by default (QE = 1)}"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SMD,DFN,16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI enabled by default (QE = 1)}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC8_8S1_REN SOIC8_8S1_REN-M SOIC8_8S1_REN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25QF-MW_0_1"
+			(rectangle
+				(start 2.54 8.89)
+				(end 17.78 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25QF-MW_1_1"
+			(pin input input_low
+				(at 0 0 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 11.43 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -13.97 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 2.54 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -5.08 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25QF-S"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 26.67 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Renesas_AT25QF-SS"
+			(at 26.67 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25QF-S"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {Quad SPI enabled by default (QE = 1)}"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {Quad SPI enabled by default (QE = 1)}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC8_8S1_REN SOIC8_8S1_REN-M SOIC8_8S1_REN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25QF-S_0_1"
+			(rectangle
+				(start 2.54 8.89)
+				(end 17.78 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25QF-S_1_1"
 			(pin input input_low
 				(at 0 0 0)
 				(length 2.54)
@@ -227,6 +735,1644 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25QF-SX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Renesas_AT25QF-SX"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25QF-SX"
+			(at 3.81 -100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/products/memory-logic/non-volatile-memory/spi-nor-flash/at25sf128a-128mbit-27v-minimum-spi-serial-flash-memory-dual-io-support"
+			(at 3.81 -200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD,SOIC,128-Mbit Serial NOR Flash Memory with Dual I/O and Quad I/O Support (Quad On)"
+			(at 40.64 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 3.81 -400 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Renesas Electronics"
+			(at 3.81 -500 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 3.81 -600 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 3.81 -700 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT25SF128A-SXUBHD-T?qs=mELouGlnn3c%252BvgGLItB04g%3D%3D"
+			(at 3.81 -800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 3.81 -900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 3.81 -1000 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SMD,SOIC,128-Mbit Serial NOR Flash Memory with Dual I/O and Quad I/O Support (Quad On)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25QF-SX_0_1"
+			(rectangle
+				(start -7.62 -2.54)
+				(end 7.62 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25QF-SX_1_1"
+			(pin input input_low
+				(at -10.16 -11.43 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -10.16 -13.97 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 10.16 -11.43 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 10.16 -13.97 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 10.16 -16.51 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25SF-M"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 26.67 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Renesas_AT25SF-M"
+			(at 26.67 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25SF-M"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI not enabled by default (QE = 0)}"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI not enabled by default (QE = 0)}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC8_8S1_REN SOIC8_8S1_REN-M SOIC8_8S1_REN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25SF-M_0_1"
+			(rectangle
+				(start 2.54 8.89)
+				(end 17.78 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25SF-M_1_1"
+			(pin input input_low
+				(at 0 0 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 11.43 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -13.97 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 2.54 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -5.08 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25SF-MW"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 26.67 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Renesas_AT25SF-MW"
+			(at 26.67 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25SF-MW"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI not enabled by default (QE = 0)}"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI not enabled by default (QE = 0)}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC8_8S1_REN SOIC8_8S1_REN-M SOIC8_8S1_REN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25SF-MW_0_1"
+			(rectangle
+				(start 2.54 8.89)
+				(end 17.78 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25SF-MW_1_1"
+			(pin input input_low
+				(at 0 0 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 11.43 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -13.97 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 2.54 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -5.08 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25SF-S"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 26.67 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Renesas_AT25SF-SS"
+			(at 26.67 11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25SF-S"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/at25sf128aat25qf128a-datasheet"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI not enabled by default (QE = 0)}"
+			(at 11.43 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "16-Mbit SPI Serial Flash Memory with Dual I/O and Quad I/O Support {{Quad SPI not enabled by default (QE = 0)}"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC8_8S1_REN SOIC8_8S1_REN-M SOIC8_8S1_REN-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25SF-S_0_1"
+			(rectangle
+				(start 2.54 8.89)
+				(end 17.78 -11.43)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25SF-S_1_1"
+			(pin input input_low
+				(at 0 0 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 11.43 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -13.97 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 2.54 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -2.54 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 20.32 -5.08 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO3" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Renesas_AT25SF-SX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "Renesas_AT25SF-SX"
+			(at 3.81 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Renesas:Renesas_AT25SF-SX"
+			(at 3.81 -100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/en/products/memory-logic/non-volatile-memory/spi-nor-flash/at25sf128a-128mbit-27v-minimum-spi-serial-flash-memory-dual-io-support"
+			(at 3.81 -200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD,SOIC,128-Mbit Serial NOR Flash Memory with Dual I/O and Quad I/O Support (Quad Off)"
+			(at 2.54 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 3.81 -400 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Renesas Electronics"
+			(at 3.81 -500 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 3.81 -600 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 3.81 -700 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT25SF128A-SXUBHD-T?qs=mELouGlnn3c%252BvgGLItB04g%3D%3D"
+			(at 3.81 -800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 3.81 -900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 3.81 -1000 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SMD,SOIC,128-Mbit Serial NOR Flash Memory with Dual I/O and Quad I/O Support (Quad Off)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Renesas_AT25SF-SX_0_1"
+			(rectangle
+				(start -7.62 -2.54)
+				(end 7.62 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Renesas_AT25SF-SX_1_1"
+			(pin input input_low
+				(at -10.16 -11.43 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -10.16 -13.97 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect non_logic
+				(at -10.16 -19.05 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO0" bidirectional line)
+			)
+			(pin output line
+				(at 10.16 -11.43 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO1" bidirectional line)
+			)
+			(pin input input_low
+				(at 10.16 -13.97 180)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IO2" bidirectional line)
+			)
+			(pin input input_low
+				(at 10.16 -16.51 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)

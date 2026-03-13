@@ -1,10 +1,10 @@
-(footprint "Renesas_AT25SF-S"
+(footprint "Renesas_AT25QF-S"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Renesas_AT25SF-S {Quad SPI not enabled by default (QE = 0)}")
-	(tags "Renesas_AT25SF-S {Quad SPI not enabled by default (QE = 0)}")
+	(descr "Renesas_AT25SF-S {Quad SPIenabled by default (QE = 1)}")
+	(tags "Renesas_AT25SF-S {Quad SPI enabled by default (QE = 1)}")
 	(property "Reference" "IC**"
 		(at 0 0 0)
 		(layer "F.SilkS")
@@ -68,7 +68,7 @@
 			)
 		)
 	)
-	(property "Value" "Renesas_AT25SF-S"
+	(property "Value" "Renesas_AT25QF-S"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -313,7 +313,7 @@
 		(uuid "ce7e45cd-a6ac-4f26-a41c-8587684271cc")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_PARTS_ROOT}/Renesas/3D/Renesas_AT25SF-S.stp"
+	(model "${KICAD_PARTS_ROOT}/Renesas/3D/Renesas_AT25QF-S.stp"
 		(offset
 			(xyz 0 0 0)
 		)
