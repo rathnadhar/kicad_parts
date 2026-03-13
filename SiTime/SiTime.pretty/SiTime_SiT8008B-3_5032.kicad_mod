@@ -1,0 +1,272 @@
+(footprint "SiTime_SiT8008B-3_5032"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 5.0x3.2mm")
+	(tags "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 5.0x3.2mm")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c0dcae73-c40c-49b8-8f95-900633277cb6")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "Y**" 0
+			(polygon
+				(pts
+					(xy -1.138546 0.52705) (xy -1.138546 0.004692) (xy -1.477892 -0.778843) (xy -1.316206 -0.778843)
+					(xy -1.065652 -0.172967) (xy -0.815175 -0.778843) (xy -0.653489 -0.778843) (xy -0.992835 0.004692)
+					(xy -0.992835 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.065101) (xy -0.072739 0.065101) (xy -0.062037 -0.261836) (xy -0.333917 -0.091233)
+					(xy -0.408518 -0.204994) (xy -0.113606 -0.363113) (xy -0.408518 -0.521231) (xy -0.333917 -0.634915)
+					(xy -0.062037 -0.464389) (xy -0.072739 -0.793111) (xy 0.072971 -0.793111) (xy 0.062347 -0.464389)
+					(xy 0.33415 -0.634915) (xy 0.40875 -0.521231) (xy 0.113839 -0.363113) (xy 0.40875 -0.204994) (xy 0.33415 -0.091233)
+					(xy 0.062347 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.065101) (xy 0.993068 0.065101) (xy 1.003769 -0.261836) (xy 0.731889 -0.091233) (xy 0.657289 -0.204994)
+					(xy 0.9522 -0.363113) (xy 0.657289 -0.521231) (xy 0.731889 -0.634915) (xy 1.003769 -0.464389) (xy 0.993068 -0.793111)
+					(xy 1.138779 -0.793111) (xy 1.128155 -0.464389) (xy 1.399957 -0.634915) (xy 1.474558 -0.521231)
+					(xy 1.179646 -0.363113) (xy 1.474558 -0.204994) (xy 1.399957 -0.091233) (xy 1.128155 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "SiTime_SiT8008B-3_5032"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3443ec51-a2d1-469d-8b95-1807b0c04168")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SIME/SIME-S-A0012188426/SIME-S-A0012188426-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79907e9d-d9b4-42c7-a882-443f2a83b2f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 5.0x3.2mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33af1fda-f8f8-46bd-885f-a81d95f9d1f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d559d861-df85-4899-a658-986553844a48")
+	)
+	(fp_line
+		(start -1.27 2.4)
+		(end -1.27 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32d3e72a-c1e6-4134-b2cc-04fee36376a6")
+	)
+	(fp_line
+		(start -1.27 2.5)
+		(end -1.27 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c6db3f0-9b22-412d-8544-8a201c8980df")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08e33aa0-588d-4d90-a7a4-f21689e2b5e4")
+	)
+	(fp_arc
+		(start -1.27 2.4)
+		(mid -1.22 2.45)
+		(end -1.27 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bba86ec-0bb5-4867-8889-72324a1198ee")
+	)
+	(fp_arc
+		(start -1.27 2.5)
+		(mid -1.32 2.45)
+		(end -1.27 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ee05f4d-f068-4ab4-b656-43a9114fd8fd")
+	)
+	(fp_line
+		(start -3.5 -2.9)
+		(end 3.5 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8d87ae3-1eb9-4bb8-98db-9c7ef4e8d558")
+	)
+	(fp_line
+		(start -3.5 2.9)
+		(end -3.5 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f6fa77d-b630-4f7c-868c-55f968305076")
+	)
+	(fp_line
+		(start 3.5 -2.9)
+		(end 3.5 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe12a5d9-abe2-4045-b8f8-bcd566a17a98")
+	)
+	(fp_line
+		(start 3.5 2.9)
+		(end -3.5 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48a1d1bb-8cea-40bb-a58c-5eccfdb62e47")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e15ac3b-4422-4e99-8049-757869c497cf")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end -2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0fb3a84-a223-4db2-8392-88ba7e021a8f")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52d7d9d9-a08c-48c1-a69f-dea4fb3c84ab")
+	)
+	(fp_line
+		(start 2.5 1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9d42903-63f5-4638-b6c6-1c56ae245da4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "87bd4197-05e7-45a9-af99-5cdd0770e1ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 1.1)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f79d6da-c0f3-41ef-abb4-301e495eb295")
+	)
+	(pad "2" smd rect
+		(at 1.27 1.1)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54f7340a-bd94-490f-b99b-de1787f568e2")
+	)
+	(pad "3" smd rect
+		(at 1.27 -1.1)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14aba226-2075-4d55-a2d2-a02c4abeaafe")
+	)
+	(pad "4" smd rect
+		(at -1.27 -1.1)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3655f739-e2d3-4c22-a2f8-fd8739d45bc3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/SiTime/3D/SiTime_SiT8008B-3_5032.stp"
+		(offset
+			(xyz 0 0 0.127)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

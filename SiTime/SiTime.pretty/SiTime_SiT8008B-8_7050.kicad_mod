@@ -1,0 +1,272 @@
+(footprint "SiTime_SiT8008B-8_7050"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 7.0x5.0mm (with output enable pin)")
+	(tags "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 7.0x5.0mm (with output enable pin)")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5b93c417-688b-41bb-b2ed-8ef0907756df")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "Y**" 0
+			(polygon
+				(pts
+					(xy -1.138546 0.52705) (xy -1.138546 0.004692) (xy -1.477892 -0.778843) (xy -1.316206 -0.778843)
+					(xy -1.065652 -0.172967) (xy -0.815175 -0.778843) (xy -0.653489 -0.778843) (xy -0.992835 0.004692)
+					(xy -0.992835 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.065101) (xy -0.072739 0.065101) (xy -0.062037 -0.261836) (xy -0.333917 -0.091233)
+					(xy -0.408518 -0.204994) (xy -0.113606 -0.363113) (xy -0.408518 -0.521231) (xy -0.333917 -0.634915)
+					(xy -0.062037 -0.464389) (xy -0.072739 -0.793111) (xy 0.072971 -0.793111) (xy 0.062347 -0.464389)
+					(xy 0.33415 -0.634915) (xy 0.40875 -0.521231) (xy 0.113839 -0.363113) (xy 0.40875 -0.204994) (xy 0.33415 -0.091233)
+					(xy 0.062347 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.065101) (xy 0.993068 0.065101) (xy 1.003769 -0.261836) (xy 0.731889 -0.091233) (xy 0.657289 -0.204994)
+					(xy 0.9522 -0.363113) (xy 0.657289 -0.521231) (xy 0.731889 -0.634915) (xy 1.003769 -0.464389) (xy 0.993068 -0.793111)
+					(xy 1.138779 -0.793111) (xy 1.128155 -0.464389) (xy 1.399957 -0.634915) (xy 1.474558 -0.521231)
+					(xy 1.179646 -0.363113) (xy 1.474558 -0.204994) (xy 1.399957 -0.091233) (xy 1.128155 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "SiTime_SiT8008B-8_7050"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6787d358-0aec-4823-a0a2-5d70b15c94fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SIME/SIME-S-A0012188426/SIME-S-A0012188426-1.pdf?hkey=61A2E4C270F0397D049F8F05BD4F1054"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbba17df-b655-48f1-b444-e29a91251740")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 7.0x5.0mm (with output enable pin)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1dcd975-14c5-47cd-b627-458de0fddcf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 3.4)
+		(end -2.7 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92f9d3f1-8746-48a8-b096-94763525eb48")
+	)
+	(fp_line
+		(start -2.6 3.4)
+		(end -2.6 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77f116c1-4d29-4373-a066-e681ff213e26")
+	)
+	(fp_line
+		(start -1.2 -2.5)
+		(end 1 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "608e50a1-c230-4403-976b-9bd3696f09fc")
+	)
+	(fp_line
+		(start -1.2 2.5)
+		(end 1 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b94258a-c3f9-4376-950a-ee56fcab0b85")
+	)
+	(fp_arc
+		(start -2.7 3.4)
+		(mid -2.65 3.35)
+		(end -2.6 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e7225b4-e3be-400d-8e2c-b30ee356246a")
+	)
+	(fp_arc
+		(start -2.6 3.4)
+		(mid -2.65 3.45)
+		(end -2.7 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e6af2ca-0836-44d0-8a5c-2f6e587a5725")
+	)
+	(fp_line
+		(start -4.64 -3.905)
+		(end 4.64 -3.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84b1d059-2a92-42bc-9aab-7a893582345c")
+	)
+	(fp_line
+		(start -4.64 3.905)
+		(end -4.64 -3.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa15d545-6065-477e-a54e-87efc8e51fb1")
+	)
+	(fp_line
+		(start 4.64 -3.905)
+		(end 4.64 3.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20ea8d26-d63a-4248-ae38-693958e9f7a4")
+	)
+	(fp_line
+		(start 4.64 3.905)
+		(end -4.64 3.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "489a9778-b7fe-4a6d-a467-6a178b3dc7e5")
+	)
+	(fp_line
+		(start -3.5 -2.5)
+		(end 3.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0826cac9-04fe-4fe2-970e-f79300a45832")
+	)
+	(fp_line
+		(start -3.5 2.5)
+		(end -3.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6e38543-04fa-4f32-ab91-339296ad0551")
+	)
+	(fp_line
+		(start 3.5 -2.5)
+		(end 3.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c1e20af-c128-4030-abf0-d17e0d26df2f")
+	)
+	(fp_line
+		(start 3.5 2.5)
+		(end -3.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a0bcb4a-3307-41f5-b48d-6217ff0a494b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fcd6cf1f-01a7-4b70-b5c1-1db98605254b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 1.905 90)
+		(size 2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2cde5499-34a6-4e6a-9efc-6f6fd9e06df9")
+	)
+	(pad "2" smd rect
+		(at 2.54 1.905 90)
+		(size 2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5906fb51-9dc1-4df7-944c-a384ff0901d3")
+	)
+	(pad "3" smd rect
+		(at 2.54 -1.905 90)
+		(size 2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc7c5b0d-4bd5-49c8-bbcc-a9ec6595c5cd")
+	)
+	(pad "4" smd rect
+		(at -2.54 -1.905 90)
+		(size 2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "259fcae7-1f15-413a-b705-bfe2f6c7d64b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/SiTime/3D/SiTime_SiT8008B-8_7050.stp"
+		(offset
+			(xyz 0 0 0.127)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
