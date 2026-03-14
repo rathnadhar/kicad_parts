@@ -1,0 +1,273 @@
+(footprint "Microchip_Technology_DSC614xH_1612"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,MEMS,Ultra-Small, Ultra-Low Power MEMS Oscillator, 1.6x1.2 mm VFLGA, (OE no Pull-up)")
+	(tags "SMD,MEMS,Ultra-Small, Ultra-Low Power MEMS Oscillator, 1.6x1.2 mm VFLGA, (OE no Pull-up)")
+	(property "Reference" "Y**"
+		(at 0 0.338 0)
+		(layer "F.SilkS")
+		(uuid "60aef155-14d4-4fbf-8948-06376048e193")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "Y**" 0
+			(polygon
+				(pts
+					(xy -1.138546 0.86505) (xy -1.138546 0.342692) (xy -1.477892 -0.440843) (xy -1.316206 -0.440843)
+					(xy -1.065652 0.165032) (xy -0.815175 -0.440843) (xy -0.653489 -0.440843) (xy -0.992835 0.342692)
+					(xy -0.992835 0.86505)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 0.403101) (xy -0.072739 0.403101) (xy -0.062037 0.076163) (xy -0.333917 0.246766)
+					(xy -0.408518 0.133005) (xy -0.113606 -0.025113) (xy -0.408518 -0.183231) (xy -0.333917 -0.296915)
+					(xy -0.062037 -0.126389) (xy -0.072739 -0.455111) (xy 0.072971 -0.455111) (xy 0.062347 -0.126389)
+					(xy 0.33415 -0.296915) (xy 0.40875 -0.183231) (xy 0.113839 -0.025113) (xy 0.40875 0.133005) (xy 0.33415 0.246766)
+					(xy 0.062347 0.076163)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 0.403101) (xy 0.993068 0.403101) (xy 1.003769 0.076163) (xy 0.731889 0.246766) (xy 0.657289 0.133005)
+					(xy 0.9522 -0.025113) (xy 0.657289 -0.183231) (xy 0.731889 -0.296915) (xy 1.003769 -0.126389) (xy 0.993068 -0.455111)
+					(xy 1.138779 -0.455111) (xy 1.128155 -0.126389) (xy 1.399957 -0.296915) (xy 1.474558 -0.183231)
+					(xy 1.179646 -0.025113) (xy 1.474558 0.133005) (xy 1.399957 0.246766) (xy 1.128155 0.076163)
+				)
+			)
+		)
+	)
+	(property "Value" "Microchip_Technology_DSC614xH_1612"
+		(at 0 0.338 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "edc4c5aa-d036-4324-b2e9-13b28405b28d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/3/282/1/DSC61xxB-Ultra-Small-Ultra-Low-Power-MEMS-Oscillator-DS20006155.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "694953b6-5f53-41ac-bddf-e81c9cc2e732")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,MEMS,Ultra-Small, Ultra-Low Power MEMS Oscillator, 1.6x1.2 mm VFLGA, (OE no Pull-up)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f256114e-1005-4035-aafd-709cc48cc665")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.56 1.2)
+		(end -0.56 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f287ff0-30f1-4437-9018-19fa73d15dd3")
+	)
+	(fp_line
+		(start -0.56 1.2)
+		(end -0.56 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3a149d4-0846-4329-90bc-67eb3bf57330")
+	)
+	(fp_line
+		(start -0.56 1.3)
+		(end -0.56 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afda7b22-9a94-4f79-872c-c1b3912a7b72")
+	)
+	(fp_arc
+		(start -0.56 1.2)
+		(mid -0.51 1.25)
+		(end -0.56 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6b38bab-60fe-4936-b20f-c7d8fc795a90")
+	)
+	(fp_arc
+		(start -0.56 1.3)
+		(mid -0.61 1.25)
+		(end -0.56 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16ff74db-8de2-4b61-99fa-6c211c998478")
+	)
+	(fp_arc
+		(start -0.56 1.3)
+		(mid -0.61 1.25)
+		(end -0.56 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a1cf41a-26e5-4af0-b074-7e8bbf96880a")
+	)
+	(fp_line
+		(start -1.8 -1.625)
+		(end 1.8 -1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ce2945f-d1d5-4518-8d1d-22e59d060bc4")
+	)
+	(fp_line
+		(start -1.8 2.3)
+		(end -1.8 -1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4f426e6-6f5a-452a-adf2-e46ca46a87cf")
+	)
+	(fp_line
+		(start 1.8 -1.625)
+		(end 1.8 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "557e5239-ee45-40a0-aa02-386b9327ebe9")
+	)
+	(fp_line
+		(start 1.8 2.3)
+		(end -1.8 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fc49648-f90a-4537-a002-db461857374a")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42b84ad4-3124-4207-883e-8be3b20b336f")
+	)
+	(fp_line
+		(start -0.8 0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3061c7bc-9389-4ac8-811a-ca78bfde7718")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7923f134-58d1-4909-84b1-ae015b09feba")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end 0.8 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "052f22a9-8f3b-4d7c-a39d-460bd9687995")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.338 0)
+		(layer "F.Fab")
+		(uuid "80aebb40-5edc-450e-a0c1-31a160a900ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.56 0.375)
+		(size 0.43 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f18fe74d-2dfe-44f0-a9cd-57cde84bd750")
+	)
+	(pad "2" smd rect
+		(at 0.6 0.375)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "058c7431-1669-4d7d-9ebd-557a46c75b4f")
+	)
+	(pad "3" smd rect
+		(at 0.6 -0.375)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d3df055-1be8-491d-847a-937206409a97")
+	)
+	(pad "4" smd rect
+		(at -0.6 -0.375)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6eb86cc5-051b-4bd2-8103-e7d16d7d256d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Microchip_Technology/3D/Microchip_Technology_DSC61xxH_1612.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
