@@ -1,0 +1,246 @@
+(footprint "Texas_Instruments_LM1117ST_TO-263"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,DCY (TO-263, 3),800mA Low-Dropout Linear Regulator")
+	(tags "SMD,DCY (TO-263, 3),800mA Low-Dropout Linear Regulator")
+	(property "Reference" "IC**"
+		(at 3.448 -0.167 0)
+		(layer "F.SilkS")
+		(uuid "b2a1729d-6a74-48d4-b82b-5630e3e1fd6e")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "IC**" 0
+			(polygon
+				(pts
+					(xy 1.606024 0.36005) (xy 1.606024 0.228607) (xy 1.77655 0.228607) (xy 1.77655 -0.816184) (xy 1.606024 -0.816184)
+					(xy 1.606024 -0.945843) (xy 2.092865 -0.945843) (xy 2.092865 -0.816184) (xy 1.922261 -0.816184)
+					(xy 1.922261 0.228607) (xy 2.092865 0.228607) (xy 2.092865 0.36005)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.909901 0.374241) (xy 2.807694 0.365323) (xy 2.758145 0.353143) (xy 2.710838 0.334304) (xy 2.666992 0.308579)
+					(xy 2.627397 0.275678) (xy 2.593349 0.236938) (xy 2.566057 0.193944) (xy 2.54586 0.147273) (xy 2.533177 0.09794)
+					(xy 2.524337 -0.004188) (xy 2.524337 -0.581604) (xy 2.533177 -0.683811) (xy 2.545863 -0.733132)
+					(xy 2.566057 -0.779737) (xy 2.593349 -0.822731) (xy 2.627397 -0.861471) (xy 2.667 -0.894417) (xy 2.710838 -0.920097)
+					(xy 2.758143 -0.938955) (xy 2.807694 -0.951193) (xy 2.909901 -0.960111) (xy 3.004896 -0.95383)
+					(xy 3.051321 -0.944744) (xy 3.096402 -0.929868) (xy 3.139252 -0.90924) (xy 3.179067 -0.882797)
+					(xy 3.214224 -0.850757) (xy 3.243043 -0.81347) (xy 3.265658 -0.772026) (xy 3.282127 -0.727315)
+					(xy 3.292134 -0.680649) (xy 3.295465 -0.633173) (xy 3.295465 -0.626038) (xy 3.147971 -0.626038)
+					(xy 3.147971 -0.631389) (xy 3.143358 -0.673328) (xy 3.129282 -0.714907) (xy 3.106568 -0.752321)
+					(xy 3.076007 -0.782373) (xy 3.039225 -0.804781) (xy 2.997839 -0.818821) (xy 2.909901 -0.828592)
+					(xy 2.844994 -0.823241) (xy 2.813216 -0.815251) (xy 2.783732 -0.801915) (xy 2.732241 -0.761979)
+					(xy 2.711501 -0.736572) (xy 2.695793 -0.708704) (xy 2.677105 -0.647364) (xy 2.671831 -0.581604)
+					(xy 2.671831 -0.004188) (xy 2.677105 0.061571) (xy 2.695793 0.122833) (xy 2.711498 0.150715) (xy 2.732241 0.176185)
+					(xy 2.783732 0.216122) (xy 2.81321 0.229417) (xy 2.844994 0.237448) (xy 2.909901 0.242798) (xy 2.997839 0.233027)
+					(xy 3.039225 0.218987) (xy 3.076007 0.19658) (xy 3.106571 0.166465) (xy 3.129282 0.129037) (xy 3.14336 0.087468)
+					(xy 3.147971 0.045596) (xy 3.147971 0.040245) (xy 3.295465 0.040245) (xy 3.295465 0.047302) (xy 3.292132 0.094846)
+					(xy 3.282127 0.141522) (xy 3.265661 0.186245) (xy 3.243043 0.227754) (xy 3.214229 0.264977) (xy 3.179067 0.297004)
+					(xy 3.139252 0.323447) (xy 3.096402 0.344075) (xy 3.051321 0.358951) (xy 3.004896 0.368037)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.053876 -0.101898) (xy 3.908165 -0.101898) (xy 3.918866 -0.428836) (xy 3.646986 -0.258233)
+					(xy 3.572386 -0.371994) (xy 3.867297 -0.530113) (xy 3.572386 -0.688231) (xy 3.646986 -0.801915)
+					(xy 3.918866 -0.631389) (xy 3.908165 -0.960111) (xy 4.053876 -0.960111) (xy 4.043252 -0.631389)
+					(xy 4.315054 -0.801915) (xy 4.389655 -0.688231) (xy 4.094743 -0.530113) (xy 4.389655 -0.371994)
+					(xy 4.315054 -0.258233) (xy 4.043252 -0.428836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.119683 -0.101898) (xy 4.973972 -0.101898) (xy 4.984674 -0.428836) (xy 4.712794 -0.258233)
+					(xy 4.638193 -0.371994) (xy 4.933105 -0.530113) (xy 4.638193 -0.688231) (xy 4.712794 -0.801915)
+					(xy 4.984674 -0.631389) (xy 4.973972 -0.960111) (xy 5.119683 -0.960111) (xy 5.109059 -0.631389)
+					(xy 5.380862 -0.801915) (xy 5.455462 -0.688231) (xy 5.160551 -0.530113) (xy 5.455462 -0.371994)
+					(xy 5.380862 -0.258233) (xy 5.109059 -0.428836)
+				)
+			)
+		)
+	)
+	(property "Value" "Texas_Instruments_LM1117ST_TO-263"
+		(at 3.448 -0.167 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa665d3a-e16d-46c5-8877-0e33aaccdbe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm1117.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f391032f-97e6-4769-977b-05f1d837ec15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,DCY (TO-263, 3),800mA Low-Dropout Linear Regulator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5f8f760-979d-41f0-a5b5-31f70e20f136")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 8.64 -5.08)
+		(end 0.94 -5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22607718-e406-4e3d-a7d5-f2de70f51645")
+	)
+	(fp_line
+		(start 8.64 -5.08)
+		(end 8.64 5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcbd3b04-4ff4-44d0-b8dc-f41b6a5f0781")
+	)
+	(fp_line
+		(start 8.64 5.08)
+		(end 0.94 5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9905e6ff-92b5-4da6-a492-9f0f15bb711f")
+	)
+	(fp_circle
+		(center 14.497 2.51)
+		(end 14.497 2.575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d89f34af-37cc-452c-9c4e-5539ad1b5fdd")
+	)
+	(fp_line
+		(start 0 -5.08)
+		(end 8.64 -5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7e2dcc4-bfe6-487d-9e5a-33f257a05217")
+	)
+	(fp_line
+		(start 0 5.08)
+		(end 0 -5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc466b62-3e46-46f6-84eb-3fbc9b0de556")
+	)
+	(fp_line
+		(start 8.64 -5.08)
+		(end 8.64 5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ede34ae-96cb-46b0-ad9e-4dca1059736d")
+	)
+	(fp_line
+		(start 8.64 5.08)
+		(end 0 5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7463732f-b294-40b1-9021-d7342b4d2cec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.448 -0.167 0)
+		(layer "F.Fab")
+		(uuid "9caee103-7f20-403a-a217-25fbb2d26138")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 12.67 2.54 90)
+		(size 1.07 2.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62bc6943-6d5c-49d7-a2d3-f6fd7a233411")
+	)
+	(pad "2" smd rect
+		(at 12.67 0 90)
+		(size 1.07 2.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fca3d759-9a3e-48d3-8bc9-436515c9c2cf")
+	)
+	(pad "3" smd rect
+		(at 12.67 -2.54 90)
+		(size 1.07 2.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "507c1168-7f92-4586-95ae-5d6174eb437c")
+	)
+	(pad "4" smd rect
+		(at -0.545 -4.7825 90)
+		(size 1.235 1.91)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4366cac-6fc4-4ec3-bab7-9f8980fb36e4")
+	)
+	(pad "4" smd rect
+		(at -0.545 4.7825 90)
+		(size 1.235 1.91)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "85636b1a-409e-4783-afae-36e5f2d0b9b9")
+	)
+	(pad "4" smd rect
+		(at 2 0)
+		(size 7 8.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "000723f4-78ad-4cdf-bf60-3c6a2389dafa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/Texas_Instruments_LM1117ST_TO-263.stp"
+		(offset
+			(xyz 4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

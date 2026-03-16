@@ -1,0 +1,295 @@
+(footprint "Texas_Instruments_LM1117IM_SOT-223"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,DCY (SOT-223, 4),800mA Low-Dropout Linear Regulator")
+	(tags "SMD,DCY (SOT-223, 4),800mA Low-Dropout Linear Regulator")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a93b45f9-373f-4fb0-b4da-bb33be95c7e6")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "IC**" 0
+			(polygon
+				(pts
+					(xy -1.841975 0.52705) (xy -1.841975 0.395607) (xy -1.671449 0.395607) (xy -1.671449 -0.649184)
+					(xy -1.841975 -0.649184) (xy -1.841975 -0.778843) (xy -1.355134 -0.778843) (xy -1.355134 -0.649184)
+					(xy -1.525738 -0.649184) (xy -1.525738 0.395607) (xy -1.355134 0.395607) (xy -1.355134 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.538098 0.541241) (xy -0.640305 0.532323) (xy -0.689854 0.520143) (xy -0.737161 0.501304)
+					(xy -0.781007 0.475579) (xy -0.820602 0.442678) (xy -0.85465 0.403938) (xy -0.881942 0.360944)
+					(xy -0.902139 0.314273) (xy -0.914822 0.26494) (xy -0.923662 0.162811) (xy -0.923662 -0.414604)
+					(xy -0.914822 -0.516811) (xy -0.902136 -0.566132) (xy -0.881942 -0.612737) (xy -0.85465 -0.655731)
+					(xy -0.820602 -0.694471) (xy -0.780999 -0.727417) (xy -0.737161 -0.753097) (xy -0.689856 -0.771955)
+					(xy -0.640305 -0.784193) (xy -0.538098 -0.793111) (xy -0.443103 -0.78683) (xy -0.396678 -0.777744)
+					(xy -0.351597 -0.762868) (xy -0.308747 -0.74224) (xy -0.268932 -0.715797) (xy -0.233775 -0.683757)
+					(xy -0.204956 -0.64647) (xy -0.182341 -0.605026) (xy -0.165872 -0.560315) (xy -0.155865 -0.513649)
+					(xy -0.152534 -0.466173) (xy -0.152534 -0.459038) (xy -0.300028 -0.459038) (xy -0.300028 -0.464389)
+					(xy -0.304641 -0.506328) (xy -0.318717 -0.547907) (xy -0.341431 -0.585321) (xy -0.371992 -0.615373)
+					(xy -0.408774 -0.637781) (xy -0.45016 -0.651821) (xy -0.538098 -0.661592) (xy -0.603005 -0.656241)
+					(xy -0.634783 -0.648251) (xy -0.664267 -0.634915) (xy -0.715758 -0.594979) (xy -0.736498 -0.569572)
+					(xy -0.752206 -0.541704) (xy -0.770894 -0.480364) (xy -0.776168 -0.414604) (xy -0.776168 0.162811)
+					(xy -0.770894 0.228571) (xy -0.752206 0.289833) (xy -0.736501 0.317715) (xy -0.715758 0.343185)
+					(xy -0.664267 0.383122) (xy -0.634789 0.396417) (xy -0.603005 0.404448) (xy -0.538098 0.409798)
+					(xy -0.45016 0.400027) (xy -0.408774 0.385987) (xy -0.371992 0.36358) (xy -0.341428 0.333465) (xy -0.318717 0.296037)
+					(xy -0.304639 0.254468) (xy -0.300028 0.212596) (xy -0.300028 0.207245) (xy -0.152534 0.207245)
+					(xy -0.152534 0.214302) (xy -0.155867 0.261846) (xy -0.165872 0.308522) (xy -0.182338 0.353245)
+					(xy -0.204956 0.394754) (xy -0.23377 0.431977) (xy -0.268932 0.464004) (xy -0.308747 0.490447)
+					(xy -0.351597 0.511075) (xy -0.396678 0.525951) (xy -0.443103 0.535037)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.605876 0.065101) (xy 0.460165 0.065101) (xy 0.470866 -0.261836) (xy 0.198986 -0.091233) (xy 0.124386 -0.204994)
+					(xy 0.419297 -0.363113) (xy 0.124386 -0.521231) (xy 0.198986 -0.634915) (xy 0.470866 -0.464389)
+					(xy 0.460165 -0.793111) (xy 0.605876 -0.793111) (xy 0.595252 -0.464389) (xy 0.867054 -0.634915)
+					(xy 0.941655 -0.521231) (xy 0.646743 -0.363113) (xy 0.941655 -0.204994) (xy 0.867054 -0.091233)
+					(xy 0.595252 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.671683 0.065101) (xy 1.525972 0.065101) (xy 1.536674 -0.261836) (xy 1.264794 -0.091233) (xy 1.190193 -0.204994)
+					(xy 1.485105 -0.363113) (xy 1.190193 -0.521231) (xy 1.264794 -0.634915) (xy 1.536674 -0.464389)
+					(xy 1.525972 -0.793111) (xy 1.671683 -0.793111) (xy 1.661059 -0.464389) (xy 1.932862 -0.634915)
+					(xy 2.007462 -0.521231) (xy 1.712551 -0.363113) (xy 2.007462 -0.204994) (xy 1.932862 -0.091233)
+					(xy 1.661059 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "Texas_Instruments_LM1117IM_SOT-223"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39c7a5ef-7f02-4c86-b988-80ceda88592a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm1117.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a254b935-c1a3-4be8-85f7-b360e874a32f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,DCY (SOT-223, 4),800mA Low-Dropout Linear Regulator "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "552652cf-bba8-41c8-8797-6015c9631193")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.025 -3.125)
+		(end -2.275 -3.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2957429e-d4e8-4d16-9c11-ed4e32467b95")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e797b565-8607-47be-a4b4-9ba9ac55ca60")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76e0069a-3493-475a-bbdc-a645a9d4fcb9")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9404c36-428e-4bf1-a95d-3532f5937241")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf629e5c-9c2e-4c43-97d6-6966a897e1ce")
+	)
+	(fp_line
+		(start -4.275 -3.6)
+		(end 4.275 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e6854d4-50a1-4d51-8200-c1c97a9cb9d0")
+	)
+	(fp_line
+		(start -4.275 3.6)
+		(end -4.275 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13854ec7-1d18-466f-a63a-b411fa5aa7f4")
+	)
+	(fp_line
+		(start 4.275 -3.6)
+		(end 4.275 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4595d298-5ce7-4858-a3d3-1792a0a08641")
+	)
+	(fp_line
+		(start 4.275 3.6)
+		(end -4.275 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8653d6c0-2f63-4efa-98fc-57d0db4d3496")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0a757c8-f62c-4010-be1c-ab30d664c874")
+	)
+	(fp_line
+		(start -1.75 -0.95)
+		(end 0.55 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5c378be-b59b-41c9-b9a8-17e55828a373")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "adfce2b7-59c9-412b-91be-08a0b733cbc4")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f00a2ab-ba2d-40bb-80de-8befcaaf3efb")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b02e60ad-9b19-488d-996d-bad6e04d687a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "52275f0d-699c-4ee9-914b-1ee634fffff8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.15 -2.3 90)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04783d2d-b863-422c-90e2-6a9002761e7c")
+	)
+	(pad "2" smd rect
+		(at -3.15 0 90)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "939acaa1-e36e-4996-8daa-61dc8d8a0ea7")
+	)
+	(pad "3" smd rect
+		(at -3.15 2.3 90)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "084109ee-d0c5-4b69-b4bf-3dfbb5c87a25")
+	)
+	(pad "4" smd rect
+		(at 3.15 0)
+		(size 1.75 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e745bf1b-23e3-4a2f-9b04-495689e43de4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/Texas_Instruments_LM1117IM_SOT-223.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
