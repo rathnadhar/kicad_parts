@@ -4,7 +4,6 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TAS5825M 4.5 V to 26.4 V, 38-W Stereo, Inductor-Less, Digital Input, Closed-Loop\nClass-D Audio Amplifier with 192-kHz Extended Audio Processing")
-<<<<<<< HEAD
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
 		(at 0 0 0)
@@ -14,7 +13,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-=======
 	(tags "TAS5825MRHBR ")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -25,13 +23,11 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
->>>>>>> 6eac40a (Added TAS5825MRHBR)
 			)
 		)
 	)
 	(property "Value" "TAS5825MRHBR"
 		(at 0 0 0)
-<<<<<<< HEAD
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "6a1dbd6f-8ced-46fc-9f20-506e7502ac9a")
@@ -47,7 +43,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "8671d27c-37cf-4c64-b917-59d8a722464b")
-=======
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "074c8cac-6fcb-4981-aea7-56e84c5706bc")
@@ -63,7 +58,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ef949b9a-fc23-4d64-8f9b-3880eaf4ff9f")
->>>>>>> 6eac40a (Added TAS5825MRHBR)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -75,11 +69,9 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-<<<<<<< HEAD
 		(uuid "34de7a60-ca36-4eab-b49a-0a13272d36b6")
 =======
 		(uuid "97694c07-8aa2-4fb3-9c1f-078e7050374e")
->>>>>>> 6eac40a (Added TAS5825MRHBR)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -88,7 +80,6 @@
 		)
 	)
 	(attr smd)
-<<<<<<< HEAD
 	(fp_circle
 		(center -2.875 -2.5)
 		(end -2.75 -2.5)
@@ -423,7 +414,6 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/TAS5825MRHBR.stp"
-=======
 	(fp_line
 		(start -2.724998 -2.725001)
 		(end -2.289998 -2.725001)
@@ -936,7 +926,6 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/TAS5825M.stp"
->>>>>>> 6eac40a (Added TAS5825MRHBR)
 		(offset
 			(xyz 0 0 0)
 		)

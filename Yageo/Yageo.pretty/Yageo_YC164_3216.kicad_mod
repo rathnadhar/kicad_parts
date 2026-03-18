@@ -1,0 +1,311 @@
+(footprint "Yageo_YC164_3216"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,4,3216,Resistor Array")
+	(tags "SMD,4,3216,Resistor Array")
+	(property "Reference" "RN**"
+		(at 0 0.1 0)
+		(layer "F.SilkS")
+		(uuid "e49334d2-15f2-485e-b3db-4086d71138a2")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "RN**" 0
+			(polygon
+				(pts
+					(xy -1.465329 -0.669072) (xy -1.417189 -0.655461) (xy -1.37297 -0.634408) (xy -1.332699 -0.606363)
+					(xy -1.296586 -0.571362) (xy -1.266242 -0.531248) (xy -1.243234 -0.487844) (xy -1.226617 -0.441558)
+					(xy -1.215705 -0.392771) (xy -1.207717 -0.293279) (xy -1.211023 -0.231139) (xy -1.221055 -0.16804)
+					(xy -1.239703 -0.10733) (xy -1.26898 -0.051642) (xy -1.30859 -0.002976) (xy -1.358779 0.037149)
+					(xy -1.41584 0.067005) (xy -1.475953 0.08515) (xy -1.179258 0.62705) (xy -1.342727 0.62705) (xy -1.635932 0.090501)
+					(xy -1.827784 0.090501) (xy -1.827784 0.62705) (xy -1.975279 0.62705) (xy -1.975279 -0.039234)
+					(xy -1.827784 -0.039234) (xy -1.564822 -0.039234) (xy -1.502706 -0.047222) (xy -1.473587 -0.057652)
+					(xy -1.446717 -0.072967) (xy -1.422734 -0.092687) (xy -1.402283 -0.116471) (xy -1.37297 -0.171607)
+					(xy -1.358702 -0.232016) (xy -1.355134 -0.293279) (xy -1.358702 -0.356402) (xy -1.37297 -0.416811)
+					(xy -1.402283 -0.47187) (xy -1.422734 -0.495654) (xy -1.446717 -0.515373) (xy -1.473592 -0.530749)
+					(xy -1.502706 -0.541197) (xy -1.564822 -0.549184) (xy -1.827784 -0.549184) (xy -1.827784 -0.039234)
+					(xy -1.975279 -0.039234) (xy -1.975279 -0.678843) (xy -1.564822 -0.678843)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.909471 0.62705) (xy -0.909471 -0.678843) (xy -0.728244 -0.678843) (xy -0.285837 0.417362)
+					(xy -0.296461 0.131368) (xy -0.303596 -0.156485) (xy -0.303596 -0.678843) (xy -0.156101 -0.678843)
+					(xy -0.156101 0.62705) (xy -0.337329 0.62705) (xy -0.779735 -0.469233) (xy -0.769111 -0.183162)
+					(xy -0.761977 0.104692) (xy -0.761977 0.62705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.605876 0.165101) (xy 0.460165 0.165101) (xy 0.470866 -0.161836) (xy 0.198986 0.008766) (xy 0.124386 -0.104994)
+					(xy 0.419297 -0.263113) (xy 0.124386 -0.421231) (xy 0.198986 -0.534915) (xy 0.470866 -0.364389)
+					(xy 0.460165 -0.693111) (xy 0.605876 -0.693111) (xy 0.595252 -0.364389) (xy 0.867054 -0.534915)
+					(xy 0.941655 -0.421231) (xy 0.646743 -0.263113) (xy 0.941655 -0.104994) (xy 0.867054 0.008766)
+					(xy 0.595252 -0.161836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.671683 0.165101) (xy 1.525972 0.165101) (xy 1.536674 -0.161836) (xy 1.264794 0.008766) (xy 1.190193 -0.104994)
+					(xy 1.485105 -0.263113) (xy 1.190193 -0.421231) (xy 1.264794 -0.534915) (xy 1.536674 -0.364389)
+					(xy 1.525972 -0.693111) (xy 1.671683 -0.693111) (xy 1.661059 -0.364389) (xy 1.932862 -0.534915)
+					(xy 2.007462 -0.421231) (xy 1.712551 -0.263113) (xy 2.007462 -0.104994) (xy 1.932862 0.008766)
+					(xy 1.661059 -0.161836)
+				)
+			)
+		)
+	)
+	(property "Value" "Yageo_YC164_3216"
+		(at 0 0.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "755efdbc-0f48-4743-8501-ce3b9d8bccfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/3/508/1/PYU_YC_TC_GROUP_51_ROHS_L.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6b2c096-1bbb-4cb2-a2c8-05c94e7d2521")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,4,3216,Resistor Array"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a476bb0-b040-4b6c-b4aa-109d2f670e22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.8)
+		(end -1.6 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ad199db-28cf-4128-bf6d-4fcc094f8a4f")
+	)
+	(fp_line
+		(start -1.25 1.45)
+		(end -1.25 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe76e1ff-543e-4801-ba49-349249a25456")
+	)
+	(fp_line
+		(start -1.15 1.45)
+		(end -1.15 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95489b3c-db9f-499b-91bd-598581e7c7a2")
+	)
+	(fp_line
+		(start 1.6 -0.85)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93627fe9-435f-48b3-b04f-f2e4d7999464")
+	)
+	(fp_arc
+		(start -1.25 1.45)
+		(mid -1.2 1.4)
+		(end -1.15 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf54df00-d049-4f03-82cf-c3515c73e9de")
+	)
+	(fp_arc
+		(start -1.15 1.45)
+		(mid -1.2 1.5)
+		(end -1.25 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff34e8d1-0457-4439-b34c-b16c8b10ee7d")
+	)
+	(fp_line
+		(start -2.1 -1.8)
+		(end 2.1 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5000887b-1337-4154-ad7c-9b9ed42383be")
+	)
+	(fp_line
+		(start -2.1 2)
+		(end -2.1 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c7342f6f-1410-4a18-b338-2dc44de4b117")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c4eec844-0dfe-4a25-af03-3e95b1b3aa8b")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8fcc918d-b8f3-4f49-883a-616c7ef985ef")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "be87a441-e54b-4bc1-bd7f-7f0e89ab7630")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bb4a48ec-6c63-40a6-93ad-12c512e780c0")
+	)
+	(fp_line
+		(start 2.1 -1.8)
+		(end 2.1 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1193d42c-7375-4663-86f1-bb69ce3d90b2")
+	)
+	(fp_line
+		(start 2.1 2)
+		(end -2.1 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "408e7af7-d956-48b9-a0b8-25ddd3c447f7")
+	)
+	(pad "1" smd rect
+		(at -1.2 0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "49cb9ed9-3323-4a8c-bb8c-f6db2220c182")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5a31a159-f8bf-4454-99ba-cf1951794c27")
+	)
+	(pad "3" smd rect
+		(at 0.4 0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "714f0e46-35ef-4006-a2b1-95533699d189")
+	)
+	(pad "4" smd rect
+		(at 1.2 0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5e007345-05b3-4ce5-acb0-9afc62bc798e")
+	)
+	(pad "5" smd rect
+		(at 1.2 -0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8535d831-b066-4fd6-993c-98d210daa5e6")
+	)
+	(pad "6" smd rect
+		(at 0.4 -0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1d108c4e-5528-469e-9000-4bc5bd01a779")
+	)
+	(pad "7" smd rect
+		(at -0.4 -0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "90c3aa8b-fb1a-4890-8eae-994b986e2c7b")
+	)
+	(pad "8" smd rect
+		(at -1.2 -0.85)
+		(size 0.45 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aeffd789-7ba4-4689-8729-ab64ea8b1df0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Yageo/3D/Yageo_YC164_3216.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
