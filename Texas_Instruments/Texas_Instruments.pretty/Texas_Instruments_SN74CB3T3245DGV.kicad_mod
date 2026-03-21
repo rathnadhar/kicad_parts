@@ -1,0 +1,391 @@
+(footprint "Texas_Instruments_SN74CB3T3245DGV"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,TVSOP, 20,8-Bit FET Bus Switch 2.5V and 3.3V Low-Voltage With 5V-Tolerant Level Shifter")
+	(tags "SMD,TVSOP, 20,8-Bit FET Bus Switch 2.5V and 3.3V Low-Voltage With 5V-Tolerant Level Shifter")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "af06ac83-7223-46be-969e-7d2c8a3bcaed")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "IC**" 0
+			(polygon
+				(pts
+					(xy -1.841975 0.52705) (xy -1.841975 0.395607) (xy -1.671449 0.395607) (xy -1.671449 -0.649184)
+					(xy -1.841975 -0.649184) (xy -1.841975 -0.778843) (xy -1.355134 -0.778843) (xy -1.355134 -0.649184)
+					(xy -1.525738 -0.649184) (xy -1.525738 0.395607) (xy -1.355134 0.395607) (xy -1.355134 0.52705)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.538098 0.541241) (xy -0.640305 0.532323) (xy -0.689854 0.520143) (xy -0.737161 0.501304)
+					(xy -0.781007 0.475579) (xy -0.820602 0.442678) (xy -0.85465 0.403938) (xy -0.881942 0.360944)
+					(xy -0.902139 0.314273) (xy -0.914822 0.26494) (xy -0.923662 0.162811) (xy -0.923662 -0.414604)
+					(xy -0.914822 -0.516811) (xy -0.902136 -0.566132) (xy -0.881942 -0.612737) (xy -0.85465 -0.655731)
+					(xy -0.820602 -0.694471) (xy -0.780999 -0.727417) (xy -0.737161 -0.753097) (xy -0.689856 -0.771955)
+					(xy -0.640305 -0.784193) (xy -0.538098 -0.793111) (xy -0.443103 -0.78683) (xy -0.396678 -0.777744)
+					(xy -0.351597 -0.762868) (xy -0.308747 -0.74224) (xy -0.268932 -0.715797) (xy -0.233775 -0.683757)
+					(xy -0.204956 -0.64647) (xy -0.182341 -0.605026) (xy -0.165872 -0.560315) (xy -0.155865 -0.513649)
+					(xy -0.152534 -0.466173) (xy -0.152534 -0.459038) (xy -0.300028 -0.459038) (xy -0.300028 -0.464389)
+					(xy -0.304641 -0.506328) (xy -0.318717 -0.547907) (xy -0.341431 -0.585321) (xy -0.371992 -0.615373)
+					(xy -0.408774 -0.637781) (xy -0.45016 -0.651821) (xy -0.538098 -0.661592) (xy -0.603005 -0.656241)
+					(xy -0.634783 -0.648251) (xy -0.664267 -0.634915) (xy -0.715758 -0.594979) (xy -0.736498 -0.569572)
+					(xy -0.752206 -0.541704) (xy -0.770894 -0.480364) (xy -0.776168 -0.414604) (xy -0.776168 0.162811)
+					(xy -0.770894 0.228571) (xy -0.752206 0.289833) (xy -0.736501 0.317715) (xy -0.715758 0.343185)
+					(xy -0.664267 0.383122) (xy -0.634789 0.396417) (xy -0.603005 0.404448) (xy -0.538098 0.409798)
+					(xy -0.45016 0.400027) (xy -0.408774 0.385987) (xy -0.371992 0.36358) (xy -0.341428 0.333465) (xy -0.318717 0.296037)
+					(xy -0.304639 0.254468) (xy -0.300028 0.212596) (xy -0.300028 0.207245) (xy -0.152534 0.207245)
+					(xy -0.152534 0.214302) (xy -0.155867 0.261846) (xy -0.165872 0.308522) (xy -0.182338 0.353245)
+					(xy -0.204956 0.394754) (xy -0.23377 0.431977) (xy -0.268932 0.464004) (xy -0.308747 0.490447)
+					(xy -0.351597 0.511075) (xy -0.396678 0.525951) (xy -0.443103 0.535037)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.605876 0.065101) (xy 0.460165 0.065101) (xy 0.470866 -0.261836) (xy 0.198986 -0.091233) (xy 0.124386 -0.204994)
+					(xy 0.419297 -0.363113) (xy 0.124386 -0.521231) (xy 0.198986 -0.634915) (xy 0.470866 -0.464389)
+					(xy 0.460165 -0.793111) (xy 0.605876 -0.793111) (xy 0.595252 -0.464389) (xy 0.867054 -0.634915)
+					(xy 0.941655 -0.521231) (xy 0.646743 -0.363113) (xy 0.941655 -0.204994) (xy 0.867054 -0.091233)
+					(xy 0.595252 -0.261836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.671683 0.065101) (xy 1.525972 0.065101) (xy 1.536674 -0.261836) (xy 1.264794 -0.091233) (xy 1.190193 -0.204994)
+					(xy 1.485105 -0.363113) (xy 1.190193 -0.521231) (xy 1.264794 -0.634915) (xy 1.536674 -0.464389)
+					(xy 1.525972 -0.793111) (xy 1.671683 -0.793111) (xy 1.661059 -0.464389) (xy 1.932862 -0.634915)
+					(xy 2.007462 -0.521231) (xy 1.712551 -0.363113) (xy 2.007462 -0.204994) (xy 1.932862 -0.091233)
+					(xy 1.661059 -0.261836)
+				)
+			)
+		)
+	)
+	(property "Value" "Texas_Instruments_SN74CB3T3245DGV"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3d98cccd-69db-413d-8e7c-0e8df5384180")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74cb3t3245.pdf?ts=1774100217242&ref_url=https%253A%252F%252Fwww.mouser.in%252F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d22a006-a461-4817-988d-b96493ce1df8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,TVSOP, 20,8-Bit FET Bus Switch 2.5V and 3.3V Low-Voltage With 5V-Tolerant Level Shifter"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38d60bcd-e43d-496a-a944-4f92d7b0a948")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.675 -2.25)
+		(end -2.2 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b5b0a8b-7c0b-4e95-a8ed-4f29f568891d")
+	)
+	(fp_line
+		(start -1.85 -2.5)
+		(end 1.85 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd9efb94-d0e8-4f57-832d-3eb371c9d329")
+	)
+	(fp_line
+		(start -1.85 2.5)
+		(end -1.85 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8add8969-ca65-4f3d-a930-26d799dcc4d6")
+	)
+	(fp_line
+		(start 1.85 -2.5)
+		(end 1.85 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d8a7302-a944-47de-b49d-c1b8479e1438")
+	)
+	(fp_line
+		(start 1.85 2.5)
+		(end -1.85 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80a8d291-31de-4065-883f-c62765b78b09")
+	)
+	(fp_line
+		(start -3.925 -2.8)
+		(end 3.925 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d0166b2-c22e-41aa-8b50-388dc6084355")
+	)
+	(fp_line
+		(start -3.925 2.8)
+		(end -3.925 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f90798b-5201-4ff3-97ec-481440ce5686")
+	)
+	(fp_line
+		(start 3.925 -2.8)
+		(end 3.925 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1d075ba-0fc6-4004-92e7-0c5655a0994f")
+	)
+	(fp_line
+		(start 3.925 2.8)
+		(end -3.925 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd9f0374-22f0-4b54-9f07-bb8847044c41")
+	)
+	(fp_line
+		(start -2.2 -2.5)
+		(end 2.2 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "097cd3dd-e4a8-4ec5-8cf9-45a241274d64")
+	)
+	(fp_line
+		(start -2.2 -2.1)
+		(end -1.8 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1484c5d8-07b6-4868-b43c-7a164f8c6cab")
+	)
+	(fp_line
+		(start -2.2 2.5)
+		(end -2.2 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9efb80e-dde6-46ae-9ed2-ef1e3f49ff24")
+	)
+	(fp_line
+		(start 2.2 -2.5)
+		(end 2.2 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3961866-1539-45ef-9ac5-6c01b4116f2f")
+	)
+	(fp_line
+		(start 2.2 2.5)
+		(end -2.2 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85157312-3853-43c0-9333-4e1db866b0d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ce3e64cf-645a-4d51-9369-4c99153d176a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.938 -1.8 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f643d17a-2e92-446a-9061-d47521fab257")
+	)
+	(pad "2" smd rect
+		(at -2.938 -1.4 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de5fca96-c747-468b-9a21-b022b9417451")
+	)
+	(pad "3" smd rect
+		(at -2.938 -1 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d818f043-a54f-412b-a0dd-10a69eb87a27")
+	)
+	(pad "4" smd rect
+		(at -2.938 -0.6 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f568cf0-c946-4563-abfb-c78254ecfe78")
+	)
+	(pad "5" smd rect
+		(at -2.938 -0.2 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f763fd2-3781-4954-8c82-6f715471f474")
+	)
+	(pad "6" smd rect
+		(at -2.938 0.2 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04bef3f0-1245-4007-9d73-b8c06cee0e12")
+	)
+	(pad "7" smd rect
+		(at -2.938 0.6 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fcd508e6-ac1b-43bf-83c4-093f5372b747")
+	)
+	(pad "8" smd rect
+		(at -2.938 1 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f583846-0302-4ed3-821a-04e66377c792")
+	)
+	(pad "9" smd rect
+		(at -2.938 1.4 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "98809445-7261-4864-a10c-46dd1d737a6c")
+	)
+	(pad "10" smd rect
+		(at -2.938 1.8 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1000ceab-916e-4854-9dd0-a2e9b185c0ca")
+	)
+	(pad "11" smd rect
+		(at 2.938 1.8 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "313c6197-098e-465b-b0ac-08725c04fcec")
+	)
+	(pad "12" smd rect
+		(at 2.938 1.4 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86604647-4bce-4ebd-a939-1290947a7e36")
+	)
+	(pad "13" smd rect
+		(at 2.938 1 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "770c1525-ca0d-4d7b-820d-8f05467d3b52")
+	)
+	(pad "14" smd rect
+		(at 2.938 0.6 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4af4bd7c-4027-4e02-b28c-1f17846c071b")
+	)
+	(pad "15" smd rect
+		(at 2.938 0.2 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "feb9043c-9031-46d0-b58f-979f06c5448a")
+	)
+	(pad "16" smd rect
+		(at 2.938 -0.2 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "17ae690c-2cab-4273-9c3c-16d9315bb531")
+	)
+	(pad "17" smd rect
+		(at 2.938 -0.6 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "be4b8a9c-18b8-41ae-ba89-5c6b15db5956")
+	)
+	(pad "18" smd rect
+		(at 2.938 -1 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc9c1850-d4fa-4cb3-9dec-ef03723b3411")
+	)
+	(pad "19" smd rect
+		(at 2.938 -1.4 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80817809-0f24-4e90-a9f8-005db9a7db55")
+	)
+	(pad "20" smd rect
+		(at 2.938 -1.8 90)
+		(size 0.2 1.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0ac043b-9533-4267-8841-b74ec87c1304")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/Texas_Instruments_SN74CB3T3245DGV.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
