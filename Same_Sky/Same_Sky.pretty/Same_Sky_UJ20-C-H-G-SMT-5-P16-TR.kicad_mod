@@ -1,0 +1,397 @@
+(footprint "Same_Sky_UJ20-C-H-G-SMT-5-P16-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Type C, USB 2.0, 480 Mbps, 48 Vdc, 5 A, Horizontal, Surface Mount with posts Mounting Style, Surface Mount Contact Pin Type, Gold Plated 3 µin, 16 Pins, USB Receptacle")
+	(tags "Type C, USB 2.0, 480 Mbps, 48 Vdc, 5 A, Horizontal, Surface Mount with posts Mounting Style, Surface Mount Contact Pin Type, Gold Plated 3 µin, 16 Pins, USB Receptacle")
+	(property "Reference" "J**"
+		(at 0 -0.287 0)
+		(layer "F.SilkS")
+		(uuid "1087a1fa-5d33-490b-93e6-061528d54817")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "J**" 0
+			(polygon
+				(pts
+					(xy -1.110086 0.254241) (xy -1.204306 0.247106) (xy -1.249763 0.237386) (xy -1.294028 0.222291)
+					(xy -1.335735 0.201451) (xy -1.373979 0.174367) (xy -1.407555 0.141828) (xy -1.435241 0.10504)
+					(xy -1.457001 0.064475) (xy -1.472619 0.020669) (xy -1.481909 -0.02524) (xy -1.485026 -0.072697)
+					(xy -1.485026 -0.079754) (xy -1.337532 -0.079754) (xy -1.337532 -0.074403) (xy -1.333345 -0.032567)
+					(xy -1.320704 0.008184) (xy -1.299766 0.04513) (xy -1.270919 0.075727) (xy -1.235689 0.098771)
+					(xy -1.195388 0.113027) (xy -1.110086 0.122798) (xy -1.04704 0.116595) (xy -1.016847 0.107894)
+					(xy -0.988415 0.094338) (xy -0.962459 0.076386) (xy -0.93956 0.054402) (xy -0.920445 0.029013)
+					(xy -0.905827 0.001049) (xy -0.887991 -0.060212) (xy -0.882641 -0.124188) (xy -0.882641 -0.936184)
+					(xy -1.166928 -0.936184) (xy -1.166928 -1.065843) (xy -0.735223 -1.065843) (xy -0.735223 -0.124188)
+					(xy -0.744141 -0.022912) (xy -0.75634 0.02576) (xy -0.775238 0.07216) (xy -0.800906 0.11513) (xy -0.833863 0.153895)
+					(xy -0.872379 0.187044) (xy -0.914667 0.213373) (xy -0.960504 0.232865) (xy -1.00974 0.245323)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.072971 -0.221898) (xy -0.072739 -0.221898) (xy -0.062037 -0.548836) (xy -0.333917 -0.378233)
+					(xy -0.408518 -0.491994) (xy -0.113606 -0.650113) (xy -0.408518 -0.808231) (xy -0.333917 -0.921915)
+					(xy -0.062037 -0.751389) (xy -0.072739 -1.080111) (xy 0.072971 -1.080111) (xy 0.062347 -0.751389)
+					(xy 0.33415 -0.921915) (xy 0.40875 -0.808231) (xy 0.113839 -0.650113) (xy 0.40875 -0.491994) (xy 0.33415 -0.378233)
+					(xy 0.062347 -0.548836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.138779 -0.221898) (xy 0.993068 -0.221898) (xy 1.003769 -0.548836) (xy 0.731889 -0.378233)
+					(xy 0.657289 -0.491994) (xy 0.9522 -0.650113) (xy 0.657289 -0.808231) (xy 0.731889 -0.921915) (xy 1.003769 -0.751389)
+					(xy 0.993068 -1.080111) (xy 1.138779 -1.080111) (xy 1.128155 -0.751389) (xy 1.399957 -0.921915)
+					(xy 1.474558 -0.808231) (xy 1.179646 -0.650113) (xy 1.474558 -0.491994) (xy 1.399957 -0.378233)
+					(xy 1.128155 -0.548836)
+				)
+			)
+		)
+	)
+	(property "Value" "Same_Sky_UJ20-C-H-G-SMT-5-P16-TR.stp"
+		(at 0 -0.287 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5da07b4e-d6e8-45a7-ad57-7026ebac1c16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/interconnect/connectors/usb-connectors/uj20-c-h-g-smt-5-p16-tr"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74d258c5-7bda-468f-b20e-98767704ab04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Type C, USB 2.0, 480 Mbps, 48 Vdc, 5 A, Horizontal, Surface Mount with posts Mounting Style, Surface Mount Contact Pin Type, Gold Plated 3 µin, 16 Pins, USB Receptacle"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57d96573-e0cb-4d2c-a409-2f563b09adf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.47 -1.603)
+		(end -4.47 -0.603)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f89edeba-1ccc-4980-bf85-804063264d4f")
+	)
+	(fp_line
+		(start -4.47 1.897)
+		(end -4.47 3.678)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24c2bd50-4e48-468e-8f34-f40cb6984511")
+	)
+	(fp_line
+		(start -4.47 3.678)
+		(end 4.47 3.678)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25eba11f-0b32-468d-98fa-947ddc7b6264")
+	)
+	(fp_line
+		(start -3.2 -4.8)
+		(end -3.2 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57161ce2-35f6-4f3a-8af5-c6695bede2d4")
+	)
+	(fp_line
+		(start -3.2 -4.7)
+		(end -3.2 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebca9ea1-3a40-4e17-b7dd-1f076bd78659")
+	)
+	(fp_line
+		(start 4.47 -1.603)
+		(end 4.47 -0.603)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38601891-8881-4531-971d-ec61c6a5d670")
+	)
+	(fp_line
+		(start 4.47 3.678)
+		(end 4.47 1.897)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b453dd0e-a53e-4916-a3bd-a11a6f2960c8")
+	)
+	(fp_arc
+		(start -3.2 -4.8)
+		(mid -3.15 -4.75)
+		(end -3.2 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "946f2d2b-91c8-4efb-9545-8b0c252b2633")
+	)
+	(fp_arc
+		(start -3.2 -4.7)
+		(mid -3.25 -4.75)
+		(end -3.2 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "407a996d-b726-4777-b034-fb39874118bd")
+	)
+	(fp_line
+		(start -6.87 -5.252)
+		(end 6.87 -5.252)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54b44c76-7951-4202-b67f-6d46bd0f6088")
+	)
+	(fp_line
+		(start -6.87 4.678)
+		(end -6.87 -5.252)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73be1a2a-85a2-42e9-ad95-91e880f334d8")
+	)
+	(fp_line
+		(start 6.87 -5.252)
+		(end 6.87 4.678)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3b4085d-a344-49b6-8344-27a921971d36")
+	)
+	(fp_line
+		(start 6.87 4.678)
+		(end -6.87 4.678)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "155d3962-a77d-4db9-aaf2-3713f625de77")
+	)
+	(fp_line
+		(start -4.47 -3.673)
+		(end 4.47 -3.673)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f5440a7-e981-4310-9620-00e50889b3ad")
+	)
+	(fp_line
+		(start -4.47 3.678)
+		(end -4.47 -3.673)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29778c3e-e506-47a2-9f26-7e4010d32c38")
+	)
+	(fp_line
+		(start 4.47 -3.673)
+		(end 4.47 3.678)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "620042bb-a0d4-466b-9d17-6c48685762af")
+	)
+	(fp_line
+		(start 4.47 3.678)
+		(end -4.47 3.678)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3222b6a-9812-4cbf-88a6-792108415d3f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.287 0)
+		(layer "F.Fab")
+		(uuid "eee9fb26-e84e-4159-b82c-c898c168bf4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.89 -2.603)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d933347d-318b-4275-a1db-a66ecee99d43")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -2.603)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "74104ecf-e7ef-470b-a40d-7914643d350c")
+	)
+	(pad "A1" smd rect
+		(at -3.2 -3.678)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f23c9917-76b2-44a0-b88a-c94aa673fd5b")
+	)
+	(pad "A4" smd rect
+		(at -2.4 -3.678)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5122ca4f-5c17-4def-8e51-841907b2c74d")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d36100ef-6327-4853-b7ad-3883c070572c")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4cf56101-1e44-4d2e-9838-e0d9d605a880")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54075f2a-cf35-40c3-a5d4-5bfb98bc5fd5")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "56371439-d8e7-47ec-b7c3-383a0b47e519")
+	)
+	(pad "B1" smd rect
+		(at 3.2 -3.678)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4483dd72-5c02-4482-84ae-790bd43e553a")
+	)
+	(pad "B4" smd rect
+		(at 2.4 -3.678)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d48c5f6-8eec-4ed9-8691-a5c4d70b0ad2")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bfe4bf65-ef65-425e-b7e5-47bf586bd876")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b5a5d02-1b37-42df-b089-ea615cbc074b")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f520c1df-2e26-4695-b2b3-18ffcb0c71ae")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0bb0672d-6aa9-4db1-9d20-f260531e53be")
+	)
+	(pad "MP1" smd rect
+		(at -5.12 -3.103)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74f33e86-c846-4104-aad5-53f0a79d7cc3")
+	)
+	(pad "MP2" smd rect
+		(at 5.12 -3.103)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "abb0e7dc-b994-4e24-b715-604624415264")
+	)
+	(pad "MP3" smd rect
+		(at -5.12 0.827)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0d19852-e43f-416a-b8fc-30331900a4ce")
+	)
+	(pad "MP4" smd rect
+		(at 5.12 0.827)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8a847dac-0709-4a68-996f-8bd4afb5809f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Same_Sky/3D/Same_Sky_UJ20-C-H-G-SMT-5-P16-TR.stp"
+		(offset
+			(xyz 0 -3.5 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
