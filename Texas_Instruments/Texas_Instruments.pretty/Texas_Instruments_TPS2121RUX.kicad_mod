@@ -1,0 +1,346 @@
+(footprint "Texas_Instruments_TPS2121RUX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,VQFN-HR (RUX)12,2.8-V to 22-V Priority Power MUX with Seamless Switchover")
+	(tags "SMD,VQFN-HR (RUX)12,2.8-V to 22-V Priority Power MUX with Seamless Switchover")
+	(property "Reference" "REF**"
+		(at 0.5 0.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9351170a-a9da-4bf1-bb74-274ed2d2839e")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.073412 -0.455568) (xy -1.035506 -0.444851) (xy -1.000689 -0.428274) (xy -0.968979 -0.406192)
+					(xy -0.940544 -0.378632) (xy -0.91665 -0.347045) (xy -0.898534 -0.312869) (xy -0.88545 -0.276423)
+					(xy -0.876857 -0.238009) (xy -0.870568 -0.159668) (xy -0.873171 -0.11074) (xy -0.881071 -0.061055)
+					(xy -0.895754 -0.013251) (xy -0.918806 0.030596) (xy -0.949995 0.068916) (xy -0.989514 0.100511)
+					(xy -1.034444 0.124019) (xy -1.081777 0.138307) (xy -0.848159 0.565) (xy -0.976875 0.565) (xy -1.207745 0.14252)
+					(xy -1.35881 0.14252) (xy -1.35881 0.565) (xy -1.474947 0.565) (xy -1.474947 0.040366) (xy -1.35881 0.040366)
+					(xy -1.151753 0.040366) (xy -1.102843 0.034077) (xy -1.079914 0.025864) (xy -1.058757 0.013804)
+					(xy -1.039872 -0.001722) (xy -1.02377 -0.02045) (xy -1.000689 -0.063864) (xy -0.989453 -0.11143)
+					(xy -0.986645 -0.159668) (xy -0.989453 -0.209371) (xy -1.000689 -0.256938) (xy -1.02377 -0.300291)
+					(xy -1.039872 -0.319019) (xy -1.058757 -0.334546) (xy -1.079918 -0.346653) (xy -1.102843 -0.354879)
+					(xy -1.151753 -0.361168) (xy -1.35881 -0.361168) (xy -1.35881 0.040366) (xy -1.474947 0.040366)
+					(xy -1.474947 -0.463262) (xy -1.151753 -0.463262)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.624494 0.565) (xy -0.624494 -0.463262) (xy -0.042524 -0.463262) (xy -0.042524 -0.361168)
+					(xy -0.508417 -0.361168) (xy -0.508417 -0.021182) (xy -0.132039 -0.021182) (xy -0.132039 0.082315)
+					(xy -0.508417 0.082315) (xy -0.508417 0.461502) (xy -0.042524 0.461502) (xy -0.042524 0.565)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.265038 0.565) (xy 0.265038 -0.463262) (xy 0.796694 -0.463262) (xy 0.796694 -0.361168) (xy 0.381175 -0.361168)
+					(xy 0.381175 -0.021182) (xy 0.707179 -0.021182) (xy 0.707179 0.082315) (xy 0.381175 0.082315) (xy 0.381175 0.565)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.396676 0.201261) (xy 1.281943 0.201261) (xy 1.290369 -0.05617) (xy 1.076291 0.078162) (xy 1.01755 -0.011413)
+					(xy 1.249764 -0.135915) (xy 1.01755 -0.260418) (xy 1.076291 -0.349933) (xy 1.290369 -0.215661)
+					(xy 1.281943 -0.474497) (xy 1.396676 -0.474497) (xy 1.388311 -0.215661) (xy 1.602329 -0.349933)
+					(xy 1.661069 -0.260418) (xy 1.428855 -0.135915) (xy 1.661069 -0.011413) (xy 1.602329 0.078162)
+					(xy 1.388311 -0.05617)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.235895 0.201261) (xy 2.121161 0.201261) (xy 2.129588 -0.05617) (xy 1.915509 0.078162) (xy 1.856769 -0.011413)
+					(xy 2.088982 -0.135915) (xy 1.856769 -0.260418) (xy 1.915509 -0.349933) (xy 2.129588 -0.215661)
+					(xy 2.121161 -0.474497) (xy 2.235895 -0.474497) (xy 2.227529 -0.215661) (xy 2.441547 -0.349933)
+					(xy 2.500287 -0.260418) (xy 2.268074 -0.135915) (xy 2.500287 -0.011413) (xy 2.441547 0.078162)
+					(xy 2.227529 -0.05617)
+				)
+			)
+		)
+	)
+	(property "Value" "Texas_Instruments_TPS2121RUX"
+		(at -0.021418 -0.044584 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4017b7f-a81c-4b28-9d58-336c864dd766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2121.pdf?ts=1774837543813&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS2121%252Fpart-details%252FTPS2121RUXR%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-app_opn_en-cpc-storeic-google-soas_en_pur%2526utm_content%253DDevice%2526ds_k%253DTPS2121RUXR%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D20324393711%2526gclid%253DCj0KCQjwm6POBhCrARIsAIG58CLBwQrCNKvmD0FYPM2Yb41WB8TQRsFjesnbiVj7D6mlFGgnAp8aPN4aAl-sEALw_wcB"
+		(at -0.021418 -0.044584 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c854c483-bc38-4efe-96b9-9408bf504a8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,VQFN-HR (RUX)12,2.8-V to 22-V Priority Power MUX with Seamless Switchover"
+		(at -0.021418 -0.044584 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13604f8f-77b0-4f67-b641-b55e0ab2de5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.435 1.6)
+		(end -0.435 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b022824-5a60-41ec-afa1-ea16f8857293")
+	)
+	(fp_line
+		(start 1.785 -0.9)
+		(end 1.785 -0.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fc7d97c-0bef-41bb-98c5-0e96d9c983c3")
+	)
+	(fp_line
+		(start 1.785 1.6)
+		(end 1.785 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d1f0a18-c342-446b-a7ad-47874ab1379c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.435 -0.46) (xy -0.715 -0.46) (xy -0.435 -0.74) (xy -0.435 -0.46)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dd14d678-9f96-471d-b668-4d6ce432d0e1")
+	)
+	(fp_line
+		(start -0.775 -1.35)
+		(end -0.775 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7d1f198-07e0-46d2-a0d8-bb9195e384b1")
+	)
+	(fp_line
+		(start -0.775 2.05)
+		(end 2.125 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6b341e7-c04b-4e69-b487-6ea8f27d53b6")
+	)
+	(fp_line
+		(start 2.125 -1.35)
+		(end -0.775 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db47a914-919b-4530-b785-9cf03e0b3a56")
+	)
+	(fp_line
+		(start 2.125 2.05)
+		(end 2.125 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfee21ac-00bb-4d4e-82e8-052119cc161c")
+	)
+	(fp_line
+		(start -0.325 -0.4)
+		(end 0.175 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4f1622d-7e03-4157-a872-8f9b5a118cdb")
+	)
+	(fp_line
+		(start -0.325 1.6)
+		(end -0.325 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90168db4-84d8-48de-ab61-dd46e074b561")
+	)
+	(fp_line
+		(start 0.175 -0.9)
+		(end 1.675 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc95232e-2cbd-4d60-8c91-22f2c141b6ac")
+	)
+	(fp_line
+		(start 1.675 -0.9)
+		(end 1.675 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ac99c1c-fd05-4e31-91ed-5551fa199b23")
+	)
+	(fp_line
+		(start 1.675 1.6)
+		(end -0.325 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1a05b32-dd6b-4626-95ec-49b4983a7fe1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.021418 -0.044584 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e5b045a-09d9-43a8-bead-91bdd619b92f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.05 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d8dccde-efaf-4c32-9ed6-94c036d774d0")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.7)
+		(size 1.05 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a6d27bd0-6c04-4aad-b9ce-b575dbb6a1d0")
+	)
+	(pad "3" smd roundrect
+		(at -0.075 1.5)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "099504f8-db45-480f-a5a9-0fb4f1b1643d")
+	)
+	(pad "4" smd roundrect
+		(at 0.425 1.5)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "578f0c15-3990-4649-9122-b9ecbf2407e4")
+	)
+	(pad "5" smd roundrect
+		(at 0.925 1.5)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bec8576d-257a-47ce-a622-079a4c0ada07")
+	)
+	(pad "6" smd roundrect
+		(at 1.425 1.5)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "27610a84-3efc-4dff-b772-885d1fc895d9")
+	)
+	(pad "7" smd roundrect
+		(at 1.35 0.7)
+		(size 1.05 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e590dfb1-b8d2-45ec-8864-b11eda176664")
+	)
+	(pad "8" smd roundrect
+		(at 1.35 0)
+		(size 1.05 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b5ee9529-dd4c-4958-9a27-bd8b82578916")
+	)
+	(pad "9" smd roundrect
+		(at 1.425 -0.8)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f8b1de84-aaa4-4ddf-bca5-518cdab047e3")
+	)
+	(pad "10" smd roundrect
+		(at 0.925 -0.8)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "821fa811-f0b9-4a0b-b26b-0b07988fced8")
+	)
+	(pad "11" smd roundrect
+		(at 0.425 -0.8)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "64c2ea4b-b135-4bdc-9e48-199c8ca2fc4d")
+	)
+	(pad "12" smd roundrect
+		(at -0.075 -0.8)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a8306c53-89a8-42c7-975e-3952e5fb6532")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Texas_Instruments/3D/Texas_Instruments_TPS2121RUX.stp"
+		(offset
+			(xyz 0.68 -0.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
