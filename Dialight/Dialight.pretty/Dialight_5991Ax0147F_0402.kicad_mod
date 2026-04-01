@@ -1,0 +1,273 @@
+(footprint "Dialight_5991Ax0147F_0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,0402,LED")
+	(tags "SMD,0402,LED")
+	(property "Reference" "LED**"
+		(at 0.45 0.1 0)
+		(layer "F.SilkS")
+		(uuid "7bba5b27-10dd-4df7-8b1a-3d15d1247089")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+		(render_cache "LED**" 0
+			(polygon
+				(pts
+					(xy -1.980015 0.62705) (xy -1.980015 -0.678843) (xy -1.83252 -0.678843) (xy -1.83252 0.495607)
+					(xy -1.294188 0.495607) (xy -1.294188 0.62705)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.978106 0.62705) (xy -0.978106 -0.678843) (xy -0.239005 -0.678843) (xy -0.239005 -0.549184)
+					(xy -0.830689 -0.549184) (xy -0.830689 -0.117402) (xy -0.352689 -0.117402) (xy -0.352689 0.01404)
+					(xy -0.830689 0.01404) (xy -0.830689 0.495607) (xy -0.239005 0.495607) (xy -0.239005 0.62705)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.462563 -0.672639) (xy 0.506222 -0.663342) (xy 0.548717 -0.647746) (xy 0.589173 -0.626897)
+					(xy 0.626885 -0.601606) (xy 0.661573 -0.57227) (xy 0.692645 -0.539413) (xy 0.745067 -0.464735)
+					(xy 0.785003 -0.383001) (xy 0.812533 -0.296846) (xy 0.829438 -0.207124) (xy 0.838356 -0.116471)
+					(xy 0.840992 -0.026827) (xy 0.838356 0.064755) (xy 0.829438 0.15533) (xy 0.812533 0.245052) (xy 0.785003 0.331285)
+					(xy 0.745067 0.413019) (xy 0.692645 0.48762) (xy 0.661578 0.520414) (xy 0.626885 0.549735) (xy 0.589176 0.575044)
+					(xy 0.548717 0.595953) (xy 0.506222 0.611549) (xy 0.462563 0.620846) (xy 0.37191 0.62705) (xy 0.073431 0.62705)
+					(xy 0.073431 0.495607) (xy 0.220926 0.495607) (xy 0.37191 0.495607) (xy 0.440307 0.489403) (xy 0.473739 0.480213)
+					(xy 0.504283 0.465364) (xy 0.558488 0.423643) (xy 0.601992 0.371222) (xy 0.634872 0.310812) (xy 0.659765 0.245983)
+					(xy 0.67667 0.17937) (xy 0.686441 0.111827) (xy 0.691792 0.04343) (xy 0.693575 -0.026827) (xy 0.691792 -0.095223)
+					(xy 0.686441 -0.16362) (xy 0.67667 -0.231086) (xy 0.659765 -0.297776) (xy 0.634872 -0.362606) (xy 0.601992 -0.423015)
+					(xy 0.558488 -0.475437) (xy 0.504283 -0.517157) (xy 0.473756 -0.532211) (xy 0.440307 -0.54205)
+					(xy 0.37191 -0.549184) (xy 0.220926 -0.549184) (xy 0.220926 0.495607) (xy 0.073431 0.495607) (xy 0.073431 -0.678843)
+					(xy 0.37191 -0.678843)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.588779 0.165101) (xy 1.443068 0.165101) (xy 1.45377 -0.161836) (xy 1.18189 0.008766) (xy 1.107289 -0.104994)
+					(xy 1.402201 -0.263113) (xy 1.107289 -0.421231) (xy 1.18189 -0.534915) (xy 1.45377 -0.364389) (xy 1.443068 -0.693111)
+					(xy 1.588779 -0.693111) (xy 1.578155 -0.364389) (xy 1.849958 -0.534915) (xy 1.924558 -0.421231)
+					(xy 1.629647 -0.263113) (xy 1.924558 -0.104994) (xy 1.849958 0.008766) (xy 1.578155 -0.161836)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.654587 0.165101) (xy 2.508876 0.165101) (xy 2.519577 -0.161836) (xy 2.247697 0.008766) (xy 2.173097 -0.104994)
+					(xy 2.468008 -0.263113) (xy 2.173097 -0.421231) (xy 2.247697 -0.534915) (xy 2.519577 -0.364389)
+					(xy 2.508876 -0.693111) (xy 2.654587 -0.693111) (xy 2.643963 -0.364389) (xy 2.915765 -0.534915)
+					(xy 2.990366 -0.421231) (xy 2.695454 -0.263113) (xy 2.990366 -0.104994) (xy 2.915765 0.008766)
+					(xy 2.643963 -0.161836)
+				)
+			)
+		)
+	)
+	(property "Value" "Dialight_5991Ax0147F_0402"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "78325bd2-2bf9-4a0d-8628-4821109e0aee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/3/350/1/C18789.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0424479e-924d-4374-b6ac-efeb58ff230b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD,0402,LED"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a725f747-e29e-4dfd-a852-9fe920f3d765")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 0)
+		(end -1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6775455-97c3-424a-b3e9-a5d1f78b15a4")
+	)
+	(fp_line
+		(start -1.2 0)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a197fbe4-a77d-46de-9313-a9be889c2818")
+	)
+	(fp_line
+		(start -1.1 -0.5)
+		(end -1.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6792648-5e91-4e96-89a9-e7f1702d013f")
+	)
+	(fp_arc
+		(start -1.3 0)
+		(mid -1.25 -0.05)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fc6c54e-b398-41ed-8e56-0c44a5f28ca5")
+	)
+	(fp_arc
+		(start -1.2 0)
+		(mid -1.25 0.05)
+		(end -1.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17b333db-c7e1-496c-83db-74a7a1194219")
+	)
+	(fp_line
+		(start -1.75 -1.25)
+		(end 1.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f45baee-65a2-4d9e-a8ea-9e1008c4900e")
+	)
+	(fp_line
+		(start -1.75 1.25)
+		(end -1.75 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d28f1a92-6f68-4766-ba6e-d54456474389")
+	)
+	(fp_line
+		(start 1.75 -1.25)
+		(end 1.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afc652e1-77ba-4daf-90a4-7bb9bbed41a7")
+	)
+	(fp_line
+		(start 1.75 1.25)
+		(end -1.75 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d89352de-8396-4b76-8e6a-61cbdac667ff")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5492c177-d11d-4368-8bad-67caefd5d2b9")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4c3ba4a-8dfc-41db-83a8-f30562c2a2b4")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9b32087-3cf7-4066-93fa-91ae1f0e1c6d")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "254c4866-c881-4be6-a3c9-f6251454e851")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d6e19164-be03-4649-b544-417f34b58d9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db12397d-5c32-4e01-8222-38d3a7dbedd8")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "83a44be7-fa92-47cc-96e9-0fbdbf913e58")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Dialight/3D/Dialight_5991Ax0147F_0402.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
