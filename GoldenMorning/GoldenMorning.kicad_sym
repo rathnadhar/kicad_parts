@@ -1,0 +1,316 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "GoldenMorning_GMT180-02M_1.8Inch_128x160_TFT_Module"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LCD"
+			(at 0 14.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GoldenMorning_GMT180-02M_1.8Inch_128x160_TFT_Module"
+			(at 0 -13.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GoldenMorning:GoldenMorning_GMT180-02M_1.8Inch_128x160_TFT_Module"
+			(at -6.35 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://goldenmorninglcd.com/tft-display-module/1.8-inch-128x160-st7735s-gmt180-02m/#ali-anchor-AliMagic-oco8va"
+			(at -19.05 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LCD Module,-30℃~+85℃ 1.8 160x128 3.3V 35.4x28.03mm SPI ST7735S - ROHS"
+			(at 2.54 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C359940"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GoldenMorning"
+			(at 1.27 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "GMT180-02M"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LCD Module,-30℃~+85℃ 1.8 160x128 3.3V 35.4x28.03mm SPI ST7735S - ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GoldenMorning_GMT180-02M_1.8Inch_128x160_TFT_Module_0_1"
+			(circle
+				(center -16.51 10.16)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -10.16 11.43)
+				(end 20.32 -10.16)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -8.89 10.16)
+				(end 19.05 -8.89)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21.082 -11.43) (xy 21.1811 -11.4203) (xy 21.2764 -11.3914) (xy 21.3643 -11.3444) (xy 21.4413 -11.2812)
+					(xy 21.5044 -11.2043) (xy 21.5514 -11.1164) (xy 21.5803 -11.0211) (xy 21.59 -10.922) (xy 21.5803 12.2911)
+					(xy 21.5514 12.3864) (xy 21.5044 12.4743) (xy 21.4413 12.5512) (xy 21.3643 12.6144) (xy 21.2764 12.6614)
+					(xy 21.1811 12.6903) (xy 21.082 12.7) (xy -17.3711 12.6903) (xy -17.4664 12.6614) (xy -17.5543 12.6144)
+					(xy -17.6312 12.5512) (xy -17.6944 12.4743) (xy -17.7414 12.3864) (xy -17.7703 12.2911) (xy -17.78 12.192)
+					(xy -17.7703 -11.0211) (xy -17.7414 -11.1164) (xy -17.6944 -11.2043) (xy -17.6312 -11.2812) (xy -17.5543 -11.3444)
+					(xy -17.4664 -11.3914) (xy -17.3711 -11.4203) (xy -17.272 -11.43) (xy 21.082 -11.43)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "GoldenMorning_GMT180-02M_1.8Inch_128x160_TFT_Module_1_1"
+			(text "1.8\"TFT"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "128x160 Pixels"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 2.286 2.286)
+					)
+				)
+			)
+			(text "LCD Driver:ST7735 (SPI)"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 8.89 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 6.35 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -20.32 3.81 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input input_low
+				(at -20.32 1.27 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -1.27 0)
+				(length 2.54)
+				(name "C/~{D}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -3.81 0)
+				(length 2.54)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -20.32 -6.35 0)
+				(length 2.54)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -8.89 0)
+				(length 2.54)
+				(name "LED_BL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
