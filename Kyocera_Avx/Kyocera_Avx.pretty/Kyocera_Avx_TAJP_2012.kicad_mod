@@ -1,0 +1,282 @@
+(footprint "Kyocera_Avx_TAJP_2012"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2012,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 0.1 0)
+		(layer "F.SilkS")
+		(uuid "1c041a2f-0233-43ff-952d-1b9229617a7b")
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 1 1)
+				(thickness 0.25)
+			)
+		)
+		(render_cache "C**" 0
+			(polygon
+				(pts
+					(xy -0.843308 0.526174) (xy -0.923786 0.519152) (xy -0.962801 0.509561) (xy -1.000051 0.494727)
+					(xy -1.034576 0.474471) (xy -1.065753 0.448565) (xy -1.092562 0.418061) (xy -1.114052 0.384207)
+					(xy -1.129954 0.347459) (xy -1.139941 0.308614) (xy -1.146902 0.228197) (xy -1.146902 -0.22646)
+					(xy -1.139941 -0.306938) (xy -1.129952 -0.345773) (xy -1.114052 -0.38247) (xy -1.092562 -0.416323)
+					(xy -1.065753 -0.446828) (xy -1.034569 -0.472769) (xy -1.000051 -0.49299) (xy -0.962803 -0.507838)
+					(xy -0.923786 -0.517475) (xy -0.843308 -0.524497) (xy -0.768509 -0.519551) (xy -0.731954 -0.512397)
+					(xy -0.696457 -0.500683) (xy -0.662717 -0.484441) (xy -0.631367 -0.46362) (xy -0.603684 -0.438391)
+					(xy -0.580992 -0.409031) (xy -0.563185 -0.376399) (xy -0.550217 -0.341193) (xy -0.542338 -0.304448)
+					(xy -0.539714 -0.267065) (xy -0.539714 -0.261448) (xy -0.655852 -0.261448) (xy -0.655852 -0.265661)
+					(xy -0.659484 -0.298684) (xy -0.670568 -0.331423) (xy -0.688453 -0.360882) (xy -0.712516 -0.384546)
+					(xy -0.741479 -0.402189) (xy -0.774066 -0.413244) (xy -0.843308 -0.420938) (xy -0.894416 -0.416725)
+					(xy -0.919438 -0.410434) (xy -0.942654 -0.399933) (xy -0.983198 -0.368487) (xy -0.999528 -0.348482)
+					(xy -1.011897 -0.326538) (xy -1.026613 -0.278239) (xy -1.030765 -0.22646) (xy -1.030765 0.228197)
+					(xy -1.026613 0.279977) (xy -1.011897 0.328215) (xy -0.999531 0.350169) (xy -0.983198 0.370225)
+					(xy -0.942654 0.401671) (xy -0.919443 0.41214) (xy -0.894416 0.418463) (xy -0.843308 0.422676)
+					(xy -0.774066 0.414982) (xy -0.741479 0.403927) (xy -0.712516 0.386284) (xy -0.68845 0.362571)
+					(xy -0.670568 0.3331) (xy -0.659483 0.300368) (xy -0.655852 0.267398) (xy -0.655852 0.263185) (xy -0.539714 0.263185)
+					(xy -0.539714 0.268742) (xy -0.542339 0.306178) (xy -0.550217 0.34293) (xy -0.563182 0.378146)
+					(xy -0.580992 0.41083) (xy -0.60368 0.44014) (xy -0.631367 0.465357) (xy -0.662717 0.486179) (xy -0.696457 0.502421)
+					(xy -0.731954 0.514135) (xy -0.768509 0.521289)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.057458 0.151261) (xy -0.057274 0.151261) (xy -0.048847 -0.10617) (xy -0.262926 0.028162)
+					(xy -0.321667 -0.061413) (xy -0.089453 -0.185915) (xy -0.321667 -0.310418) (xy -0.262926 -0.399933)
+					(xy -0.048847 -0.265661) (xy -0.057274 -0.524497) (xy 0.057458 -0.524497) (xy 0.049093 -0.265661)
+					(xy 0.263111 -0.399933) (xy 0.321851 -0.310418) (xy 0.089637 -0.185915) (xy 0.321851 -0.061413)
+					(xy 0.263111 0.028162) (xy 0.049093 -0.10617)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.896677 0.151261) (xy 0.781944 0.151261) (xy 0.79037 -0.10617) (xy 0.576291 0.028162) (xy 0.517551 -0.061413)
+					(xy 0.749765 -0.185915) (xy 0.517551 -0.310418) (xy 0.576291 -0.399933) (xy 0.79037 -0.265661)
+					(xy 0.781944 -0.524497) (xy 0.896677 -0.524497) (xy 0.888311 -0.265661) (xy 1.102329 -0.399933)
+					(xy 1.16107 -0.310418) (xy 0.928856 -0.185915) (xy 1.16107 -0.061413) (xy 1.102329 0.028162) (xy 0.888311 -0.10617)
+				)
+			)
+		)
+	)
+	(property "Value" "Kyocera_Avx_TAJP_2012"
+		(at 0.1 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b551264d-a844-4388-b0c1-2865c7b0a170")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+		(at 0.1 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ab30542-6d0a-4646-9db8-cabfff705c15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2012,SMD,Polarized,Solid Tantalum Surface Mount Chip Capacitors"
+		(at 0.1 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a84d2ad7-5a3f-4f53-abc1-7e6c180ed970")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.63 0.5575)
+		(end -1.63 -0.8575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54c100a0-05c5-4179-a920-cf022277668d")
+	)
+	(fp_line
+		(start -0.925 0.85)
+		(end 1.125 0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f914867-8bad-467b-92f3-f8206699f310")
+	)
+	(fp_line
+		(start 0 -0.55)
+		(end 0 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56eff8fd-853f-42d9-863b-4c92e7af0b63")
+	)
+	(fp_line
+		(start 1.02 -0.8575)
+		(end -1.63 -0.8575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41f927ff-7666-488c-b10f-8a453f957abc")
+	)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8b02853-21e3-45ea-afc3-5be221a6afaf")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e70e21c9-1d4a-4aa4-8642-63320c228b7d")
+	)
+	(fp_line
+		(start 1.75 -1)
+		(end 1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a2c89d7-7f7c-4205-a115-b2fdadbe1836")
+	)
+	(fp_line
+		(start 1.75 1)
+		(end -1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1a3dc09-81a3-4972-999c-1b49bddfea44")
+	)
+	(fp_line
+		(start -1 -0.65)
+		(end 1 -0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f919bfe5-352e-4617-aea2-280fa52854e3")
+	)
+	(fp_line
+		(start -1 0.65)
+		(end -1 -0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18cad01a-dee4-4315-b056-0efc46aa21a6")
+	)
+	(fp_line
+		(start 1 -0.65)
+		(end 1 0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1093f822-8fd6-4e80-b59c-7d0b6e63659d")
+	)
+	(fp_line
+		(start 1 0.65)
+		(end -1 0.65)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70b69949-073e-44ea-a6e4-e9fff141c617")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.65) (xy -0.5 -0.65) (xy -0.5 0.65) (xy -1 0.65)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "46801a6c-efc2-42dd-8ba1-3d174c7c4021")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 -0.65) (xy 1 -0.65) (xy 1 0.65) (xy 0.5 0.65)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "79996cc0-bfdb-4e75-92c0-4cfa78368b1c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.4 1.95 0)
+		(layer "F.Fab")
+		(uuid "b5b7f9e9-dfaf-4ed8-badd-92363f3e0735")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.15 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3c31e22f-b0d0-451f-a533-33a5d2781c60")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.15 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d161a7d1-ff85-4697-9873-46a2ba6936e2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PARTS_ROOT}/Kyocera_Avx/3D/Kyocera_Avx_TAJP_2012_Tantalum_capacitor.stp"
+		(offset
+			(xyz 0.1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
